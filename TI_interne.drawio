@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-15T16:55:41.222Z" agent="5.0 (X11; Ubuntu)" etag="ZFLDGSk7NdUOjn7_nddq" version="20.8.18" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-02-15T18:15:06.225Z" agent="5.0 (X11; Ubuntu)" etag="Sjb1paSLiFRdgFrNJUeL" version="20.8.18" type="github" pages="3">
   <diagram id="9fB0GFrZQWABB-8gzhsE" name="From no creds">
     <mxGraphModel dx="3218" dy="1093" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -307,6 +307,12 @@
         </mxCell>
         <mxCell id="_CGyanOoc56hwBKu-glQ-17" value="Admin to" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="-125" y="1280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q22axLkAHlMyWJWrrfxN-1" value="&lt;font color=&quot;#ffffff&quot;&gt;Group PolicyPreferences SYSVOL&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontColor=#dc8add;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="1400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q22axLkAHlMyWJWrrfxN-4" value="built-in Administrator" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="1400" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
