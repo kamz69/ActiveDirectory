@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-15T16:03:34.919Z" agent="5.0 (X11; Ubuntu)" etag="30Bl0CuSBLSeZ8yVb3uQ" version="20.8.18" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-02-15T16:32:48.886Z" agent="5.0 (X11; Ubuntu)" etag="1mOSXuuBTDHpGSdexi72" version="20.8.18" type="github" pages="3">
   <diagram id="9fB0GFrZQWABB-8gzhsE" name="From no creds">
     <mxGraphModel dx="3218" dy="1093" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -190,12 +190,11 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="5y5mrsRL2AuuEaPEtIoS-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="5y5mrsRL2AuuEaPEtIoS-5" target="orcKsDgMiDMdKtN4nEvD-2" edge="1">
+        <mxCell id="_CGyanOoc56hwBKu-glQ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;fontColor=#ffffff;" edge="1" parent="1" source="5y5mrsRL2AuuEaPEtIoS-5" target="3LOWyAd33K374xAvLqeN-3">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-190" y="615.0000000000002" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-340" y="440" />
-              <mxPoint x="985" y="440" />
+              <mxPoint x="-340" y="450" />
+              <mxPoint x="665" y="450" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -222,7 +221,7 @@
         <mxCell id="Iw_T4d_-wb4pz08Lo9XD-2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;fontColor=#dc8add;" edge="1" parent="1" source="5y5mrsRL2AuuEaPEtIoS-27" target="Iw_T4d_-wb4pz08Lo9XD-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5y5mrsRL2AuuEaPEtIoS-27" value="&lt;div&gt;Kerberoasting&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;rubeu.py&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;&lt;font color=&quot;#dc8add&quot;&gt;Get hash of services accounts&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=13;" parent="1" vertex="1">
+        <mxCell id="5y5mrsRL2AuuEaPEtIoS-27" value="&lt;div&gt;Kerberoasting&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;rubeus.py&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;&lt;font color=&quot;#dc8add&quot;&gt;Get hash of services accounts&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="-150" y="700" width="170" height="110" as="geometry" />
         </mxCell>
         <mxCell id="3LOWyAd33K374xAvLqeN-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=13;fontColor=#ffbe6f;" edge="1" parent="1" source="5y5mrsRL2AuuEaPEtIoS-63" target="orcKsDgMiDMdKtN4nEvD-2">
@@ -248,6 +247,15 @@
         </mxCell>
         <mxCell id="Iw_T4d_-wb4pz08Lo9XD-1" value="Hash found" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="106" y="725" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_CGyanOoc56hwBKu-glQ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;fontColor=#ffbe6f;" edge="1" parent="1" source="Iw_T4d_-wb4pz08Lo9XD-3" target="5y5mrsRL2AuuEaPEtIoS-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-30" y="602" />
+              <mxPoint x="-30" y="680" />
+              <mxPoint x="-353" y="680" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Iw_T4d_-wb4pz08Lo9XD-3" value="Got Another acount creds" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="270" y="562.5" width="150" height="80" as="geometry" />
