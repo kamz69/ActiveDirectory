@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-15T16:40:33.701Z" agent="5.0 (X11; Ubuntu)" etag="oL2M0Ua5J_TQCTO92Gst" version="20.8.18" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-02-15T16:55:41.222Z" agent="5.0 (X11; Ubuntu)" etag="ZFLDGSk7NdUOjn7_nddq" version="20.8.18" type="github" pages="3">
   <diagram id="9fB0GFrZQWABB-8gzhsE" name="From no creds">
     <mxGraphModel dx="3218" dy="1093" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -190,6 +190,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_CGyanOoc56hwBKu-glQ-20" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="950" width="560" height="200" as="geometry" />
+        </mxCell>
         <mxCell id="_CGyanOoc56hwBKu-glQ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;fontColor=#ffffff;" edge="1" parent="1" source="5y5mrsRL2AuuEaPEtIoS-5" target="3LOWyAd33K374xAvLqeN-3">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -212,6 +215,12 @@
         <mxCell id="_CGyanOoc56hwBKu-glQ-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;fontColor=#ffffff;" edge="1" parent="1" source="5y5mrsRL2AuuEaPEtIoS-7" target="_CGyanOoc56hwBKu-glQ-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="_CGyanOoc56hwBKu-glQ-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;fontColor=#ffffff;" edge="1" parent="1" source="5y5mrsRL2AuuEaPEtIoS-7" target="_CGyanOoc56hwBKu-glQ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_CGyanOoc56hwBKu-glQ-19" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;fontColor=#ffffff;" edge="1" parent="1" source="5y5mrsRL2AuuEaPEtIoS-7" target="_CGyanOoc56hwBKu-glQ-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5y5mrsRL2AuuEaPEtIoS-7" value="Enumération AD&lt;br style=&quot;font-size: 13px;&quot;&gt;Bloodhound" style="whiteSpace=wrap;html=1;rounded=1;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="-413" y="730" width="120" height="60" as="geometry" />
         </mxCell>
@@ -230,8 +239,8 @@
         <mxCell id="3LOWyAd33K374xAvLqeN-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=13;fontColor=#ffbe6f;" edge="1" parent="1" source="5y5mrsRL2AuuEaPEtIoS-63" target="orcKsDgMiDMdKtN4nEvD-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5y5mrsRL2AuuEaPEtIoS-63" value="shadow admin" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="-130" y="870" width="120" height="60" as="geometry" />
+        <mxCell id="5y5mrsRL2AuuEaPEtIoS-63" value="&lt;div&gt;shadow admin&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#dc8add&quot;&gt;users have too much permissions&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#dc8add&quot;&gt;Force ChangePassword&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#dc8add&quot;&gt;addMembers&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#dc8add&quot;&gt;genericWrite ...&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="-160" y="850" width="210" height="100" as="geometry" />
         </mxCell>
         <mxCell id="o2TW2BTDyTJAUZRltqvO-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;fontColor=#0000aa;" edge="1" parent="1" source="orcKsDgMiDMdKtN4nEvD-1" target="5y5mrsRL2AuuEaPEtIoS-5">
           <mxGeometry relative="1" as="geometry" />
@@ -285,13 +294,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_CGyanOoc56hwBKu-glQ-8" value="Find user machine" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="-120" y="980" width="120" height="60" as="geometry" />
+          <mxGeometry x="-140" y="990" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_CGyanOoc56hwBKu-glQ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=13;fontColor=#ffffff;" edge="1" parent="1" source="_CGyanOoc56hwBKu-glQ-10" target="3LOWyAd33K374xAvLqeN-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_CGyanOoc56hwBKu-glQ-10" value="winpease" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="90" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_CGyanOoc56hwBKu-glQ-16" value="Has session" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-125" y="1180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_CGyanOoc56hwBKu-glQ-17" value="Admin to" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-125" y="1280" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
