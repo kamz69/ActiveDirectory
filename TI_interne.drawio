@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-15T16:34:09.217Z" agent="5.0 (X11; Ubuntu)" etag="_-9976zdorry8Wxdu6w0" version="20.8.18" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-02-15T16:37:57.059Z" agent="5.0 (X11; Ubuntu)" etag="LrMVRQ9xUf-LoAzN7_Yu" version="20.8.18" type="github" pages="3">
   <diagram id="9fB0GFrZQWABB-8gzhsE" name="From no creds">
     <mxGraphModel dx="3218" dy="1093" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -268,6 +268,15 @@
         </mxCell>
         <mxCell id="3LOWyAd33K374xAvLqeN-3" value="Local Admin right" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="500" y="562.5" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_CGyanOoc56hwBKu-glQ-7" value="search password files" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="90" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_CGyanOoc56hwBKu-glQ-8" value="Find user machine" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_CGyanOoc56hwBKu-glQ-10" value="winpease" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1070" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
