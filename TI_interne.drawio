@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-16T16:57:49.311Z" agent="5.0 (X11; Ubuntu)" etag="zUh-NJTgjWslkaOpWAJ1" version="20.8.18" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-02-16T16:58:05.540Z" agent="5.0 (X11; Ubuntu)" etag="-Y_ABpCT828BKaHvN52n" version="20.8.18" type="github" pages="4">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
     <mxGraphModel dx="1434" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -40,6 +40,9 @@
         <mxCell id="5YeQ8Sfoh_ilJxnTGjof-13" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#ffffff;" edge="1" parent="1" source="5YeQ8Sfoh_ilJxnTGjof-10" target="5YeQ8Sfoh_ilJxnTGjof-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="5YeQ8Sfoh_ilJxnTGjof-17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#ffffff;" edge="1" parent="1" source="5YeQ8Sfoh_ilJxnTGjof-10" target="5YeQ8Sfoh_ilJxnTGjof-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5YeQ8Sfoh_ilJxnTGjof-10" value="Enum" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#a20025;strokeColor=#6F0000;" vertex="1" parent="1">
           <mxGeometry x="10" y="290" width="120" height="60" as="geometry" />
         </mxCell>
@@ -47,10 +50,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5YeQ8Sfoh_ilJxnTGjof-14" value="Enum services" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="210" y="470" width="120" height="60" as="geometry" />
+          <mxGeometry x="210" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5YeQ8Sfoh_ilJxnTGjof-15" value="&lt;code&gt;&lt;pre&gt;nmap &lt;span class=&quot;nt&quot;&gt;-Pn&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-p-&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-sC&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-sV&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-oA&lt;/span&gt; full_scan_goad [RANGE IP]&lt;/pre&gt;&lt;/code&gt;" style="whiteSpace=wrap;html=1;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="410" y="470" width="500" height="90" as="geometry" />
+          <mxGeometry x="400" y="460" width="380" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
