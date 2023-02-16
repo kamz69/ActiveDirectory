@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-16T16:48:27.227Z" agent="5.0 (X11; Ubuntu)" etag="uviRgURemEUfTzk1fatV" version="20.8.18" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-02-16T16:53:31.479Z" agent="5.0 (X11; Ubuntu)" etag="RF05sNUkhTcnOazJ56iC" version="20.8.18" type="github" pages="4">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
     <mxGraphModel dx="1434" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -11,7 +11,37 @@
           <mxGeometry x="210" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5YeQ8Sfoh_ilJxnTGjof-2" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;code&gt;&lt;pre&gt;cme smb 192.168.56.1/24&lt;/pre&gt;&lt;/code&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontColor=#2a7bde;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="200" width="210" height="80" as="geometry" />
+          <mxGeometry x="400" y="200" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5YeQ8Sfoh_ilJxnTGjof-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#ffffff;" edge="1" parent="1" source="5YeQ8Sfoh_ilJxnTGjof-4" target="5YeQ8Sfoh_ilJxnTGjof-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5YeQ8Sfoh_ilJxnTGjof-4" value="Enum DC" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="210" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5YeQ8Sfoh_ilJxnTGjof-5" value="&lt;code&gt;&lt;pre&gt;nslookup -type&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;srv _ldap._tcp.dc._msdcs.[DOMAIN] [DNS IP]&lt;/pre&gt;&lt;/code&gt;" style="whiteSpace=wrap;html=1;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="290" width="440" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5YeQ8Sfoh_ilJxnTGjof-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#ffffff;" edge="1" parent="1" source="5YeQ8Sfoh_ilJxnTGjof-7" target="5YeQ8Sfoh_ilJxnTGjof-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5YeQ8Sfoh_ilJxnTGjof-7" value="Enum DNS" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="210" y="384" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5YeQ8Sfoh_ilJxnTGjof-8" value="nmap -v -sV -p 53 $SUBNET/$MASK" style="whiteSpace=wrap;html=1;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="383.5" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5YeQ8Sfoh_ilJxnTGjof-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#ffffff;" edge="1" parent="1" source="5YeQ8Sfoh_ilJxnTGjof-10" target="5YeQ8Sfoh_ilJxnTGjof-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5YeQ8Sfoh_ilJxnTGjof-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#ffffff;" edge="1" parent="1" source="5YeQ8Sfoh_ilJxnTGjof-10" target="5YeQ8Sfoh_ilJxnTGjof-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5YeQ8Sfoh_ilJxnTGjof-13" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#ffffff;" edge="1" parent="1" source="5YeQ8Sfoh_ilJxnTGjof-10" target="5YeQ8Sfoh_ilJxnTGjof-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5YeQ8Sfoh_ilJxnTGjof-10" value="Enum" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#a20025;strokeColor=#6F0000;" vertex="1" parent="1">
+          <mxGeometry x="10" y="290" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
