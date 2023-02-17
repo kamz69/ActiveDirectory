@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-17T15:18:22.821Z" agent="5.0 (X11; Ubuntu)" etag="Z1Ljpz4SxR93l1ddlHTT" version="20.8.18" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-02-17T15:46:10.530Z" agent="5.0 (X11; Ubuntu)" etag="xXS50tKL9EieKdeL1RB7" version="20.8.18" type="github" pages="4">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
     <mxGraphModel dx="1434" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -397,6 +397,9 @@
         <mxCell id="46VSiSrXyTr81zkC9bUa-2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mgc068LGqz-ZIUhQZxpC-1" target="Mgc068LGqz-ZIUhQZxpC-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Shlw0z85vV4mLwR04esC-2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mgc068LGqz-ZIUhQZxpC-1" target="Shlw0z85vV4mLwR04esC-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Mgc068LGqz-ZIUhQZxpC-1" value="Valid users found" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-240" y="567.5" width="140" height="70" as="geometry" />
         </mxCell>
@@ -407,7 +410,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Mgc068LGqz-ZIUhQZxpC-4" value="password spray" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="567.5" width="140" height="70" as="geometry" />
+          <mxGeometry x="-34" y="470" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Shlw0z85vV4mLwR04esC-3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontColor=#2a7bde;" edge="1" parent="1" source="Shlw0z85vV4mLwR04esC-1" target="Iw_T4d_-wb4pz08Lo9XD-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Shlw0z85vV4mLwR04esC-1" value="&lt;div&gt;Check description for password&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;cme&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-34" y="552.5" width="154" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
