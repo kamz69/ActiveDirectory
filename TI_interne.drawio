@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-21T18:10:19.417Z" agent="5.0 (X11; Ubuntu)" etag="_x6GeOdBSl97JWv_sQJq" version="20.8.18" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-02-21T18:10:56.122Z" agent="5.0 (X11; Ubuntu)" etag="E7vqE3VccyE2smYCOY6P" version="20.8.18" type="github" pages="4">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
     <mxGraphModel dx="1434" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -402,9 +402,6 @@
         </mxCell>
         <mxCell id="Mgc068LGqz-ZIUhQZxpC-1" value="Valid users found" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="-240" y="567.5" width="140" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="Mgc068LGqz-ZIUhQZxpC-2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.586;entryY=0.015;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="5y5mrsRL2AuuEaPEtIoS-27" target="5y5mrsRL2AuuEaPEtIoS-27" edge="1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="46VSiSrXyTr81zkC9bUa-1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="Mgc068LGqz-ZIUhQZxpC-4" target="Iw_T4d_-wb4pz08Lo9XD-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
