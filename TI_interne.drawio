@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-22T09:01:34.288Z" agent="5.0 (X11; Ubuntu)" etag="y8avDuBQp2lwv1UCC-9R" version="20.8.18" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-02-22T09:01:49.616Z" agent="5.0 (X11; Ubuntu)" etag="KbdSJw-VyBsdwsja2o6K" version="20.8.18" type="github" pages="4">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
     <mxGraphModel dx="1434" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -227,9 +227,6 @@
         </mxCell>
         <mxCell id="KTRm8kq6GDk7_ihK_bxa-8" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;Bruteforce users&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;&lt;code&gt;&lt;pre&gt;nmap -p 88 &lt;span class=&quot;nt&quot;&gt;--script&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;krb5-enum-users&lt;/pre&gt;&lt;/code&gt;&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontColor=#ffffff;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="210" y="300" width="270" height="77" as="geometry" />
-        </mxCell>
-        <mxCell id="N8GMvR6dZgBey9oI2-7A-3" value="Find password in SYSVOL share" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="406" y="30" width="140" height="72.5" as="geometry" />
         </mxCell>
         <mxCell id="X6wlxV_FrzrZ-9Moiesy-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFFFFF;fontColor=#2a7bde;" edge="1" parent="1" source="X6wlxV_FrzrZ-9Moiesy-8" target="KTRm8kq6GDk7_ihK_bxa-1">
           <mxGeometry relative="1" as="geometry" />
