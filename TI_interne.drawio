@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-24T14:13:11.899Z" agent="5.0 (X11; Ubuntu)" etag="BhLuzFQEw241dzds7ant" version="20.8.22" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-02-24T14:20:12.196Z" agent="5.0 (X11; Ubuntu)" etag="h8U14ylL5vMQF_UnPKpq" version="20.8.22" type="github" pages="4">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
-    <mxGraphModel dx="769" dy="690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1591" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -54,6 +54,15 @@
         </mxCell>
         <mxCell id="5YeQ8Sfoh_ilJxnTGjof-15" value="&lt;code&gt;&lt;pre&gt;nmap &lt;span class=&quot;nt&quot;&gt;-Pn&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-p-&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-sC&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-sV&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-oA&lt;/span&gt; full_scan_goad [RANGE IP]&lt;/pre&gt;&lt;/code&gt;" style="whiteSpace=wrap;html=1;fontColor=#ffffff;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="400" y="460" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aNRAIpRnyOp7dpAG2fmc-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#f0f0f0;" edge="1" parent="1" source="aNRAIpRnyOp7dpAG2fmc-1" target="aNRAIpRnyOp7dpAG2fmc-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aNRAIpRnyOp7dpAG2fmc-1" value="&lt;font color=&quot;#f0f0f0&quot;&gt;Check password policy&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#2a7bde;" vertex="1" parent="1">
+          <mxGeometry x="210" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aNRAIpRnyOp7dpAG2fmc-2" value="&lt;font color=&quot;#f0f0f0&quot;&gt;enum4linux-ng 192.168.56.11&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontColor=#2a7bde;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="550" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -439,7 +448,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="oTci8SejxHdYvOjTQ01X" name="Bonnes pratiques">
-    <mxGraphModel dx="2261" dy="-404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1941" dy="-553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
