@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-24T14:20:12.196Z" agent="5.0 (X11; Ubuntu)" etag="h8U14ylL5vMQF_UnPKpq" version="20.8.22" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-02-24T14:20:33.730Z" agent="5.0 (X11; Ubuntu)" etag="XlW1R-fFbkoVzc7Qb257" version="20.8.22" type="github" pages="4">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
     <mxGraphModel dx="1591" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -61,7 +61,7 @@
         <mxCell id="aNRAIpRnyOp7dpAG2fmc-1" value="&lt;font color=&quot;#f0f0f0&quot;&gt;Check password policy&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#2a7bde;" vertex="1" parent="1">
           <mxGeometry x="210" y="550" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aNRAIpRnyOp7dpAG2fmc-2" value="&lt;font color=&quot;#f0f0f0&quot;&gt;enum4linux-ng 192.168.56.11&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontColor=#2a7bde;rounded=1;" vertex="1" parent="1">
+        <mxCell id="aNRAIpRnyOp7dpAG2fmc-2" value="&lt;font color=&quot;#f0f0f0&quot;&gt;enum4linux-ng [DC-IP]&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontColor=#2a7bde;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="550" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
