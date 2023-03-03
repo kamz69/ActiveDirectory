@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-03T18:47:25.041Z" agent="5.0 (X11; Ubuntu)" etag="Htfq4_bYZPU-4zMLJknd" version="20.8.23" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-03-03T18:53:14.872Z" agent="5.0 (X11; Ubuntu)" etag="uOwDsM7Ni853hxbxfqgA" version="20.8.23" type="github" pages="4">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
     <mxGraphModel dx="1114" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -462,8 +462,8 @@
         <mxCell id="ZDy4xXztmy_Uh2uV_-2A-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZDy4xXztmy_Uh2uV_-2A-3" target="orcKsDgMiDMdKtN4nEvD-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZDy4xXztmy_Uh2uV_-2A-3" value="&lt;div&gt;dump passwords&lt;/div&gt;&lt;div&gt;of users who have logged into the machine&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="925" y="380" width="120" height="60" as="geometry" />
+        <mxCell id="ZDy4xXztmy_Uh2uV_-2A-3" value="&lt;div&gt;dump passwords&lt;/div&gt;&lt;div&gt;of users who have logged into the machine&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;crackmapexec&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="897.5" y="365" width="175" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
