@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-06T16:13:16.226Z" agent="5.0 (X11; Ubuntu)" etag="5wtbLd_tIZ7t7uhw3C5X" version="20.8.23" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-03-06T16:48:15.448Z" agent="5.0 (X11; Ubuntu)" etag="9ZxMPZ3IWWDcn41sPfaA" version="20.8.23" type="github" pages="4">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
     <mxGraphModel dx="1591" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -68,7 +68,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9fB0GFrZQWABB-8gzhsE" name="From no creds">
-    <mxGraphModel dx="2760" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="3026" dy="1015" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -105,7 +105,7 @@
         <mxCell id="OzdCo0pd7L-W225KIUEy-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#2a7bde;" parent="1" source="q669wVBJVDhqwRxZ6Rot-5" target="OzdCo0pd7L-W225KIUEy-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eT468RpVeFGScJ7yV71r-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="q669wVBJVDhqwRxZ6Rot-5" target="eT468RpVeFGScJ7yV71r-1">
+        <mxCell id="eT468RpVeFGScJ7yV71r-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="q669wVBJVDhqwRxZ6Rot-5" target="eT468RpVeFGScJ7yV71r-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="q669wVBJVDhqwRxZ6Rot-5" value="Relay" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;" parent="1" vertex="1">
@@ -269,14 +269,14 @@
         <mxCell id="OzdCo0pd7L-W225KIUEy-3" value="&lt;div&gt;poison with responder and relay ntlm to the vulnerable machine&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="850" y="515" width="170" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="eT468RpVeFGScJ7yV71r-1" value="Rogue DNS IPV6" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+        <mxCell id="eT468RpVeFGScJ7yV71r-1" value="Rogue DNS IPV6" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" parent="1" vertex="1">
           <mxGeometry x="570" y="620" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="from creds" id="U4GICPjlUHhETOjYcaq2">
-    <mxGraphModel dx="4010" dy="1740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3612" dy="1523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -467,11 +467,6 @@
         </mxCell>
         <mxCell id="ezBXcHe37mE9WKMKeRkE-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;strokeColor=#ff3333;strokeWidth=3;" edge="1" parent="1" source="ezBXcHe37mE9WKMKeRkE-1" target="orcKsDgMiDMdKtN4nEvD-2">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ezBXcHe37mE9WKMKeRkE-17" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#2a7bde;" vertex="1" connectable="0" parent="ezBXcHe37mE9WKMKeRkE-2">
-          <mxGeometry x="-0.635" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="ezBXcHe37mE9WKMKeRkE-1" value="&lt;div&gt;SAMAccountName Spoofing&lt;/div&gt;&lt;div&gt;CVE-2021-42278 and CVE-2021-42287&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;nopac.py&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-350" y="1500" width="180" height="70" as="geometry" />
