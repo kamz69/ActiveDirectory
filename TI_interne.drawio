@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-06T16:02:41.069Z" agent="5.0 (X11; Ubuntu)" etag="GRdyqkFm1RgmJ9TIinPp" version="20.8.23" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-03-06T16:11:48.875Z" agent="5.0 (X11; Ubuntu)" etag="LKS9zKLk0yrpWzne0thp" version="20.8.23" type="github" pages="4">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
     <mxGraphModel dx="1591" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -276,7 +276,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="from creds" id="U4GICPjlUHhETOjYcaq2">
-    <mxGraphModel dx="2418" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3055" dy="1218" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -486,8 +486,8 @@
         <mxCell id="ezBXcHe37mE9WKMKeRkE-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;strokeColor=#f0f0f0;strokeWidth=1;fontColor=#2a7bde;" edge="1" parent="1" source="ezBXcHe37mE9WKMKeRkE-14" target="ezBXcHe37mE9WKMKeRkE-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ezBXcHe37mE9WKMKeRkE-14" value="Clean and crack hash" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1450" y="410" width="150" height="85" as="geometry" />
+        <mxCell id="ezBXcHe37mE9WKMKeRkE-14" value="&lt;div&gt;Clean and crack hash&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;cat hashs.ntds | cut -d : -f 4 |sort|uniq &amp;gt; JustTheHashes.txt&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;hashcat -m 1000&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="410" width="330" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
