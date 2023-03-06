@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-03T18:53:30.614Z" agent="5.0 (X11; Ubuntu)" etag="PpNsjv21wf8YwwkDfFSa" version="20.8.23" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-03-06T10:56:26.232Z" agent="5.0 (X11; Ubuntu)" etag="AFqAyH62qnZ08E7mS1_i" version="20.8.23" type="github" pages="4">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
-    <mxGraphModel dx="1114" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1591" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -276,7 +276,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="from creds" id="U4GICPjlUHhETOjYcaq2">
-    <mxGraphModel dx="2418" dy="831" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3055" dy="1218" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -326,7 +326,7 @@
         <mxCell id="5y5mrsRL2AuuEaPEtIoS-27" value="&lt;div&gt;Kerberoasting&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;rubeus.py&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;&lt;font color=&quot;#dc8add&quot;&gt;Get hash of services accounts&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="-150" y="700" width="170" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="3LOWyAd33K374xAvLqeN-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=13;fontColor=#ffbe6f;" parent="1" source="5y5mrsRL2AuuEaPEtIoS-63" target="orcKsDgMiDMdKtN4nEvD-2" edge="1">
+        <mxCell id="3LOWyAd33K374xAvLqeN-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=13;fontColor=#ffbe6f;strokeColor=#ff3333;strokeWidth=3;" parent="1" source="5y5mrsRL2AuuEaPEtIoS-63" target="orcKsDgMiDMdKtN4nEvD-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5y5mrsRL2AuuEaPEtIoS-63" value="&lt;div&gt;shadow admin&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#dc8add&quot;&gt;users have too much permissions&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#dc8add&quot;&gt;Force ChangePassword&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#dc8add&quot;&gt;addMembers&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#dc8add&quot;&gt;genericWrite ...&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;" parent="1" vertex="1">
@@ -338,13 +338,13 @@
         <mxCell id="o2TW2BTDyTJAUZRltqvO-4" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;fontColor=#2a7bde;" parent="1" source="orcKsDgMiDMdKtN4nEvD-1" target="5y5mrsRL2AuuEaPEtIoS-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Raiisw0ENelHZsQr2zNw-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="orcKsDgMiDMdKtN4nEvD-1" target="Raiisw0ENelHZsQr2zNw-1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="Raiisw0ENelHZsQr2zNw-3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="orcKsDgMiDMdKtN4nEvD-1" target="Q22axLkAHlMyWJWrrfxN-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lmAUqHFNn__0l1cbM3OC-2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="orcKsDgMiDMdKtN4nEvD-1" target="lmAUqHFNn__0l1cbM3OC-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezBXcHe37mE9WKMKeRkE-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="orcKsDgMiDMdKtN4nEvD-1" target="ezBXcHe37mE9WKMKeRkE-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="orcKsDgMiDMdKtN4nEvD-1" value="&lt;div style=&quot;font-size: 13px;&quot;&gt;Valid account on the domain&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="1" vertex="1">
@@ -359,7 +359,7 @@
         <mxCell id="Iw_T4d_-wb4pz08Lo9XD-1" value="Hash found" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="106" y="725" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="D5l5UgMyAY0gp9WzSqFA-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#ff3333;" parent="1" source="Iw_T4d_-wb4pz08Lo9XD-3" target="orcKsDgMiDMdKtN4nEvD-1" edge="1">
+        <mxCell id="D5l5UgMyAY0gp9WzSqFA-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#2D7600;fillColor=#60a917;strokeWidth=3;" parent="1" source="Iw_T4d_-wb4pz08Lo9XD-3" target="orcKsDgMiDMdKtN4nEvD-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="345" y="400" />
@@ -378,7 +378,7 @@
         <mxCell id="0wkhETG9pB4gattKTZce-1" value="Crack avec hashcat" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="725" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZDy4xXztmy_Uh2uV_-2A-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="3LOWyAd33K374xAvLqeN-3" target="ZDy4xXztmy_Uh2uV_-2A-1">
+        <mxCell id="ZDy4xXztmy_Uh2uV_-2A-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="3LOWyAd33K374xAvLqeN-3" target="ZDy4xXztmy_Uh2uV_-2A-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3LOWyAd33K374xAvLqeN-3" value="Local Admin right" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" parent="1" vertex="1">
@@ -423,9 +423,6 @@
         <mxCell id="Q22axLkAHlMyWJWrrfxN-4" value="&lt;div&gt;Find passwords in SYSVOL share&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;Get-GPPPassword.py&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="-110" y="1385" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Raiisw0ENelHZsQr2zNw-1" value="public exploit" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-360" y="1550" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="Mgc068LGqz-ZIUhQZxpC-3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="lmAUqHFNn__0l1cbM3OC-1" target="Mgc068LGqz-ZIUhQZxpC-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -453,17 +450,23 @@
         <mxCell id="Shlw0z85vV4mLwR04esC-1" value="&lt;div&gt;Check description for password&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;cme&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="-34" y="552.5" width="154" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="ZDy4xXztmy_Uh2uV_-2A-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZDy4xXztmy_Uh2uV_-2A-1" target="ZDy4xXztmy_Uh2uV_-2A-3">
+        <mxCell id="ZDy4xXztmy_Uh2uV_-2A-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZDy4xXztmy_Uh2uV_-2A-1" target="ZDy4xXztmy_Uh2uV_-2A-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZDy4xXztmy_Uh2uV_-2A-1" value="&lt;div&gt;search machines that domain adin has logged&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;with bloodhound&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZDy4xXztmy_Uh2uV_-2A-1" value="&lt;div&gt;search machines that domain adin has logged&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;with bloodhound&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="582" y="380" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZDy4xXztmy_Uh2uV_-2A-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZDy4xXztmy_Uh2uV_-2A-3" target="orcKsDgMiDMdKtN4nEvD-2">
+        <mxCell id="ZDy4xXztmy_Uh2uV_-2A-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="ZDy4xXztmy_Uh2uV_-2A-3" target="orcKsDgMiDMdKtN4nEvD-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZDy4xXztmy_Uh2uV_-2A-3" value="&lt;div&gt;dump passwords&lt;/div&gt;&lt;div&gt;of users who have logged into the machine&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;crackmapexec&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZDy4xXztmy_Uh2uV_-2A-3" value="&lt;div&gt;dump passwords&lt;/div&gt;&lt;div&gt;of users who have logged into the machine&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;crackmapexec&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="897.5" y="365" width="175" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ezBXcHe37mE9WKMKeRkE-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;strokeColor=#ff3333;strokeWidth=3;" edge="1" parent="1" source="ezBXcHe37mE9WKMKeRkE-1" target="orcKsDgMiDMdKtN4nEvD-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezBXcHe37mE9WKMKeRkE-1" value="&lt;div&gt;sAMAccountName Spoofing&lt;/div&gt;&lt;div&gt;CVE-2021-42278 and CVE-2021-42287&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;nopac.py&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="1500" width="180" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
