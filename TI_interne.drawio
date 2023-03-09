@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-09T10:23:17.734Z" agent="5.0 (X11; Ubuntu)" etag="TR8eeg5nuDMP8eTGrwYC" version="21.0.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-03-09T11:00:22.165Z" agent="5.0 (X11; Ubuntu)" etag="W4ciEyP42gqrbMil2Wuq" version="21.0.2" type="github" pages="4">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
     <mxGraphModel dx="1311" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -291,7 +291,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="from creds" id="U4GICPjlUHhETOjYcaq2">
-    <mxGraphModel dx="3055" dy="1060" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2418" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -320,7 +320,7 @@
         <mxCell id="Iw_T4d_-wb4pz08Lo9XD-2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;fontColor=#dc8add;" parent="1" source="5y5mrsRL2AuuEaPEtIoS-27" target="Iw_T4d_-wb4pz08Lo9XD-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5y5mrsRL2AuuEaPEtIoS-27" value="&lt;div&gt;Kerberoasting&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;rubeus.py&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;&lt;font color=&quot;#dc8add&quot;&gt;Get hash of services accounts&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=13;" parent="1" vertex="1">
+        <mxCell id="5y5mrsRL2AuuEaPEtIoS-27" value="&lt;div&gt;Kerberoasting&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;GetUserSPNs.py&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;&lt;font color=&quot;#dc8add&quot;&gt;Get hash of services accounts&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="-150" y="700" width="170" height="110" as="geometry" />
         </mxCell>
         <mxCell id="3LOWyAd33K374xAvLqeN-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=13;fontColor=#ffbe6f;strokeColor=#ff3333;strokeWidth=3;" parent="1" source="5y5mrsRL2AuuEaPEtIoS-63" target="orcKsDgMiDMdKtN4nEvD-2" edge="1">
