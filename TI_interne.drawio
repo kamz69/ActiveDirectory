@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-10T13:57:25.011Z" agent="5.0 (X11; Ubuntu)" etag="XksFyOBQ-3R04NdAcxR3" version="21.0.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-03-10T13:59:13.554Z" agent="5.0 (X11; Ubuntu)" etag="e2vUM4UH-nNxDuMlz08a" version="21.0.2" type="github" pages="4">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
     <mxGraphModel dx="1311" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -492,8 +492,17 @@
         <mxCell id="QNvsHd57DNMUPzB0j-Tn-3" value="Privesc" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-220" y="960" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="f0MQeKMFGhf8GMfAAniV-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="DVKqNXfHbSLTBPjBEosU-1" target="f0MQeKMFGhf8GMfAAniV-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="DVKqNXfHbSLTBPjBEosU-1" value="&lt;div&gt;Enumerate MSSQL&lt;code&gt;&lt;pre&gt;&lt;font color=&quot;#2a7bde&quot;&gt;GetUserSPNs.py&lt;/font&gt;&lt;/pre&gt;&lt;/code&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-418" y="1440" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="f0MQeKMFGhf8GMfAAniV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="f0MQeKMFGhf8GMfAAniV-1" target="Iw_T4d_-wb4pz08Lo9XD-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f0MQeKMFGhf8GMfAAniV-1" value="Abuse MSSQL" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="1445" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
