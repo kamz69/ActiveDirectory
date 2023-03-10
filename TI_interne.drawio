@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-10T13:59:13.554Z" agent="5.0 (X11; Ubuntu)" etag="e2vUM4UH-nNxDuMlz08a" version="21.0.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-03-10T13:59:33.285Z" agent="5.0 (X11; Ubuntu)" etag="ApBu8KTXxhULRG7W9G9C" version="21.0.2" type="github" pages="4">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
     <mxGraphModel dx="1311" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -503,6 +503,9 @@
         </mxCell>
         <mxCell id="f0MQeKMFGhf8GMfAAniV-1" value="Abuse MSSQL" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-140" y="1445" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f0MQeKMFGhf8GMfAAniV-4" value="Abuse ADCS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="1350" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
