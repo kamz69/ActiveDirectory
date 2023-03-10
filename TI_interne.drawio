@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-09T17:57:35.815Z" agent="5.0 (X11; Ubuntu)" etag="Oyun9o44MzpCVq6DbCzC" version="21.0.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-03-10T13:38:02.074Z" agent="5.0 (X11; Ubuntu)" etag="O820PT81nN7zAkUltQVZ" version="21.0.2" type="github" pages="4">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
     <mxGraphModel dx="1311" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -291,7 +291,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="from creds" id="U4GICPjlUHhETOjYcaq2">
-    <mxGraphModel dx="2684" dy="883" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3055" dy="1060" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -491,6 +491,9 @@
         </mxCell>
         <mxCell id="QNvsHd57DNMUPzB0j-Tn-3" value="Privesc" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-220" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DVKqNXfHbSLTBPjBEosU-1" value="Enumerate MSSQL" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-420" y="1430" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
