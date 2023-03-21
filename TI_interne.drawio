@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-21T15:28:41.469Z" agent="5.0 (X11; Ubuntu)" etag="DfjcXhujcJ-khm8NSO0i" version="21.0.8" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-03-21T15:30:16.422Z" agent="5.0 (X11; Ubuntu)" etag="83C8OxDeccDItSlpTjc8" version="21.0.8" type="github" pages="5">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
     <mxGraphModel dx="1134" dy="921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -518,8 +518,11 @@
         <mxCell id="eydW96J8nSPCopO3k54l-1" value="standard user" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
           <mxGeometry x="40" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eydW96J8nSPCopO3k54l-2" value="Privileged user" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
-          <mxGeometry x="970" y="210" width="120" height="60" as="geometry" />
+        <mxCell id="eydW96J8nSPCopO3k54l-2" value="&lt;div&gt;Privileged user&lt;em&gt;&lt;strong&gt;&lt;br&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/div&gt;&lt;div&gt;&lt;em&gt;&lt;strong&gt;NT AUTHORITY\SYSTEM&lt;/strong&gt;&lt;/em&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+          <mxGeometry x="970" y="200" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qmehafYx0e8W1bQMVf-2-2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eydW96J8nSPCopO3k54l-3" target="qmehafYx0e8W1bQMVf-2-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eydW96J8nSPCopO3k54l-3" value="winPEAS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="135" width="120" height="60" as="geometry" />
@@ -537,7 +540,7 @@
           <mxGeometry x="220" y="195" width="230" height="110" as="geometry" />
         </mxCell>
         <mxCell id="qmehafYx0e8W1bQMVf-2-1" value="&lt;div&gt;SEImpersonate Privilege&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;JuicyPotato.exe&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="710" y="135" width="120" height="60" as="geometry" />
+          <mxGeometry x="750" y="135" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
