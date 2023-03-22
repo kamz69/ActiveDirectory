@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-22T16:56:12.871Z" agent="5.0 (X11; Ubuntu)" etag="lBe98UYQ5XhRLSxlAysM" version="21.0.8" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-03-22T17:17:48.472Z" agent="5.0 (X11; Ubuntu)" etag="io3NiCJmCOZkZ5pC0933" version="21.0.8" type="github" pages="5">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
     <mxGraphModel dx="1914" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -291,7 +291,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="from creds" id="U4GICPjlUHhETOjYcaq2">
-    <mxGraphModel dx="2741" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2441" dy="997" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -485,14 +485,42 @@
         <mxCell id="DVKqNXfHbSLTBPjBEosU-1" value="&lt;div&gt;Enumerate MSSQL&lt;code&gt;&lt;pre&gt;&lt;font color=&quot;#2a7bde&quot;&gt;GetUserSPNs.py&lt;/font&gt;&lt;/pre&gt;&lt;/code&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-418" y="1440" width="130" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="f0MQeKMFGhf8GMfAAniV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="f0MQeKMFGhf8GMfAAniV-1" target="Iw_T4d_-wb4pz08Lo9XD-3" edge="1">
+        <mxCell id="f0MQeKMFGhf8GMfAAniV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="YItOHf5SX_0kVXQKCcuo-1" target="Iw_T4d_-wb4pz08Lo9XD-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YItOHf5SX_0kVXQKCcuo-2" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f0MQeKMFGhf8GMfAAniV-1" target="YItOHf5SX_0kVXQKCcuo-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YItOHf5SX_0kVXQKCcuo-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="f0MQeKMFGhf8GMfAAniV-1" target="YItOHf5SX_0kVXQKCcuo-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YItOHf5SX_0kVXQKCcuo-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="f0MQeKMFGhf8GMfAAniV-1" target="YItOHf5SX_0kVXQKCcuo-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="f0MQeKMFGhf8GMfAAniV-1" value="Abuse MSSQL" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-140" y="1445" width="120" height="60" as="geometry" />
+          <mxGeometry x="-154" y="1450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="f0MQeKMFGhf8GMfAAniV-4" value="Abuse ADCS" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-170" y="1350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YItOHf5SX_0kVXQKCcuo-8" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="YItOHf5SX_0kVXQKCcuo-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="1480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YItOHf5SX_0kVXQKCcuo-3" value="coerce xp_dirtree to get NTLMV2 hash" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1530" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="YItOHf5SX_0kVXQKCcuo-1" value="impersonate user" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="82.5" y="1450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YItOHf5SX_0kVXQKCcuo-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="YItOHf5SX_0kVXQKCcuo-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="1480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YItOHf5SX_0kVXQKCcuo-5" value="&lt;div&gt;exec shell&lt;/div&gt;&lt;div&gt;xp_cmdshell&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="82.5" y="1620" width="125" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
