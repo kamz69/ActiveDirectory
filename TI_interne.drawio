@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-22T10:58:56.589Z" agent="5.0 (X11; Ubuntu)" etag="48KadXorY5iqsq1m3yRI" version="21.0.8" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-03-22T11:16:57.629Z" agent="5.0 (X11; Ubuntu)" etag="DwyP6rhvjPnHEDkMy_Vx" version="21.0.8" type="github" pages="5">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
     <mxGraphModel dx="1914" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -548,7 +548,7 @@
         <mxCell id="qmehafYx0e8W1bQMVf-2-1" value="&lt;div&gt;SEImpersonate Privilege OR &lt;br&gt;&lt;div&gt;&lt;code&gt;SeAssignPrimaryToken&lt;/code&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="780" y="115" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="83Cq3oNJ2Gnx3IUDA6h3-1" value="&lt;div&gt;&lt;span class=&quot;iq hs&quot;&gt;&lt;span class=&quot;jm&quot;&gt;Windows Server 2019 and Windows Or 10 versions 1809 and higher.&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;p data-testid=&quot;page.title&quot; class=&quot;r-1xnzce8 r-crgep1 r-z9jf92&quot; data-rnwr700-gg6oyi-1ui5ee8-nwxazl-b88u0q=&quot;true&quot; data-rnwrdesktop-gg6oyi-xb2eav-1dn12g7-b88u0q=&quot;true&quot;&gt;&lt;font color=&quot;#4a86e8&quot;&gt;RoguePotato, PrintSpoofer, SharpEfsPotato&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="83Cq3oNJ2Gnx3IUDA6h3-1" value="&lt;div&gt;&lt;span class=&quot;iq hs&quot;&gt;&lt;span class=&quot;jm&quot;&gt;Windows Server 2019 and Windows Or 10 versions 1809 and higher.&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;p data-testid=&quot;page.title&quot; class=&quot;r-1xnzce8 r-crgep1 r-z9jf92&quot; data-rnwr700-gg6oyi-1ui5ee8-nwxazl-b88u0q=&quot;true&quot; data-rnwrdesktop-gg6oyi-xb2eav-1dn12g7-b88u0q=&quot;true&quot;&gt;&lt;font color=&quot;#4a86e8&quot;&gt;PrintSpoofer,RoguePotato, SharpEfsPotato&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1080" y="45" width="200" height="90" as="geometry" />
         </mxCell>
         <mxCell id="83Cq3oNJ2Gnx3IUDA6h3-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.289;entryY=-0.014;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="83Cq3oNJ2Gnx3IUDA6h3-3" target="eydW96J8nSPCopO3k54l-2" edge="1">
