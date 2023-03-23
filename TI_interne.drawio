@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-23T16:58:50.443Z" agent="5.0 (X11; Ubuntu)" etag="WkmXKdlxtzkWqyZd4MbP" version="21.0.8" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-03-23T16:59:08.228Z" agent="5.0 (X11; Ubuntu)" etag="BLz95_udj0m3pt1rb3w3" version="21.0.8" type="github" pages="5">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
     <mxGraphModel dx="1914" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -518,7 +518,7 @@
         </mxCell>
         <mxCell id="YItOHf5SX_0kVXQKCcuo-8" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="YItOHf5SX_0kVXQKCcuo-3" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="290" y="1480" as="targetPoint" />
+            <mxPoint x="380" y="1480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="YItOHf5SX_0kVXQKCcuo-3" value="coerce xp_dirtree to get NTLMV2 hash" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -529,7 +529,7 @@
         </mxCell>
         <mxCell id="YItOHf5SX_0kVXQKCcuo-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="YItOHf5SX_0kVXQKCcuo-5" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="350" y="1480" as="targetPoint" />
+            <mxPoint x="380" y="1480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="YItOHf5SX_0kVXQKCcuo-5" value="&lt;div&gt;exec shell&lt;/div&gt;&lt;div&gt;xp_cmdshell&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
