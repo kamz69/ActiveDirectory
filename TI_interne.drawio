@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-23T16:58:06.975Z" agent="5.0 (X11; Ubuntu)" etag="Jt9vxhosl942b8lSvmxB" version="21.0.8" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-03-23T16:58:50.443Z" agent="5.0 (X11; Ubuntu)" etag="WkmXKdlxtzkWqyZd4MbP" version="21.0.8" type="github" pages="5">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
     <mxGraphModel dx="1914" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -348,8 +348,11 @@
         <mxCell id="QNvsHd57DNMUPzB0j-Tn-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="orcKsDgMiDMdKtN4nEvD-1" target="QNvsHd57DNMUPzB0j-Tn-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="5MaQ4lLrZ_tjf11eQ3xh-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.008;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="orcKsDgMiDMdKtN4nEvD-1" target="DVKqNXfHbSLTBPjBEosU-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="orcKsDgMiDMdKtN4nEvD-1" value="&lt;div style=&quot;font-size: 13px;&quot;&gt;Valid account on the domain&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="-680" y="575" width="150" height="80" as="geometry" />
+          <mxGeometry x="-790" y="910" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ezBXcHe37mE9WKMKeRkE-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#f0f0f0;strokeWidth=1;fontColor=#2a7bde;" parent="1" source="orcKsDgMiDMdKtN4nEvD-2" target="ezBXcHe37mE9WKMKeRkE-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -362,12 +365,14 @@
             <mxPoint x="-70" y="840" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="D5l5UgMyAY0gp9WzSqFA-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#2D7600;fillColor=#60a917;strokeWidth=3;" parent="1" source="Iw_T4d_-wb4pz08Lo9XD-3" target="orcKsDgMiDMdKtN4nEvD-1" edge="1">
+        <mxCell id="D5l5UgMyAY0gp9WzSqFA-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=#2D7600;fillColor=#60a917;strokeWidth=3;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Iw_T4d_-wb4pz08Lo9XD-3" target="orcKsDgMiDMdKtN4nEvD-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="345" y="400" />
-              <mxPoint x="-605" y="400" />
+              <mxPoint x="-710" y="400" />
+              <mxPoint x="-710" y="910" />
             </Array>
+            <mxPoint x="-710" y="790" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Iw_T4d_-wb4pz08Lo9XD-3" value="Got Another acount creds" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" parent="1" vertex="1">
@@ -486,7 +491,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DVKqNXfHbSLTBPjBEosU-1" value="&lt;div&gt;Enumerate MSSQL&lt;code&gt;&lt;pre&gt;&lt;font color=&quot;#2a7bde&quot;&gt;GetUserSPNs.py&lt;/font&gt;&lt;/pre&gt;&lt;/code&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-418" y="1440" width="130" height="70" as="geometry" />
+          <mxGeometry x="-420" y="1445" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="f0MQeKMFGhf8GMfAAniV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="YItOHf5SX_0kVXQKCcuo-1" target="Iw_T4d_-wb4pz08Lo9XD-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
