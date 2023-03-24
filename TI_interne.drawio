@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-24T10:29:01.321Z" agent="5.0 (X11; Ubuntu)" etag="BXb4Y1IQRJvbcGFCQggr" version="21.0.8" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-03-24T10:29:20.724Z" agent="5.0 (X11; Ubuntu)" etag="jiR29__kzHWSa1VPbSgl" version="21.0.8" type="github" pages="5">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
     <mxGraphModel dx="1914" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -311,6 +311,11 @@
         </mxCell>
         <mxCell id="tifHhTxGpsnXKPDGpU3I-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.933;entryY=0.938;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=4;strokeColor=#fe0000;" edge="1" parent="1" source="tifHhTxGpsnXKPDGpU3I-4" target="y5aqqQjo2jUjklV6V6uS-5">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tifHhTxGpsnXKPDGpU3I-10" value="&lt;b&gt;DOMAIN ADMIN&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tifHhTxGpsnXKPDGpU3I-5">
+          <mxGeometry x="-0.5751" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="tifHhTxGpsnXKPDGpU3I-4" value="&lt;div&gt;Ask for a TGT with the certificate&lt;/div&gt;&lt;div&gt;&lt;code&gt;&lt;pre&gt;&lt;font color=&quot;#4a86e8&quot;&gt;gettgtpkinit.py&lt;/font&gt;&lt;/pre&gt;&lt;/code&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="960" y="715" width="140" height="65" as="geometry" />
