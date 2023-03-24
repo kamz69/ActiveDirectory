@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-24T11:16:07.458Z" agent="5.0 (X11; Ubuntu)" etag="wY30mlX-U0krM5A011am" version="21.0.8" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-03-24T11:16:18.766Z" agent="5.0 (X11; Ubuntu)" etag="Yfs9LNGFkvl9Ms4DrsZR" version="21.0.8" type="github" pages="5">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
     <mxGraphModel dx="3083" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -272,7 +272,7 @@
         <mxCell id="tifHhTxGpsnXKPDGpU3I-4" value="&lt;div&gt;Ask for a TGT with the certificate&lt;/div&gt;&lt;div&gt;&lt;code&gt;&lt;pre&gt;&lt;font color=&quot;#4a86e8&quot;&gt;gettgtpkinit.py&lt;/font&gt;&lt;/pre&gt;&lt;/code&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1050" y="812" width="140" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="oLJrZAVxD-DevF4psgEO-1" value="&lt;div&gt;Check if ADCS vulnerable&lt;/div&gt;&lt;div&gt;certipy find -u user@domain.local -p pass -dc-ip [ip] -vulnerable&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="oLJrZAVxD-DevF4psgEO-1" value="&lt;div&gt;Check if ADCS vulnerable&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;certipy find -u user@domain.local -p pass -dc-ip [ip] -vulnerable&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="1000" width="360" height="80" as="geometry" />
         </mxCell>
       </root>
