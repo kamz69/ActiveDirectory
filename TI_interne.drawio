@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-24T11:36:35.074Z" agent="5.0 (X11; Ubuntu)" etag="dyRjUWEaBp7DQSruBQpe" version="21.0.8" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-03-24T11:38:54.008Z" agent="5.0 (X11; Ubuntu)" etag="MqjP0UkaST1y9VomIXzW" version="21.0.8" type="github" pages="5">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
     <mxGraphModel dx="3083" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -291,12 +291,17 @@
         <mxCell id="oLJrZAVxD-DevF4psgEO-5" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="1130" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="oLJrZAVxD-DevF4psgEO-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oLJrZAVxD-DevF4psgEO-6" target="oLJrZAVxD-DevF4psgEO-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="oLJrZAVxD-DevF4psgEO-6" value="Get the certificate" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="670" y="1040" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oLJrZAVxD-DevF4psgEO-8" value="&lt;div&gt;Ask for a TGT with the certificate&lt;/div&gt;&lt;div&gt;&lt;code&gt;&lt;pre&gt;&lt;font color=&quot;#4a86e8&quot;&gt;gettgtpkinit.py&lt;/font&gt;&lt;/pre&gt;&lt;/code&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="880" y="1033.75" width="160" height="72.5" as="geometry" />
-        </mxCell>
+        <object label="&lt;div&gt;Ask for a TGT with the certificate&lt;/div&gt;&lt;div&gt;&lt;code&gt;&lt;pre&gt;&lt;font color=&quot;#4a86e8&quot;&gt;certipy.py&lt;/font&gt;&lt;/pre&gt;&lt;/code&gt;&lt;/div&gt;" Commande="certipy auth -pfx administrator.pfx -dc-ip 192.168.56.12" Alternative="gettgtpkinit.py -pfx-base64 $(cat cert.b64) &#39;essos.local&#39;/&#39;meereen$&#39; &#39;meereen.ccache&#39;" id="oLJrZAVxD-DevF4psgEO-8">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="950" y="1033.75" width="160" height="72.5" as="geometry" />
+          </mxCell>
+        </object>
       </root>
     </mxGraphModel>
   </diagram>
