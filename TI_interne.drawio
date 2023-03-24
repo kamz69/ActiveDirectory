@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-24T10:40:22.950Z" agent="5.0 (X11; Ubuntu)" etag="Jq7Mlivp1dNhqZ7PF-5C" version="21.0.8" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-03-24T10:47:01.965Z" agent="5.0 (X11; Ubuntu)" etag="BG51svX5fuDtBOHvfqFG" version="21.0.8" type="github" pages="5">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
     <mxGraphModel dx="3083" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -70,7 +70,7 @@
         <mxCell id="aNRAIpRnyOp7dpAG2fmc-2" value="&lt;font color=&quot;#f0f0f0&quot;&gt;enum4linux-ng [DC-IP]&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontColor=#2a7bde;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="410" y="550" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="R0Ckgjfj6c9i_a57rjnK-1" value="&lt;code&gt;&lt;pre&gt;certipy find -u khal.drogo@essos.local -p &lt;span class=&quot;s1&quot;&gt;&#39;horse&#39;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-dc-ip&lt;/span&gt; 192.168.56.12&lt;/pre&gt;&lt;/code&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="R0Ckgjfj6c9i_a57rjnK-1" value="&lt;code&gt;&lt;pre&gt;certipy find -u khal.drogo@essos.local -p &lt;span class=&quot;s1&quot;&gt;&#39;horse&#39;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-dc-ip&lt;/span&gt; [DC IP]&lt;/pre&gt;&lt;/code&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="630" width="580" height="70" as="geometry" />
         </mxCell>
         <mxCell id="R0Ckgjfj6c9i_a57rjnK-2" value="Enum ADCS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
