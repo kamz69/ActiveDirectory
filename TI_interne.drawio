@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-24T10:20:39.037Z" agent="5.0 (X11; Ubuntu)" etag="e3Bv5VfM5fB0yaCwChoG" version="21.0.8" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-03-24T10:23:23.714Z" agent="5.0 (X11; Ubuntu)" etag="OeySPsEfle9tGoNzR-hw" version="21.0.8" type="github" pages="5">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
     <mxGraphModel dx="1914" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -286,6 +286,9 @@
         </mxCell>
         <mxCell id="2ArGYso1SfPXtdhOZaz5-4" value="On est sur le réseau sans creds" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
           <mxGeometry x="-400" y="251.25" width="160" height="82.5" as="geometry" />
+        </mxCell>
+        <mxCell id="tifHhTxGpsnXKPDGpU3I-2" value="&lt;div&gt;relay to the web enrollement and get the certificate (ADCS)&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;ntlmrelay.py&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="700" width="170" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
