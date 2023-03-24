@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-24T10:23:23.714Z" agent="5.0 (X11; Ubuntu)" etag="OeySPsEfle9tGoNzR-hw" version="21.0.8" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-03-24T10:27:22.871Z" agent="5.0 (X11; Ubuntu)" etag="yPmJql5YaD7i3VzjAv90" version="21.0.8" type="github" pages="5">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
     <mxGraphModel dx="1914" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -153,7 +153,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="y5aqqQjo2jUjklV6V6uS-5" value="&lt;div&gt;Valid user found with creds found&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="1650" y="195" width="150" height="80" as="geometry" />
+          <mxGeometry x="1650" y="195" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="_KkYkDTvTRN3HUsftzkZ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=13;fontColor=#0000aa;" parent="1" source="y5aqqQjo2jUjklV6V6uS-13" target="y5aqqQjo2jUjklV6V6uS-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -173,11 +173,11 @@
         <mxCell id="3KcXfi7NhkpAm5ZNJReR-3" value="Hash found" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="525" y="410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3KcXfi7NhkpAm5ZNJReR-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontSize=13;fontColor=#dc8add;edgeStyle=orthogonalEdgeStyle;" parent="1" source="3KcXfi7NhkpAm5ZNJReR-7" target="y5aqqQjo2jUjklV6V6uS-5" edge="1">
+        <mxCell id="tifHhTxGpsnXKPDGpU3I-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.629;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3KcXfi7NhkpAm5ZNJReR-7" target="y5aqqQjo2jUjklV6V6uS-5">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="810" y="450" />
-              <mxPoint x="1763" y="450" />
+              <mxPoint x="810" y="460" />
+              <mxPoint x="1757" y="460" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -287,8 +287,17 @@
         <mxCell id="2ArGYso1SfPXtdhOZaz5-4" value="On est sur le réseau sans creds" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
           <mxGeometry x="-400" y="251.25" width="160" height="82.5" as="geometry" />
         </mxCell>
-        <mxCell id="tifHhTxGpsnXKPDGpU3I-2" value="&lt;div&gt;relay to the web enrollement and get the certificate (ADCS)&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;ntlmrelay.py&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tifHhTxGpsnXKPDGpU3I-2" value="&lt;div&gt;relay to the web enrollement (ADCS)&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;ntlmrelay.py&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="700" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tifHhTxGpsnXKPDGpU3I-3" value="Get the certificate" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="715" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tifHhTxGpsnXKPDGpU3I-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.933;entryY=0.938;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tifHhTxGpsnXKPDGpU3I-4" target="y5aqqQjo2jUjklV6V6uS-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tifHhTxGpsnXKPDGpU3I-4" value="&lt;div&gt;Ask for a TGT with the certificate&lt;/div&gt;&lt;div&gt;&lt;code&gt;&lt;pre&gt;&lt;font color=&quot;#4a86e8&quot;&gt;gettgtpkinit.py&lt;/font&gt;&lt;/pre&gt;&lt;/code&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="715" width="140" height="65" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
