@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-27T13:20:35.128Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="7Bm_XSk0XHeetCOfEyI-" version="21.1.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-03-27T13:21:22.198Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="HmNWM0evkwMudcwXo75w" version="21.1.1" type="github" pages="6">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
     <mxGraphModel dx="3083" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -305,6 +305,11 @@
         </mxCell>
         <mxCell id="oLJrZAVxD-DevF4psgEO-6" value="Get the certificate" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="670" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="utb4WUf2HN28K8fKi9VL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="oLJrZAVxD-DevF4psgEO-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1110" y="1070" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <object label="&lt;div&gt;Ask for a TGT with the certificate&lt;/div&gt;&lt;div&gt;&lt;code&gt;&lt;pre&gt;&lt;font color=&quot;#4a86e8&quot;&gt;certipy.py&lt;/font&gt;&lt;/pre&gt;&lt;/code&gt;&lt;/div&gt;" Commande="certipy auth -pfx administrator.pfx -dc-ip 192.168.56.12" Alternative="gettgtpkinit.py -pfx-base64 $(cat cert.b64) &#39;essos.local&#39;/&#39;meereen$&#39; &#39;meereen.ccache&#39;" id="oLJrZAVxD-DevF4psgEO-8">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -688,6 +693,14 @@
         <mxCell id="oVyD5hO7Ps2CTn3XRuPj-21" value="Mot de passe" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="1351" width="120" height="60" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="u-f4tYm0AUb5l17wShJv" name="Lateral mouvement">
+    <mxGraphModel dx="1914" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
