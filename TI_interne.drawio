@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-27T13:52:47.096Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="h4sP3bMCIf-QnQMcl4aX" version="21.1.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-03-27T14:25:08.075Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="ll-u3U2o0BVSq1pi0eHV" version="21.1.1" type="github" pages="6">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
     <mxGraphModel dx="3083" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -80,7 +80,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9fB0GFrZQWABB-8gzhsE" name="From no creds">
-    <mxGraphModel dx="3903" dy="1260" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="3083" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -96,8 +96,10 @@
         <mxCell id="3fBEoELCNlQG3BJW24ry-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFFFFF;fontColor=#2a7bde;" parent="1" source="OosuojFDGbZqmqcItjsv-1" target="X6wlxV_FrzrZ-9Moiesy-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wKqIxz2qH3VzgjHIJMqc-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#ffffff;strokeWidth=1;" parent="1" source="OosuojFDGbZqmqcItjsv-1" target="wKqIxz2qH3VzgjHIJMqc-1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="wKqIxz2qH3VzgjHIJMqc-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#ffffff;strokeWidth=1;" parent="1" source="OosuojFDGbZqmqcItjsv-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="770" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="OosuojFDGbZqmqcItjsv-1" value="Reconnaissance" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" parent="1" vertex="1">
           <mxGeometry x="-150" y="262.5" width="130" height="60" as="geometry" />
@@ -121,9 +123,6 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eT468RpVeFGScJ7yV71r-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="q669wVBJVDhqwRxZ6Rot-5" target="eT468RpVeFGScJ7yV71r-1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="tifHhTxGpsnXKPDGpU3I-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=4;strokeColor=#fe0000;" parent="1" source="q669wVBJVDhqwRxZ6Rot-5" target="tifHhTxGpsnXKPDGpU3I-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="q669wVBJVDhqwRxZ6Rot-5" value="Relay" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;" parent="1" vertex="1">
@@ -226,20 +225,17 @@
         <mxCell id="OzdCo0pd7L-W225KIUEy-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#2a7bde;" parent="1" source="OzdCo0pd7L-W225KIUEy-1" target="OzdCo0pd7L-W225KIUEy-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OzdCo0pd7L-W225KIUEy-1" value="&lt;div&gt;Check where smb signing is not active to relay to them&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;cme&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="570" y="580" width="140" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="OzdCo0pd7L-W225KIUEy-3" value="&lt;div&gt;poison with responder and relay ntlm to the vulnerable machine&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="850" y="575" width="170" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="eT468RpVeFGScJ7yV71r-1" value="Rogue DNS IPV6" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="570" y="680" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wKqIxz2qH3VzgjHIJMqc-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.617;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;strokeColor=#fe0000;strokeWidth=4;" parent="1" source="wKqIxz2qH3VzgjHIJMqc-1" target="q669wVBJVDhqwRxZ6Rot-5" edge="1">
+        <mxCell id="_LFIwpbgAgwoRebmZAz1-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OzdCo0pd7L-W225KIUEy-1" target="_LFIwpbgAgwoRebmZAz1-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wKqIxz2qH3VzgjHIJMqc-1" value="&lt;div&gt;coerce&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;coercer.py&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;petitpotam.py&lt;br&gt;&lt;/font&gt;&lt;code&gt;&lt;/code&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="210" y="740" width="120" height="60" as="geometry" />
+        <mxCell id="OzdCo0pd7L-W225KIUEy-1" value="&lt;div&gt;Check where smb signing is not active to relay to them&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;cme&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="580" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OzdCo0pd7L-W225KIUEy-3" value="&lt;div&gt;poison with responder and relay ntlm to the vulnerable machine&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="840" y="575" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="eT468RpVeFGScJ7yV71r-1" value="Rogue DNS IPV6" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="610" y="827" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2ArGYso1SfPXtdhOZaz5-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="2ArGYso1SfPXtdhOZaz5-4" target="OosuojFDGbZqmqcItjsv-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -247,49 +243,33 @@
         <mxCell id="2ArGYso1SfPXtdhOZaz5-4" value="On est sur le réseau sans creds" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
           <mxGeometry x="-400" y="251.25" width="160" height="82.5" as="geometry" />
         </mxCell>
-        <mxCell id="tifHhTxGpsnXKPDGpU3I-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#ff0000;strokeWidth=4;" parent="1" source="tifHhTxGpsnXKPDGpU3I-2" target="tifHhTxGpsnXKPDGpU3I-3" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="tifHhTxGpsnXKPDGpU3I-2" value="&lt;div&gt;relay to the web enrollement (ADCS) ESC8&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;ntlmrelay.py&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="555" y="860" width="170" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="tifHhTxGpsnXKPDGpU3I-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=4;strokeColor=#fe0000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="tifHhTxGpsnXKPDGpU3I-3" target="tifHhTxGpsnXKPDGpU3I-4" edge="1">
+        <mxCell id="tifHhTxGpsnXKPDGpU3I-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.933;entryY=0.938;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=4;strokeColor=#fe0000;" parent="1" source="_LFIwpbgAgwoRebmZAz1-9" target="y5aqqQjo2jUjklV6V6uS-5" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="950" y="805" as="targetPoint" />
+            <mxPoint x="1510" y="984.5" as="sourcePoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="tifHhTxGpsnXKPDGpU3I-3" value="Get the certificate" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="810" y="875" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="tifHhTxGpsnXKPDGpU3I-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.933;entryY=0.938;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=4;strokeColor=#fe0000;" parent="1" source="tifHhTxGpsnXKPDGpU3I-4" target="y5aqqQjo2jUjklV6V6uS-5" edge="1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tifHhTxGpsnXKPDGpU3I-10" value="&lt;b&gt;DOMAIN ADMIN&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="tifHhTxGpsnXKPDGpU3I-5" vertex="1" connectable="0">
           <mxGeometry x="-0.5751" y="-1" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tifHhTxGpsnXKPDGpU3I-4" value="&lt;div&gt;Ask for a TGT with the certificate&lt;/div&gt;&lt;div&gt;&lt;code&gt;&lt;pre&gt;&lt;font color=&quot;#4a86e8&quot;&gt;gettgtpkinit.py&lt;/font&gt;&lt;/pre&gt;&lt;/code&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1050" y="872" width="140" height="65" as="geometry" />
+        <mxCell id="_LFIwpbgAgwoRebmZAz1-1" value="&lt;div&gt;Make a coerce to force DC to authenticate to me&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;coercer.py&lt;/font&gt;&lt;/div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;petitpotam.py&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="960" width="160" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="rsNCh-QV2zhBNKZOqKP8-1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="oLJrZAVxD-DevF4psgEO-1" target="oLJrZAVxD-DevF4psgEO-3" edge="1">
+        <mxCell id="_LFIwpbgAgwoRebmZAz1-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_LFIwpbgAgwoRebmZAz1-4" target="_LFIwpbgAgwoRebmZAz1-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <object label="&lt;div&gt;Check if ADCS vulnerable&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;certipy.py&lt;/font&gt;" Commande="certipy find -u user@domain.local -p pass -dc-ip [ip] -vulnerable" id="oLJrZAVxD-DevF4psgEO-1">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-            <mxGeometry x="210" y="1010" width="180" height="60" as="geometry" />
-          </mxCell>
-        </object>
-        <mxCell id="NkpzxEqj1bYcb2eGI3EZ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;strokeColor=#fe0000;" edge="1" parent="1" source="oLJrZAVxD-DevF4psgEO-3" target="y5aqqQjo2jUjklV6V6uS-5">
+        <mxCell id="_LFIwpbgAgwoRebmZAz1-4" value="&lt;div&gt;&lt;b&gt;ESC8&lt;/b&gt; : web enrollement is up ?&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;certipy find -u user@domain.local -p pass -dc-ip [ip] -vulnerable&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="710" width="360" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_LFIwpbgAgwoRebmZAz1-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_LFIwpbgAgwoRebmZAz1-7" target="_LFIwpbgAgwoRebmZAz1-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NkpzxEqj1bYcb2eGI3EZ-2" value="&lt;b&gt;DOMAIN ADMIN&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NkpzxEqj1bYcb2eGI3EZ-1">
-          <mxGeometry x="-0.1202" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+        <mxCell id="_LFIwpbgAgwoRebmZAz1-7" value="&lt;div&gt;relay to the web enrollement (ADCS) ESC8 if vulnerable&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;ntlmrelay.py&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="710" width="180" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="oLJrZAVxD-DevF4psgEO-3" value="&lt;b&gt;ESC8&lt;/b&gt; : web enrollement is up" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="480" y="1010" width="120" height="60" as="geometry" />
+        <mxCell id="_LFIwpbgAgwoRebmZAz1-9" value="Get the certificate" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="715" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
