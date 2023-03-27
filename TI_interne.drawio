@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-27T10:03:35.181Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="gJnyg2qHVr9btXfUNcHH" version="21.1.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-03-27T13:19:24.586Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="gcURscSYAd1hIeX6wE8r" version="21.1.1" type="github" pages="5">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
     <mxGraphModel dx="3083" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -311,14 +311,17 @@
             <mxGeometry x="900" y="1033.75" width="160" height="72.5" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="LIxvidkQeBXuF2E-1qSc-1" value="&lt;div align=&quot;left&quot;&gt;If clock errors:&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;-detect remote clock-skew : nmap -sV -sC 10.10.11.202&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- faketime&lt;br&gt; &lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="LIxvidkQeBXuF2E-1qSc-1" value="&lt;div align=&quot;left&quot;&gt;If clock errors:&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;-detect remote clock-skew : nmap -sV -sC 10.10.11.202&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- faketime&lt;br&gt; &lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="900" y="1130" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="utb4WUf2HN28K8fKi9VL-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="1033.75" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="from creds" id="U4GICPjlUHhETOjYcaq2">
-    <mxGraphModel dx="3079" dy="1038" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2741" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
