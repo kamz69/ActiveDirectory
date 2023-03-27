@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-27T08:55:41.032Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="KI0cvcSegZzzTg2NmhZq" version="21.1.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-03-27T08:56:06.919Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="2FrzHLWd2YV4VKLkjlr3" version="21.1.0" type="github" pages="5">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
     <mxGraphModel dx="3083" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -391,8 +391,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="345" y="400" />
-              <mxPoint x="-710" y="400" />
-              <mxPoint x="-710" y="910" />
+              <mxPoint x="-715" y="400" />
             </Array>
             <mxPoint x="-710" y="790" as="targetPoint" />
           </mxGeometry>
