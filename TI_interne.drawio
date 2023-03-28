@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-28T11:17:46.202Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="Ek6jCVawys7xmnetVSXS" version="21.1.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-03-28T11:19:54.376Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="UJs7CF33z-lITvTklrxb" version="21.1.1" type="github" pages="6">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
     <mxGraphModel dx="3083" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -393,9 +393,11 @@
         <mxCell id="Mgc068LGqz-ZIUhQZxpC-3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="lmAUqHFNn__0l1cbM3OC-1" target="Mgc068LGqz-ZIUhQZxpC-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lmAUqHFNn__0l1cbM3OC-1" value="list users" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="-413" y="620" width="120" height="60" as="geometry" />
-        </mxCell>
+        <object label="list users" cmd="cme smb 10.10.11.187 -u svc_apache -p &#39;S@Ss!K@*t13&#39; -d flight.htb --users" id="lmAUqHFNn__0l1cbM3OC-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+            <mxGeometry x="-413" y="620" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
         <mxCell id="46VSiSrXyTr81zkC9bUa-2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Mgc068LGqz-ZIUhQZxpC-1" target="Mgc068LGqz-ZIUhQZxpC-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
