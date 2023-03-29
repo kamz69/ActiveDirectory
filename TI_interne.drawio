@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-29T09:16:01.790Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="pyScbkpeps99k0Oow24e" version="21.1.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-03-29T09:17:21.183Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="qrxuOFlv4NOrcttQpFyA" version="21.1.1" type="github" pages="6">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
     <mxGraphModel dx="3083" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -282,11 +282,10 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="_CGyanOoc56hwBKu-glQ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;fontColor=#ffffff;" parent="1" source="5y5mrsRL2AuuEaPEtIoS-5" target="3LOWyAd33K374xAvLqeN-3" edge="1">
+        <mxCell id="_CGyanOoc56hwBKu-glQ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;fontColor=#ffffff;" parent="1" source="5y5mrsRL2AuuEaPEtIoS-5" target="MJ77XQNaUq2IchNajp4j-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-340" y="450" />
-              <mxPoint x="575" y="450" />
+              <mxPoint x="-333" y="450" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -535,6 +534,12 @@
         </mxCell>
         <mxCell id="ZA79Oz3FYAEtSH71NLie-2" value="Get &quot;administrator&quot; certificate" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="95" y="1550.25" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MJ77XQNaUq2IchNajp4j-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MJ77XQNaUq2IchNajp4j-1" target="Iw_T4d_-wb4pz08Lo9XD-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MJ77XQNaUq2IchNajp4j-1" value="Search passwords in shares" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="430" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
