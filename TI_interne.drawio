@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-29T13:08:14.880Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="M50QktO8BRGU_tWBNxM1" version="21.1.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-03-29T13:10:22.882Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="H8s7y01WA25ZMuCuTrbw" version="21.1.1" type="github" pages="6">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
     <mxGraphModel dx="3083" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -545,9 +545,11 @@
         <mxCell id="Yy7sR1aXQtWxQ2WAoCF2-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yy7sR1aXQtWxQ2WAoCF2-3" target="Yy7sR1aXQtWxQ2WAoCF2-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Yy7sR1aXQtWxQ2WAoCF2-3" value="&lt;div&gt;search writable smb folder&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;cme&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-190" y="430" width="170" height="60" as="geometry" />
-        </mxCell>
+        <object label="&lt;div&gt;search writable smb folder&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;cme&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" command="mbmap -u S.Moon -H &quot;10.10.11.187&quot; -p &#39;S@Ss!K@*t13&#39;" id="Yy7sR1aXQtWxQ2WAoCF2-3">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#ffc000;" vertex="1" parent="1">
+            <mxGeometry x="-190" y="430" width="170" height="60" as="geometry" />
+          </mxCell>
+        </object>
         <mxCell id="Yy7sR1aXQtWxQ2WAoCF2-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Yy7sR1aXQtWxQ2WAoCF2-8" target="Yy7sR1aXQtWxQ2WAoCF2-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
