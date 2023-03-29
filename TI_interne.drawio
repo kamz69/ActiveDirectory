@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-29T13:02:10.365Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="1JgYzKWB2JBNIg0-_zOf" version="21.1.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-03-29T13:05:18.034Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="pn_D0ibi7LxgH7fZJGSM" version="21.1.1" type="github" pages="6">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
     <mxGraphModel dx="3083" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -410,14 +410,14 @@
         </mxCell>
         <object label="password spray" cmd="cme smb 10.10.11.187 -u users.txt -p &#39;S@Ss!K@*t13&#39; --no-bruteforce" id="Mgc068LGqz-ZIUhQZxpC-4">
           <mxCell style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;" parent="1" vertex="1">
-            <mxGeometry x="-34" y="470" width="140" height="70" as="geometry" />
+            <mxGeometry y="505" width="140" height="70" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="Shlw0z85vV4mLwR04esC-3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontColor=#2a7bde;" parent="1" source="Shlw0z85vV4mLwR04esC-1" target="Iw_T4d_-wb4pz08Lo9XD-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Shlw0z85vV4mLwR04esC-1" value="&lt;div&gt;Check description for password&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;cme&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="-34" y="552.5" width="154" height="90" as="geometry" />
+          <mxGeometry y="605" width="154" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ZDy4xXztmy_Uh2uV_-2A-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZDy4xXztmy_Uh2uV_-2A-1" target="ZDy4xXztmy_Uh2uV_-2A-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -539,11 +539,17 @@
         </mxCell>
         <object label="&lt;div&gt;Search passwords in shares&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;cme&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" dump_files="crackmapexec smb 10.10.11.187 -u S.Moon -p &#39;S@Ss!K@*t13&#39; -M spider_plus -o READ_ONLY=false" search_in_dump="grep -rn &quot;ntlm&quot; /tmp/cme_spider_plus/10.10.11.187/" id="MJ77XQNaUq2IchNajp4j-1">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#ffc000;" vertex="1" parent="1">
-            <mxGeometry x="-190" y="340" width="120" height="60" as="geometry" />
+            <mxGeometry x="-190" y="340" width="170" height="60" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="Yy7sR1aXQtWxQ2WAoCF2-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-190" y="415" width="120" height="60" as="geometry" />
+        <mxCell id="Yy7sR1aXQtWxQ2WAoCF2-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yy7sR1aXQtWxQ2WAoCF2-3" target="Yy7sR1aXQtWxQ2WAoCF2-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yy7sR1aXQtWxQ2WAoCF2-3" value="&lt;div&gt;search writable smb folder&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;cme&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="430" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yy7sR1aXQtWxQ2WAoCF2-8" value="Steal NTLM creds" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="430" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
