@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-05T15:52:10.853Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="vEzriMqerxlnlDyUrq15" version="21.1.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-04-05T15:53:03.817Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="_cNUbh0UFfbPSp0T87_h" version="21.1.4" type="github" pages="7">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
     <mxGraphModel dx="3083" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -597,10 +597,10 @@
         <mxCell id="5XMI3-geCgVCCPfJcu6X-1" value="shell" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
           <mxGeometry x="70" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5XMI3-geCgVCCPfJcu6X-2" value="creds" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+        <mxCell id="5XMI3-geCgVCCPfJcu6X-2" value="domain creds" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
           <mxGeometry x="1030" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5XMI3-geCgVCCPfJcu6X-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5XMI3-geCgVCCPfJcu6X-3" target="5XMI3-geCgVCCPfJcu6X-2">
+        <mxCell id="5XMI3-geCgVCCPfJcu6X-17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5XMI3-geCgVCCPfJcu6X-3" target="5XMI3-geCgVCCPfJcu6X-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5XMI3-geCgVCCPfJcu6X-3" value="privesc" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -629,6 +629,12 @@
         </mxCell>
         <mxCell id="5XMI3-geCgVCCPfJcu6X-13" value="Crack hash" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="790" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5XMI3-geCgVCCPfJcu6X-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5XMI3-geCgVCCPfJcu6X-16" target="5XMI3-geCgVCCPfJcu6X-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5XMI3-geCgVCCPfJcu6X-16" value="dump memory with mimikatz" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="90" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
