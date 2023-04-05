@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-05T08:16:54.437Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="leJDsMKHrwyPGZJxhmiW" version="21.1.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-04-05T08:18:12.725Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="_QAIilKqSQJt7O7aug0j" version="21.1.4" type="github" pages="6">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
     <mxGraphModel dx="3083" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -487,6 +487,11 @@
         <mxCell id="YItOHf5SX_0kVXQKCcuo-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="f0MQeKMFGhf8GMfAAniV-1" target="YItOHf5SX_0kVXQKCcuo-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="PTz_sH_h7iwSk9bTQDM_-2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="f0MQeKMFGhf8GMfAAniV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="1480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="f0MQeKMFGhf8GMfAAniV-1" value="&lt;div&gt;Abuse MSSQL&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;mssqlclient.py&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-154" y="1270" width="120" height="60" as="geometry" />
         </mxCell>
@@ -497,22 +502,22 @@
         </mxCell>
         <object label="coerce xp_dirtree to get NTLMV2 hash" id="YItOHf5SX_0kVXQKCcuo-3">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-            <mxGeometry x="80" y="1350" width="150" height="70" as="geometry" />
+            <mxGeometry x="87.5" y="1290" width="150" height="70" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="YItOHf5SX_0kVXQKCcuo-1" value="impersonate user" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="82.5" y="1270" width="120" height="60" as="geometry" />
+          <mxGeometry x="87.5" y="1210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YItOHf5SX_0kVXQKCcuo-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="YItOHf5SX_0kVXQKCcuo-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="380" y="650" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="380" y="1470" />
+              <mxPoint x="380" y="1400" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="YItOHf5SX_0kVXQKCcuo-5" value="&lt;div&gt;exec shell&lt;/div&gt;&lt;div&gt;xp_cmdshell&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="82.5" y="1440" width="125" height="60" as="geometry" />
+          <mxGeometry x="87.5" y="1370" width="125" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZA79Oz3FYAEtSH71NLie-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.001;entryY=0.392;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Ycaa7bB3K_BVTUtsKAXq-1" target="ZA79Oz3FYAEtSH71NLie-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -568,6 +573,9 @@
             <mxGeometry x="200" y="425" width="126" height="70" as="geometry" />
           </mxCell>
         </object>
+        <mxCell id="PTz_sH_h7iwSk9bTQDM_-1" value="abuse trusted links" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="87.5" y="1450" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
