@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-06T13:01:18.979Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="D1sAqj-yC2pbJr0OfE3w" version="21.1.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-04-06T13:30:54.094Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="PJaFd24xqukidlKHw3I3" version="21.1.4" type="github" pages="7">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
     <mxGraphModel dx="3083" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -612,8 +612,8 @@
         <mxCell id="5XMI3-geCgVCCPfJcu6X-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.008;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="5XMI3-geCgVCCPfJcu6X-6" target="5XMI3-geCgVCCPfJcu6X-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5XMI3-geCgVCCPfJcu6X-6" value="SMB call" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="290" y="240" width="120" height="60" as="geometry" />
+        <mxCell id="5XMI3-geCgVCCPfJcu6X-6" value="&lt;div&gt;SMB call&lt;/div&gt;&lt;div&gt;&lt;pre class=&quot;default s-code-block&quot;&gt;&lt;font color=&quot;#4a86e8&quot;&gt;&lt;code class=&quot;hljs language-bash&quot;&gt;net use \\server&lt;/code&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#ffc000;" parent="1" vertex="1">
+          <mxGeometry x="260" y="240" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5XMI3-geCgVCCPfJcu6X-10" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="5XMI3-geCgVCCPfJcu6X-8" target="5XMI3-geCgVCCPfJcu6X-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
