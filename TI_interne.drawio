@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-06T13:30:54.094Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="PJaFd24xqukidlKHw3I3" version="21.1.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-04-06T13:31:03.812Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="WIP_oowD-FnN_QscYMyK" version="21.1.4" type="github" pages="7">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
     <mxGraphModel dx="3083" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -619,19 +619,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5XMI3-geCgVCCPfJcu6X-8" value="intercept with responder" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="450" y="250" width="120" height="60" as="geometry" />
+          <mxGeometry x="460" y="230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5XMI3-geCgVCCPfJcu6X-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5XMI3-geCgVCCPfJcu6X-9" target="5XMI3-geCgVCCPfJcu6X-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5XMI3-geCgVCCPfJcu6X-9" value="get NTLMV2 hash" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="620" y="250" width="120" height="60" as="geometry" />
+          <mxGeometry x="630" y="230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5XMI3-geCgVCCPfJcu6X-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="5XMI3-geCgVCCPfJcu6X-13" target="5XMI3-geCgVCCPfJcu6X-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5XMI3-geCgVCCPfJcu6X-13" value="Crack hash" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="790" y="250" width="120" height="60" as="geometry" />
+          <mxGeometry x="790" y="230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5XMI3-geCgVCCPfJcu6X-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="5XMI3-geCgVCCPfJcu6X-16" target="5XMI3-geCgVCCPfJcu6X-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
