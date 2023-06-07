@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-07T10:33:05.406Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0" etag="-a6rQwOfMcgDTcsu1ko5" version="21.2.9" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-06-07T10:33:22.771Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0" etag="hFLW7hv45Hwd6AWeLKMQ" version="21.2.9" type="github" pages="7">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
     <mxGraphModel dx="3083" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -288,7 +288,7 @@
           <mxGeometry x="1490" y="715" width="120" height="60" as="geometry" />
         </mxCell>
         <object label="&lt;div&gt;Analyse all signature of protocols (see image link )&lt;/div&gt;" url="https://3210236927-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MHRw3PMJtbDDjbxm5ub%2Fuploads%2FMEMuGPBPviYyGAQfwdqp%2FNTLM%20relay.png?alt=media&amp;token=554b6390-8f85-4d35-8fcc-7b5aa32f2933" id="PlF_5Av3JbAmQtxcSVRH-7">
-          <mxCell style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" vertex="1" parent="1">
+          <mxCell style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;strokeColor=#e5a50a;" vertex="1" parent="1">
             <mxGeometry x="610" y="800" width="140" height="80" as="geometry" />
           </mxCell>
         </object>
