@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-08T08:58:18.116Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0" etag="FtvuMRu4OWH1pHvteR0P" version="21.3.7" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-06-08T09:00:02.802Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0" etag="NVON3Loz6-ax-8t23q9s" version="21.3.7" type="github" pages="7">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
     <mxGraphModel dx="3083" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -124,9 +124,6 @@
         <mxCell id="eT468RpVeFGScJ7yV71r-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="q669wVBJVDhqwRxZ6Rot-5" target="eT468RpVeFGScJ7yV71r-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hefA_bYV9p1Cq4kSP_zY-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="q669wVBJVDhqwRxZ6Rot-5" target="OzdCo0pd7L-W225KIUEy-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="q669wVBJVDhqwRxZ6Rot-5" value="Relay" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="370" y="590" width="120" height="60" as="geometry" />
         </mxCell>
@@ -227,8 +224,8 @@
         <mxCell id="hefA_bYV9p1Cq4kSP_zY-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OzdCo0pd7L-W225KIUEy-3" target="hefA_bYV9p1Cq4kSP_zY-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OzdCo0pd7L-W225KIUEy-3" value="&lt;div&gt;RELAY TO SMB&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- credentials dump (SAM) if admin&lt;br&gt;&lt;/div&gt;&lt;div&gt;-Cmd exec&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="620" y="590" width="260" height="90" as="geometry" />
+        <mxCell id="OzdCo0pd7L-W225KIUEy-3" value="credentials dump (SAM) if admin&lt;br&gt;&lt;div&gt;or Cmd exec&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="590" width="260" height="90" as="geometry" />
         </mxCell>
         <mxCell id="eT468RpVeFGScJ7yV71r-1" value="Rogue DNS IPV6" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="590" y="1005" width="120" height="60" as="geometry" />
@@ -279,7 +276,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hefA_bYV9p1Cq4kSP_zY-1" value="Prerequisites :Signing not REQUIRED" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="920" y="605" width="150" height="60" as="geometry" />
+          <mxGeometry x="1010" y="605" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hefA_bYV9p1Cq4kSP_zY-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hefA_bYV9p1Cq4kSP_zY-9" target="OzdCo0pd7L-W225KIUEy-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hefA_bYV9p1Cq4kSP_zY-9" value="&lt;div&gt;Relay to SMB&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="600" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hefA_bYV9p1Cq4kSP_zY-10" value="&lt;div&gt;Relay to HTTP&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="930" width="130" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
