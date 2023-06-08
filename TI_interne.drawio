@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-07T10:34:08.077Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0" etag="iWEWXHXV1Y4GDH5b-6yx" version="21.2.9" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-06-08T08:57:28.109Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0" etag="ZofODitPM-Vk_ugvPpfI" version="21.3.7" type="github" pages="7">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
     <mxGraphModel dx="3083" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -80,7 +80,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9fB0GFrZQWABB-8gzhsE" name="From no creds">
-    <mxGraphModel dx="3421" dy="1038" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="3083" dy="842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -121,22 +121,11 @@
             <mxGeometry x="1200" y="180" width="240" height="110" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="OzdCo0pd7L-W225KIUEy-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#2a7bde;fillColor=#e51400;strokeColor=#B20000;strokeWidth=3;" parent="1" source="q669wVBJVDhqwRxZ6Rot-5" target="OzdCo0pd7L-W225KIUEy-1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="eT468RpVeFGScJ7yV71r-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="q669wVBJVDhqwRxZ6Rot-5" target="eT468RpVeFGScJ7yV71r-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PlF_5Av3JbAmQtxcSVRH-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q669wVBJVDhqwRxZ6Rot-5" target="OzdCo0pd7L-W225KIUEy-1">
+        <mxCell id="hefA_bYV9p1Cq4kSP_zY-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="q669wVBJVDhqwRxZ6Rot-5" target="OzdCo0pd7L-W225KIUEy-3">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="PlF_5Av3JbAmQtxcSVRH-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="q669wVBJVDhqwRxZ6Rot-5" target="PlF_5Av3JbAmQtxcSVRH-7">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="540" y="620" />
-              <mxPoint x="540" y="840" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="q669wVBJVDhqwRxZ6Rot-5" value="Relay" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="370" y="590" width="120" height="60" as="geometry" />
@@ -235,17 +224,11 @@
         <mxCell id="X6wlxV_FrzrZ-9Moiesy-10" value="&lt;div&gt;Check description for password&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;cme&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="1221" y="550" width="154" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="OzdCo0pd7L-W225KIUEy-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#2a7bde;" parent="1" source="OzdCo0pd7L-W225KIUEy-1" target="OzdCo0pd7L-W225KIUEy-3" edge="1">
+        <mxCell id="hefA_bYV9p1Cq4kSP_zY-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OzdCo0pd7L-W225KIUEy-3" target="hefA_bYV9p1Cq4kSP_zY-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_LFIwpbgAgwoRebmZAz1-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#e51400;strokeColor=#B20000;strokeWidth=3;" parent="1" source="OzdCo0pd7L-W225KIUEy-1" target="_LFIwpbgAgwoRebmZAz1-4" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="OzdCo0pd7L-W225KIUEy-1" value="&lt;div&gt;Check where smb signing is not active to relay to them&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;cme&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="600" y="580" width="140" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="OzdCo0pd7L-W225KIUEy-3" value="&lt;div&gt;RELAY TO SMB&lt;br&gt;&lt;/div&gt;&lt;div&gt;- credentials dump (SAM) if admin captured&lt;br&gt;&lt;/div&gt;&lt;div&gt;-Cmd exec&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="840" y="575" width="210" height="90" as="geometry" />
+        <mxCell id="OzdCo0pd7L-W225KIUEy-3" value="&lt;div&gt;RELAY TO SMB&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- credentials dump (SAM) if admin&lt;br&gt;&lt;/div&gt;&lt;div&gt;-Cmd exec&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="620" y="590" width="260" height="90" as="geometry" />
         </mxCell>
         <mxCell id="eT468RpVeFGScJ7yV71r-1" value="Rogue DNS IPV6" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="590" y="1005" width="120" height="60" as="geometry" />
@@ -276,7 +259,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_LFIwpbgAgwoRebmZAz1-4" value="&lt;div&gt;&lt;b&gt;RELAY TO HTTP&lt;br&gt;ADCS&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;ESC8&lt;/b&gt; : web enrollement is up ?&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;certipy find -u user@domain.local -p pass -dc-ip [ip] -vulnerable&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="840" y="710" width="360" height="70" as="geometry" />
+          <mxGeometry x="623" y="710" width="360" height="70" as="geometry" />
         </mxCell>
         <mxCell id="_LFIwpbgAgwoRebmZAz1-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;fillColor=#e51400;strokeColor=#B20000;" parent="1" source="_LFIwpbgAgwoRebmZAz1-7" target="_LFIwpbgAgwoRebmZAz1-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -288,10 +271,16 @@
           <mxGeometry x="1490" y="715" width="120" height="60" as="geometry" />
         </mxCell>
         <object label="&lt;div&gt;Analyse all signature of protocols (see image link )&lt;/div&gt;" url="https://3210236927-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MHRw3PMJtbDDjbxm5ub%2Fuploads%2FMEMuGPBPviYyGAQfwdqp%2FNTLM%20relay.png?alt=media&amp;token=554b6390-8f85-4d35-8fcc-7b5aa32f2933" id="PlF_5Av3JbAmQtxcSVRH-7">
-          <mxCell style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;strokeColor=#e5a50a;" vertex="1" parent="1">
+          <mxCell style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;strokeColor=#e5a50a;" parent="1" vertex="1">
             <mxGeometry x="610" y="800" width="140" height="80" as="geometry" />
           </mxCell>
         </object>
+        <mxCell id="hefA_bYV9p1Cq4kSP_zY-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.835;entryY=0.963;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hefA_bYV9p1Cq4kSP_zY-1" target="y5aqqQjo2jUjklV6V6uS-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hefA_bYV9p1Cq4kSP_zY-1" value="Prerequisites :Signing not REQUIRED" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="920" y="605" width="150" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
