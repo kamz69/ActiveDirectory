@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T09:23:51.798Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0" etag="uCN_bFy7Wn8JCvLLWtpQ" version="21.3.7" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-06-16T09:05:31.614Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="5bCg79w8CR9ksftzh6GQ" version="21.3.7" type="github" pages="7">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
     <mxGraphModel dx="3083" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -582,7 +582,7 @@
         <mxCell id="MJ77XQNaUq2IchNajp4j-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="MJ77XQNaUq2IchNajp4j-1" target="Iw_T4d_-wb4pz08Lo9XD-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <object label="&lt;div&gt;Search passwords in shares&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;cme&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" dump_files="crackmapexec smb 10.10.11.187 -u S.Moon -p &#39;S@Ss!K@*t13&#39; -M spider_plus -o READ_ONLY=false" search_in_dump="grep -rn &quot;ntlm&quot; /tmp/cme_spider_plus/10.10.11.187/" id="MJ77XQNaUq2IchNajp4j-1">
+        <object label="&lt;div&gt;Search passwords in shares&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;cme&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" cmd="manspider --threads 50 192.168.56.0/2│&#xa;4 -d north.sevenkingdoms.local -u hodor -p hodor --content &quot;login&quot; &quot;password =&quot; &quot;mot de passe&quot;" id="MJ77XQNaUq2IchNajp4j-1">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#ffc000;" parent="1" vertex="1">
             <mxGeometry x="-220" y="341" width="170" height="60" as="geometry" />
           </mxCell>
