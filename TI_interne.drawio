@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-16T09:05:31.614Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="5bCg79w8CR9ksftzh6GQ" version="21.3.7" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-07-04T13:58:57.668Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="P7ZjE5Sxef7RqQHmHj-x" version="21.3.7" type="github" pages="7">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
-    <mxGraphModel dx="3083" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="3083" dy="1035" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -80,7 +80,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9fB0GFrZQWABB-8gzhsE" name="From no creds">
-    <mxGraphModel dx="3083" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="3083" dy="1035" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -309,7 +309,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="from creds" id="U4GICPjlUHhETOjYcaq2">
-    <mxGraphModel dx="2741" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2741" dy="1035" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -468,9 +468,11 @@
         <mxCell id="ezBXcHe37mE9WKMKeRkE-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;strokeColor=#ff3333;strokeWidth=3;" parent="1" source="ezBXcHe37mE9WKMKeRkE-1" target="orcKsDgMiDMdKtN4nEvD-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ezBXcHe37mE9WKMKeRkE-1" value="&lt;div&gt;SAMAccountName Spoofing&lt;/div&gt;&lt;div&gt;CVE-2021-42278 and CVE-2021-42287&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;nopac.py&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-420" y="1150" width="180" height="70" as="geometry" />
-        </mxCell>
+        <object label="&lt;div&gt;SAMAccountName Spoofing&lt;/div&gt;&lt;div&gt;CVE-2021-42278 and CVE-2021-42287&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;nopac.py&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" check="python3 scanner.py group.int/curbano:Nem│[Jul 04, 2023 - 15:08:19 (CEST)] exegol-nemera /workspace # bloodhound-quickwin -u neo4j -p ex&#xa;era2023! -dc-ip 10.8.58.39" id="ezBXcHe37mE9WKMKeRkE-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#e5a50a;" parent="1" vertex="1">
+            <mxGeometry x="-420" y="1150" width="180" height="70" as="geometry" />
+          </mxCell>
+        </object>
         <mxCell id="ezBXcHe37mE9WKMKeRkE-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#f0f0f0;strokeWidth=1;fontColor=#2a7bde;" parent="1" source="ezBXcHe37mE9WKMKeRkE-4" target="ezBXcHe37mE9WKMKeRkE-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
