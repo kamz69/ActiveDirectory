@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-05T10:11:59.979Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="_4E3O8YwNOetPJ-ydVnj" version="21.3.7" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-07-05T10:17:39.682Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="k7ThfNNybs4T6_GdBtPo" version="21.3.7" type="github" pages="7">
   <diagram id="OxgtQte6AoLRu1fJhFKF" name="Reconnaissance">
     <mxGraphModel dx="3083" dy="1035" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -454,9 +454,11 @@
         <mxCell id="Shlw0z85vV4mLwR04esC-3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontColor=#2a7bde;" parent="1" source="Shlw0z85vV4mLwR04esC-1" target="Iw_T4d_-wb4pz08Lo9XD-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Shlw0z85vV4mLwR04esC-1" value="&lt;div&gt;Check description for password&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;cme&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry y="605" width="154" height="90" as="geometry" />
-        </mxCell>
+        <object label="&lt;div&gt;Check description for password&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;cme&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" cmd="cme ldap &quot;10.8.58.39&quot; -d &quot;group.int&quot; -u &quot;curbano&quot; -p &#39;Nemera2023!&#39; -M get-desc-users | grep &#39;pass&#39;" id="Shlw0z85vV4mLwR04esC-1">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;strokeColor=#e5a50a;" parent="1" vertex="1">
+            <mxGeometry y="605" width="154" height="90" as="geometry" />
+          </mxCell>
+        </object>
         <mxCell id="ZDy4xXztmy_Uh2uV_-2A-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZDy4xXztmy_Uh2uV_-2A-1" target="ZDy4xXztmy_Uh2uV_-2A-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -472,7 +474,7 @@
         <mxCell id="ezBXcHe37mE9WKMKeRkE-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;strokeColor=#ff3333;strokeWidth=3;" parent="1" source="ezBXcHe37mE9WKMKeRkE-1" target="orcKsDgMiDMdKtN4nEvD-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <object label="&lt;div&gt;SAMAccountName Spoofing&lt;/div&gt;&lt;div&gt;CVE-2021-42278 and CVE-2021-42287&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;nopac.py&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" check="python3 scanner.py group.int/curbano:Nem│[Jul 04, 2023 - 15:08:19 (CEST)] exegol-nemera /workspace # bloodhound-quickwin -u neo4j -p ex&#xa;era2023! -dc-ip 10.8.58.39" id="ezBXcHe37mE9WKMKeRkE-1">
+        <object label="&lt;div&gt;SAMAccountName Spoofing&lt;/div&gt;&lt;div&gt;CVE-2021-42278 and CVE-2021-42287&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;nopac.py&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" check="python3 scanner.py group.int/curbano:Nemera2023! -dc-ip 10.8.58.39" id="ezBXcHe37mE9WKMKeRkE-1">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#e5a50a;" parent="1" vertex="1">
             <mxGeometry x="-420" y="1150" width="180" height="70" as="geometry" />
           </mxCell>
