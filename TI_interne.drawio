@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-23T09:27:26.085Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="TxVGDY1ifBKx6yLIKQ-a" version="22.1.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-11-23T11:05:02.227Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="zAOdXZreukrlzRxyJxdB" version="22.1.3" type="github" pages="7">
   <diagram name="Reconnaissance" id="l6uARz4Kyqoon4gwFnSB">
     <mxGraphModel dx="1434" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -348,9 +348,11 @@
         <mxCell id="3LOWyAd33K374xAvLqeN-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;fontColor=#ffbe6f;" parent="1" source="5y5mrsRL2AuuEaPEtIoS-7" target="5y5mrsRL2AuuEaPEtIoS-63" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5y5mrsRL2AuuEaPEtIoS-7" value="Enumération AD&lt;br style=&quot;font-size: 13px;&quot;&gt;Bloodhound" style="whiteSpace=wrap;html=1;rounded=1;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="-413" y="700" width="120" height="60" as="geometry" />
-        </mxCell>
+        <object label="Enumération AD&lt;br style=&quot;font-size: 13px;&quot;&gt;Bloodhound" cmd="bloodhound.py --zip -c All -d $DOMAIN -u $USERNAME -p $PASSWORD -dc $DOMAIN_CONTROLLER" id="5y5mrsRL2AuuEaPEtIoS-7">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;fontSize=13;strokeColor=#e5a50a;" parent="1" vertex="1">
+            <mxGeometry x="-413" y="700" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
         <mxCell id="5y5mrsRL2AuuEaPEtIoS-27" value="&lt;div&gt;Kerberoasting&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;GetUserSPNs.py&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;&lt;font color=&quot;#dc8add&quot;&gt;Get hash of all services accounts&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="-413" y="805" width="170" height="100" as="geometry" />
         </mxCell>
