@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-11T09:49:08.873Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 12_5_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15" etag="egRE_E1fvJtdPmlX4zTb" version="22.1.18" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-01-12T14:44:06.908Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 12_5_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15" etag="Y7QxH_EnHqSTIwjCKO5g" version="22.1.18" type="github" pages="7">
   <diagram name="Reconnaissance" id="l6uARz4Kyqoon4gwFnSB">
     <mxGraphModel dx="1434" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -73,7 +73,7 @@
         <mxCell id="gGPnzEUqgYNmDZAv7QP8-24" value="&lt;code&gt;&lt;pre&gt;certipy find -u khal.drogo@essos.local -p &lt;span class=&quot;s1&quot;&gt;&#39;horse&#39;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-dc-ip&lt;/span&gt; [DC IP]&lt;/pre&gt;&lt;/code&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="450" y="675" width="500" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="KOD-KBh_Biia0c4FGPg_-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gGPnzEUqgYNmDZAv7QP8-25" target="gGPnzEUqgYNmDZAv7QP8-24">
+        <mxCell id="KOD-KBh_Biia0c4FGPg_-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="gGPnzEUqgYNmDZAv7QP8-25" target="gGPnzEUqgYNmDZAv7QP8-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gGPnzEUqgYNmDZAv7QP8-25" value="Enum ADCS" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -323,13 +323,13 @@
         <mxCell id="D0Nr5EjnPLK_zhP2Ymg5-1" value="Quick compromission CVE" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="210" y="10" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="B9babmQNDwbTDUQ_FJxj-1" value="&lt;div&gt;Zerologon&lt;/div&gt;&lt;div&gt;scan : zerologon-scan &#39;MEEREEN&#39; &#39;192.168.56.12&#39;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+        <mxCell id="B9babmQNDwbTDUQ_FJxj-1" value="&lt;div&gt;Zerologon (DC attack)&lt;br&gt;&lt;/div&gt;&lt;div&gt;scan : zerologon-scan &#39;MEEREEN&#39; &#39;192.168.56.12&#39;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="500" y="-50" width="330" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="B9babmQNDwbTDUQ_FJxj-3" value="&lt;div&gt;Eternal blue&lt;br&gt;&lt;/div&gt;&lt;div&gt;msf : use auxiliary/scanner/smb/smb_ms17_010&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+        <mxCell id="B9babmQNDwbTDUQ_FJxj-3" value="&lt;div&gt;Eternal blue (SMB)&lt;br&gt;&lt;/div&gt;&lt;div&gt;if SMB 445 open and win7 unpached&lt;br&gt;&lt;/div&gt;&lt;div&gt;msf : use auxiliary/scanner/smb/smb_ms17_010&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="500" y="30" width="330" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YuLqMhThGjyk4l6yUaQI-1" value="Bluekeep RDP RCE (win 7 et 2008)" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+        <mxCell id="YuLqMhThGjyk4l6yUaQI-1" value="Bluekeep (RDP) RCE (win 7 et 2008)" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="500" y="-150" width="330" height="60" as="geometry" />
         </mxCell>
       </root>
@@ -832,7 +832,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Lateral mouvement" id="8egK0x-ltnkDFjprNt1K">
-    <mxGraphModel dx="1674" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
