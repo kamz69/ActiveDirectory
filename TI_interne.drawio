@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-01T17:18:19.369Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="thuujS8zhi0gfLlMhecZ" version="23.1.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-03-01T17:18:27.443Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="tX52k-oq8VkA6Yg9p0qs" version="23.1.6" type="github" pages="8">
   <diagram name="Reconnaissance" id="l6uARz4Kyqoon4gwFnSB">
     <mxGraphModel dx="1194" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -867,7 +867,7 @@
           <mxGeometry x="920" y="333.75" width="210" height="62.5" as="geometry" />
         </mxCell>
         <object label="Printspoofer" cmd=".\PrintSpoofer64.exe -i -c powershell.exe" id="jzq9HZ4WNqnn6DcPguP3-2">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#e5a50a;" vertex="1" parent="1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#e5a50a;" vertex="1" parent="1">
             <mxGeometry x="1190" y="340" width="210" height="62.5" as="geometry" />
           </mxCell>
         </object>
