@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-04T13:35:30.087Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="ZjOF49YvIK2VchIe-OKv" version="23.1.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-03-04T13:35:41.180Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="hUEal63v92XWkEqZHtgJ" version="23.1.6" type="github" pages="8">
   <diagram name="Reconnaissance" id="l6uARz4Kyqoon4gwFnSB">
     <mxGraphModel dx="1434" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -68,7 +68,7 @@
           <mxGeometry x="250" y="590" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gGPnzEUqgYNmDZAv7QP8-23" value="&lt;font color=&quot;#000000&quot;&gt;enum4linux-ng [DC-IP]&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#000000&quot;&gt;#From windows machine on the domain&lt;br&gt;&amp;nbsp;net accounts&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontColor=#2a7bde;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="450" y="590" width="330" height="60" as="geometry" />
+          <mxGeometry x="450" y="585" width="330" height="70" as="geometry" />
         </mxCell>
         <mxCell id="gGPnzEUqgYNmDZAv7QP8-24" value="&lt;code&gt;&lt;pre&gt;certipy find -u khal.drogo@essos.local -p &lt;span class=&quot;s1&quot;&gt;&#39;horse&#39;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-dc-ip&lt;/span&gt; [DC IP]&lt;/pre&gt;&lt;/code&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="450" y="675" width="500" height="70" as="geometry" />
