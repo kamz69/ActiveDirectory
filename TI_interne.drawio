@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-07T16:40:30.750Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="IKYysWGtXfbLw85Pm3QS" version="24.0.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-03-07T16:47:00.635Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="zniOl869yiQN-IrOAgre" version="24.0.1" type="github" pages="8">
   <diagram name="Reconnaissance" id="l6uARz4Kyqoon4gwFnSB">
     <mxGraphModel dx="1687" dy="847" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -268,6 +268,11 @@
         </mxCell>
         <mxCell id="tifHhTxGpsnXKPDGpU3I-10" value="&lt;b&gt;DOMAIN ADMIN&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="tifHhTxGpsnXKPDGpU3I-5" vertex="1" connectable="0">
           <mxGeometry x="-0.5751" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="72c7FH2ySeNPRLscJRKj-1" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="tifHhTxGpsnXKPDGpU3I-5">
+          <mxGeometry x="0.6129" y="-1" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
