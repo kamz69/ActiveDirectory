@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-27T10:32:14.763Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="XotgUG2eBrW2ma8tgJwU" version="24.0.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-03-28T11:51:37.112Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="6L1d8IrjPOnoNV9bGF8y" version="24.2.0" type="github" pages="7">
   <diagram name="Reconnaissance" id="l6uARz4Kyqoon4gwFnSB">
-    <mxGraphModel dx="1434" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -49,6 +49,9 @@
         <mxCell id="gGPnzEUqgYNmDZAv7QP8-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="gGPnzEUqgYNmDZAv7QP8-17" target="gGPnzEUqgYNmDZAv7QP8-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="l9urtuWnYjKsEM7TNLM6-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gGPnzEUqgYNmDZAv7QP8-17" target="l9urtuWnYjKsEM7TNLM6-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="gGPnzEUqgYNmDZAv7QP8-17" value="Enum" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#a20025;strokeColor=#6F0000;" parent="1" vertex="1">
           <mxGeometry x="30" y="440" width="120" height="60" as="geometry" />
         </mxCell>
@@ -79,11 +82,17 @@
         <mxCell id="gGPnzEUqgYNmDZAv7QP8-25" value="Enum ADCS" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="680" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="l9urtuWnYjKsEM7TNLM6-1" value="Enum windows netbios names" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="760" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l9urtuWnYjKsEM7TNLM6-2" value="cme smb 192.168.229.0/24" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="767" width="490" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="From no creds" id="es25xRgdZYHL0BZce3pH">
-    <mxGraphModel dx="2603" dy="1497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2603" dy="1620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -143,17 +152,17 @@
             <mxPoint x="570" y="90" as="sourcePoint" />
             <mxPoint x="1735" y="158.75" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="570" y="110" />
-              <mxPoint x="1736" y="110" />
+              <mxPoint x="1736" y="90" />
               <mxPoint x="1736" y="159" />
+              <mxPoint x="1735" y="159" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="y5aqqQjo2jUjklV6V6uS-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#ffa348;" parent="1" source="FLfiycKaQOmbqjivF0rp-3" target="1S_cvOo1YeR9LOM_VgR6-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FLfiycKaQOmbqjivF0rp-3" value="&lt;div&gt;Find open smb share&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;1ip :smbclient &lt;span class=&quot;r-crgep1 r-18y5qoh&quot; data-offset-key=&quot;cbe3eaac303e4e26a00f9dbef03ff262:1&quot; data-slate-leaf=&quot;true&quot; data-highlighting=&quot;parameter variable&quot;&gt;--list&lt;/span&gt;&lt;span data-offset-key=&quot;cbe3eaac303e4e26a00f9dbef03ff262:2&quot;&gt; //&lt;/span&gt;&lt;span data-slate-fragment=&quot;JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJjb2RlLWxpbmUlMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMnNtYmNsaWVudCUyMC0tbGlzdCUyMCUyRiUyRiUyNElQJTIyJTJDJTIybWFya3MlMjIlM0ElNUIlNUQlMkMlMjJzZWxlY3Rpb25zJTIyJTNBJTVCJTVEJTdEJTVEJTJDJTIya2V5JTIyJTNBJTIyMjRmOTNjNjU2NzkxNDI3ZjhkYzdmMmU1ZmVkYmIwNGQlMjIlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjI3ODVmYWYzMjZlMDk0N2RkOWYwMDJhMmMzNDBlOTA3ZCUyMiU3RCU1RCUyQyUyMmtleSUyMiUzQSUyMjYyMWIwNjdmYzBiYjQ1ODg5OTlkMTdkYjZmNTQxMmM2JTIyJTdE&quot; class=&quot;r-crgep1 r-18y5qoh&quot; data-offset-key=&quot;cbe3eaac303e4e26a00f9dbef03ff262:3&quot; data-slate-leaf=&quot;true&quot; data-highlighting=&quot;variable&quot;&gt;$IP&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;&lt;span data-slate-fragment=&quot;JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJjb2RlLWxpbmUlMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMnNtYmNsaWVudCUyMC0tbGlzdCUyMCUyRiUyRiUyNElQJTIyJTJDJTIybWFya3MlMjIlM0ElNUIlNUQlMkMlMjJzZWxlY3Rpb25zJTIyJTNBJTVCJTVEJTdEJTVEJTJDJTIya2V5JTIyJTNBJTIyMjRmOTNjNjU2NzkxNDI3ZjhkYzdmMmU1ZmVkYmIwNGQlMjIlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjI3ODVmYWYzMjZlMDk0N2RkOWYwMDJhMmMzNDBlOTA3ZCUyMiU3RCU1RCUyQyUyMmtleSUyMiUzQSUyMjYyMWIwNjdmYzBiYjQ1ODg5OTlkMTdkYjZmNTQxMmM2JTIyJTdE&quot; class=&quot;r-crgep1 r-18y5qoh&quot; data-offset-key=&quot;cbe3eaac303e4e26a00f9dbef03ff262:3&quot; data-slate-leaf=&quot;true&quot; data-highlighting=&quot;variable&quot;&gt;range : cme smb -u &#39;&#39; -p &#39;&#39; --shares 192.168.0.0/16&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
-          <mxGeometry x="190" y="92.5" width="380" height="67.5" as="geometry" />
+        <mxCell id="FLfiycKaQOmbqjivF0rp-3" value="&lt;div&gt;Find open smb share&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;1ip :smbclient &lt;span class=&quot;r-crgep1 r-18y5qoh&quot; data-offset-key=&quot;cbe3eaac303e4e26a00f9dbef03ff262:1&quot; data-slate-leaf=&quot;true&quot; data-highlighting=&quot;parameter variable&quot;&gt;--list&lt;/span&gt;&lt;span data-offset-key=&quot;cbe3eaac303e4e26a00f9dbef03ff262:2&quot;&gt; //&lt;/span&gt;&lt;span data-slate-fragment=&quot;JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJjb2RlLWxpbmUlMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMnNtYmNsaWVudCUyMC0tbGlzdCUyMCUyRiUyRiUyNElQJTIyJTJDJTIybWFya3MlMjIlM0ElNUIlNUQlMkMlMjJzZWxlY3Rpb25zJTIyJTNBJTVCJTVEJTdEJTVEJTJDJTIya2V5JTIyJTNBJTIyMjRmOTNjNjU2NzkxNDI3ZjhkYzdmMmU1ZmVkYmIwNGQlMjIlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjI3ODVmYWYzMjZlMDk0N2RkOWYwMDJhMmMzNDBlOTA3ZCUyMiU3RCU1RCUyQyUyMmtleSUyMiUzQSUyMjYyMWIwNjdmYzBiYjQ1ODg5OTlkMTdkYjZmNTQxMmM2JTIyJTdE&quot; class=&quot;r-crgep1 r-18y5qoh&quot; data-offset-key=&quot;cbe3eaac303e4e26a00f9dbef03ff262:3&quot; data-slate-leaf=&quot;true&quot; data-highlighting=&quot;variable&quot;&gt;$IP&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;&lt;span data-slate-fragment=&quot;JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJjb2RlLWxpbmUlMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMnNtYmNsaWVudCUyMC0tbGlzdCUyMCUyRiUyRiUyNElQJTIyJTJDJTIybWFya3MlMjIlM0ElNUIlNUQlMkMlMjJzZWxlY3Rpb25zJTIyJTNBJTVCJTVEJTdEJTVEJTJDJTIya2V5JTIyJTNBJTIyMjRmOTNjNjU2NzkxNDI3ZjhkYzdmMmU1ZmVkYmIwNGQlMjIlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjI3ODVmYWYzMjZlMDk0N2RkOWYwMDJhMmMzNDBlOTA3ZCUyMiU3RCU1RCUyQyUyMmtleSUyMiUzQSUyMjYyMWIwNjdmYzBiYjQ1ODg5OTlkMTdkYjZmNTQxMmM2JTIyJTdE&quot; class=&quot;r-crgep1 r-18y5qoh&quot; data-offset-key=&quot;cbe3eaac303e4e26a00f9dbef03ff262:3&quot; data-slate-leaf=&quot;true&quot; data-highlighting=&quot;variable&quot;&gt;range : cme smb -u &#39;&#39; -p &#39;&#39; --shares 192.168.0.0/16&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;br&gt;&lt;br&gt;Find anonymous share&lt;br&gt;&lt;font color=&quot;#4a86e8&quot;&gt;&lt;span data-slate-fragment=&quot;JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJjb2RlLWxpbmUlMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMnNtYmNsaWVudCUyMC0tbGlzdCUyMCUyRiUyRiUyNElQJTIyJTJDJTIybWFya3MlMjIlM0ElNUIlNUQlMkMlMjJzZWxlY3Rpb25zJTIyJTNBJTVCJTVEJTdEJTVEJTJDJTIya2V5JTIyJTNBJTIyMjRmOTNjNjU2NzkxNDI3ZjhkYzdmMmU1ZmVkYmIwNGQlMjIlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjI3ODVmYWYzMjZlMDk0N2RkOWYwMDJhMmMzNDBlOTA3ZCUyMiU3RCU1RCUyQyUyMmtleSUyMiUzQSUyMjYyMWIwNjdmYzBiYjQ1ODg5OTlkMTdkYjZmNTQxMmM2JTIyJTdE&quot; class=&quot;r-crgep1 r-18y5qoh&quot; data-offset-key=&quot;cbe3eaac303e4e26a00f9dbef03ff262:3&quot; data-slate-leaf=&quot;true&quot; data-highlighting=&quot;variable&quot;&gt;range : cme smb -u &#39;anonymous&#39; -p &#39;anonymous&#39; --shares 192.168.0.0/16&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="-20" width="490" height="167.5" as="geometry" />
         </mxCell>
         <mxCell id="1S_cvOo1YeR9LOM_VgR6-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#000000;startSize=8;endSize=8;" parent="1" source="1S_cvOo1YeR9LOM_VgR6-3" target="q669wVBJVDhqwRxZ6Rot-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -339,19 +348,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="D0Nr5EjnPLK_zhP2Ymg5-1" value="Quick compromission CVE" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="210" y="10" width="180" height="60" as="geometry" />
+          <mxGeometry x="210" y="-140" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B9babmQNDwbTDUQ_FJxj-1" value="&lt;div&gt;Zerologon (DC attack)&lt;br&gt;&lt;/div&gt;&lt;div&gt;scan : zerologon-scan &#39;MEEREEN&#39; &#39;192.168.56.12&#39;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="500" y="-50" width="330" height="60" as="geometry" />
+          <mxGeometry x="500" y="-200" width="330" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B9babmQNDwbTDUQ_FJxj-3" value="&lt;div&gt;Eternal blue (SMB)&lt;br&gt;&lt;/div&gt;&lt;div&gt;if SMB 445 open and win7 unpached&lt;/div&gt;&lt;div&gt;need open smb share &lt;br&gt;&lt;/div&gt;&lt;div&gt;msf : use windows/smb/ms17_010_eternalblue&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="500" y="30" width="330" height="60" as="geometry" />
+          <mxGeometry x="500" y="-120" width="330" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YuLqMhThGjyk4l6yUaQI-1" value="Bluekeep (RDP) RCE (win 7 et 2008)" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="500" y="-150" width="330" height="60" as="geometry" />
+          <mxGeometry x="500" y="-300" width="330" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uSAMaLs1ly5iVUIFKPd6-1" value="&lt;div&gt;TOMCAT manager bruteforce&lt;br&gt;&lt;pre class=&quot;programlisting&quot;&gt;&lt;strong&gt;use auxiliary/scanner/http/tomcat_mgr_login&lt;/strong&gt;&lt;/pre&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="500" y="-230" width="330" height="60" as="geometry" />
+          <mxGeometry x="500" y="-380" width="330" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vb0LG8Mru1kXp_7aFiLo-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;strokeColor=#813d9c;strokeWidth=2;" parent="1" source="vb0LG8Mru1kXp_7aFiLo-3" target="q669wVBJVDhqwRxZ6Rot-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
