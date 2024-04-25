@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-28T11:59:05.865Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="yTUP5k2QRliv4vaKwqqD" version="24.2.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-04-25T08:51:49.758Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="M_BqA9dUJParJEgUuMQ-" version="24.2.8" type="github" pages="7">
   <diagram name="Reconnaissance" id="l6uARz4Kyqoon4gwFnSB">
-    <mxGraphModel dx="1434" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -49,7 +49,7 @@
         <mxCell id="gGPnzEUqgYNmDZAv7QP8-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="gGPnzEUqgYNmDZAv7QP8-17" target="gGPnzEUqgYNmDZAv7QP8-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="l9urtuWnYjKsEM7TNLM6-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gGPnzEUqgYNmDZAv7QP8-17" target="l9urtuWnYjKsEM7TNLM6-1">
+        <mxCell id="l9urtuWnYjKsEM7TNLM6-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="gGPnzEUqgYNmDZAv7QP8-17" target="l9urtuWnYjKsEM7TNLM6-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gGPnzEUqgYNmDZAv7QP8-17" value="Enum" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#a20025;strokeColor=#6F0000;" parent="1" vertex="1">
@@ -82,17 +82,17 @@
         <mxCell id="gGPnzEUqgYNmDZAv7QP8-25" value="Enum ADCS" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="680" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="l9urtuWnYjKsEM7TNLM6-1" value="Enum windows netbios names" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="l9urtuWnYjKsEM7TNLM6-1" value="Enum windows netbios names" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="760" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="l9urtuWnYjKsEM7TNLM6-2" value="cme smb 192.168.229.0/24" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="l9urtuWnYjKsEM7TNLM6-2" value="cme smb 192.168.229.0/24" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="767" width="490" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="From no creds" id="es25xRgdZYHL0BZce3pH">
-    <mxGraphModel dx="2603" dy="1620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2603" dy="1497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -378,7 +378,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="from creds" id="DHAbqxUyTUS8Uim03K_V">
-    <mxGraphModel dx="2261" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -752,14 +752,28 @@
         <mxCell id="591YWBLoRLkE_oBIO_oH-3" value="&lt;div&gt;Relay to HTTPS&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;#EAP enabled for HTTPS&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-275" y="2230" width="215" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="MMLIt14sY60JNd-TKhzJ-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="360" y="1610" width="160" height="80" as="geometry" />
-        </mxCell>
         <object label="Construction d&#39;une liste de target SMB not signed avec CME" id="MMLIt14sY60JNd-TKhzJ-5">
           <mxCell style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;strokeColor=#000000;" parent="1" vertex="1">
             <mxGeometry x="-34" y="1951.25" width="190" height="102.5" as="geometry" />
           </mxCell>
         </object>
+        <mxCell id="H_z4bmANt5R1pQbrDLUx-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H_z4bmANt5R1pQbrDLUx-1" target="H_z4bmANt5R1pQbrDLUx-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H_z4bmANt5R1pQbrDLUx-1" value="&lt;div&gt;&lt;b&gt;ESC8&lt;/b&gt; : web enrollement is up ?&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="1660" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="H_z4bmANt5R1pQbrDLUx-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="H_z4bmANt5R1pQbrDLUx-2" target="H_z4bmANt5R1pQbrDLUx-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object label="&lt;div&gt;relay to the web enrollement ADCS&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;ntlmrelay.py&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" cmd="ntlmrelayx.py -t http://192.168.56.23/certsrv/certfnsh.asp -smb2support --adcs --template DomainController" id="H_z4bmANt5R1pQbrDLUx-2">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#e5a50a;" vertex="1" parent="1">
+            <mxGeometry x="95" y="1660" width="180" height="70" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="H_z4bmANt5R1pQbrDLUx-3" value="Get the certificate" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1665" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
