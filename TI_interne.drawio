@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-26T11:49:56.018Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="urU3HBlTGhMqIxHVAqBH" version="24.2.8" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-04-26T12:03:22.216Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="pHvCQlp11FbsrFjjzSGp" version="24.2.8" type="github" pages="7">
   <diagram name="Reconnaissance" id="l6uARz4Kyqoon4gwFnSB">
     <mxGraphModel dx="1434" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -311,9 +311,11 @@
         <mxCell id="A1-m0vl6AtPKf8VYdlRc-2" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="hefA_bYV9p1Cq4kSP_zY-9" target="OzdCo0pd7L-W225KIUEy-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hefA_bYV9p1Cq4kSP_zY-9" value="&lt;div&gt;Relay to SMB&lt;br&gt;&lt;/div&gt;&lt;br&gt;Prerequisites :SMB Signing &lt;b&gt;not REQUIRED&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="1164" y="550" width="190" height="90" as="geometry" />
-        </mxCell>
+        <object label="&lt;div&gt;Relay to SMB&lt;br&gt;&lt;/div&gt;&lt;br&gt;Prerequisites :SMB Signing &lt;b&gt;not REQUIRED&lt;/b&gt;" cmd="ntlmrelayx -tf  smb_targets.txt -smb2support -socks" id="hefA_bYV9p1Cq4kSP_zY-9">
+          <mxCell style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;strokeColor=#e5a50a;" parent="1" vertex="1">
+            <mxGeometry x="1164" y="550" width="190" height="90" as="geometry" />
+          </mxCell>
+        </object>
         <mxCell id="hefA_bYV9p1Cq4kSP_zY-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;strokeColor=#cc0000;" parent="1" source="hefA_bYV9p1Cq4kSP_zY-10" target="hefA_bYV9p1Cq4kSP_zY-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
