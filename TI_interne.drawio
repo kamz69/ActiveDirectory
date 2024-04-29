@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-29T09:50:19.191Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="Wj35ZSB9o6e1tW3-wsZC" version="24.2.8" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-04-29T14:57:24.627Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="0ld2bA7J60X1KFmQihIi" version="24.2.8" type="github" pages="7">
   <diagram name="Reconnaissance" id="l6uARz4Kyqoon4gwFnSB">
     <mxGraphModel dx="1434" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -561,9 +561,6 @@
             <mxGeometry x="-420" y="1150" width="180" height="70" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="ezBXcHe37mE9WKMKeRkE-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#f0f0f0;strokeWidth=1;fontColor=#2a7bde;" parent="1" source="ezBXcHe37mE9WKMKeRkE-4" target="ezBXcHe37mE9WKMKeRkE-14" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="ezBXcHe37mE9WKMKeRkE-4" value="KRBTGT hash" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#520700;strokeColor=#B20000;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="1270" y="575" width="160" height="72.5" as="geometry" />
         </mxCell>
