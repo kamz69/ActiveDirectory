@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-30T10:12:46.004Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="JkOqQjrpp54OkAImKsia" version="24.2.8" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-04-30T10:15:24.307Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="tw92joP3q5pWHayL7yyD" version="24.3.1" type="github" pages="7">
   <diagram name="Reconnaissance" id="l6uARz4Kyqoon4gwFnSB">
     <mxGraphModel dx="1434" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -88,11 +88,11 @@
         <mxCell id="l9urtuWnYjKsEM7TNLM6-2" value="cme smb 192.168.229.0/24" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="455" y="820" width="490" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nLXafekM-bpuhdaV1nyY-2" value="extract certi ADCS for bloodhound" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nLXafekM-bpuhdaV1nyY-2" value="extract certi ADCS for bloodhound" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="750" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nLXafekM-bpuhdaV1nyY-3" value="certipy find -u pentest_capgemini@olympiquelyonnais.com -p &lt;br&gt;&#39;pass&#39; -dc-ip 10.240.5.1 -vulnerable -old-bloodhound" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="750" width="430" height="60" as="geometry" />
+        <mxCell id="nLXafekM-bpuhdaV1nyY-3" value="certipy find -u pentest_capgemini@olympiquelyonnais.com -p &#39;pass&#39; -dc-ip 10.240.5.1 -vulnerable -old-bloodhound" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="750" width="630" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
