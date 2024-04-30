@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-30T11:22:08.660Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="ZD0HKqR2x5J5R6CYqq7G" version="24.3.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-04-30T11:23:29.829Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="rYgAMF_NH7qtDR5FGuec" version="24.3.1" type="github" pages="7">
   <diagram name="Reconnaissance" id="l6uARz4Kyqoon4gwFnSB">
     <mxGraphModel dx="1434" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -417,6 +417,9 @@
             <mxGeometry x="2554" y="1010" width="120" height="60" as="geometry" />
           </mxCell>
         </object>
+        <mxCell id="LUB5KluwDhGO-CHIsPKq-7" value="Forge TGS (silver ticket" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2950" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
