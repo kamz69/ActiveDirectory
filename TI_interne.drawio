@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-30T11:41:14.064Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="eXk42uSy7Poj0_OXthFd" version="24.3.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-04-30T11:42:11.274Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="LKR7zFjpKjNiiz9lk0qq" version="24.3.1" type="github" pages="7">
   <diagram name="Reconnaissance" id="l6uARz4Kyqoon4gwFnSB">
     <mxGraphModel dx="1434" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -385,7 +385,7 @@
           </mxCell>
         </object>
         <mxCell id="RcJsrnn1SgcJtgKbqCFV-1" value="Domain Admin right" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#c64600;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="2510" y="180" width="150" height="87.5" as="geometry" />
+          <mxGeometry x="3098" y="251.25" width="150" height="87.5" as="geometry" />
         </mxCell>
         <mxCell id="RcJsrnn1SgcJtgKbqCFV-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RcJsrnn1SgcJtgKbqCFV-2" target="RcJsrnn1SgcJtgKbqCFV-4">
           <mxGeometry relative="1" as="geometry" />
@@ -420,9 +420,20 @@
             <mxGeometry x="2554" y="1010" width="120" height="60" as="geometry" />
           </mxCell>
         </object>
+        <mxCell id="LUB5KluwDhGO-CHIsPKq-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LUB5KluwDhGO-CHIsPKq-7" target="LUB5KluwDhGO-CHIsPKq-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <object label="Forge TGS (silver ticket" spn_WINRM="getST.py -self -impersonate MHADM -altservice HOST/DC01.olympiquelyonnais.com -k -no-pass -dc-ip 10.240.5.1 olympiquelyonnais.com/DC01$" id="LUB5KluwDhGO-CHIsPKq-7">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#e5a50a;" vertex="1" parent="1">
             <mxGeometry x="2940" y="1085" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="LUB5KluwDhGO-CHIsPKq-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="LUB5KluwDhGO-CHIsPKq-9" target="RcJsrnn1SgcJtgKbqCFV-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object label="add user into domain admins group" id="LUB5KluwDhGO-CHIsPKq-9">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+            <mxGeometry x="3120" y="1085" width="120" height="60" as="geometry" />
           </mxCell>
         </object>
       </root>
