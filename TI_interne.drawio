@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-03T15:17:33.904Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/122.0" etag="rsj7TRcsqCbIw3ZB7nMe" version="24.6.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-07-03T15:46:30.530Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/122.0" etag="6iYQZRvCHqIu9UZq2Hg1" version="24.6.4" type="github" pages="7">
   <diagram name="Reconnaissance" id="l6uARz4Kyqoon4gwFnSB">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -116,7 +116,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="From no creds" id="es25xRgdZYHL0BZce3pH">
-    <mxGraphModel dx="2678" dy="1662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2603" dy="1620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -429,9 +429,9 @@
         <mxCell id="LUB5KluwDhGO-CHIsPKq-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="LUB5KluwDhGO-CHIsPKq-1" target="LUB5KluwDhGO-CHIsPKq-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <object label="&lt;div&gt;Extract NT hash of certificate&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;getnthash.py&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" cmd="getnthash.py -key 0749d5ec9a1bca37d57ca7e9388f00b4c31c9ac0df0c3583484672764ff4752c -dc-ip 10.240.5.1 &#39;olympiquelyonnais.com&#39;/&#39;DC01\$&#39;" id="LUB5KluwDhGO-CHIsPKq-1">
+        <object label="&lt;div align=&quot;justify&quot;&gt;- Get TGT with ASREP key&amp;nbsp;&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;- Send TGT to get ST&amp;nbsp;&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;- Extract NThash from ST&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;getnthash.py&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" cmd="getnthash.py -key 0749d5ec9a1bca37d57ca7e9388f00b4c31c9ac0df0c3583484672764ff4752c -dc-ip 10.240.5.1 &#39;olympiquelyonnais.com&#39;/&#39;DC01\$&#39;" id="LUB5KluwDhGO-CHIsPKq-1">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#e5a50a;" parent="1" vertex="1">
-            <mxGeometry x="2730" y="1010" width="120" height="60" as="geometry" />
+            <mxGeometry x="2674" y="984" width="176" height="120" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="LUB5KluwDhGO-CHIsPKq-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="LUB5KluwDhGO-CHIsPKq-3" target="LUB5KluwDhGO-CHIsPKq-1" edge="1">
@@ -439,7 +439,7 @@
         </mxCell>
         <object label="&lt;div&gt;get ASREP key via preauth kerberos&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;gettgtpkinit.py&lt;/font&gt;&lt;/div&gt;" cmd="gettgtpkinit.py -pfx-base64 $(cat cert.b64) &#39;essos.local&#39;/&#39;meereen$&#39; &#39;meereen.ccache&#39;" id="LUB5KluwDhGO-CHIsPKq-3">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#e5a50a;" parent="1" vertex="1">
-            <mxGeometry x="2554" y="1010" width="120" height="60" as="geometry" />
+            <mxGeometry x="2514" y="1014" width="120" height="60" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="LUB5KluwDhGO-CHIsPKq-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LUB5KluwDhGO-CHIsPKq-7" target="LUB5KluwDhGO-CHIsPKq-9" edge="1">
