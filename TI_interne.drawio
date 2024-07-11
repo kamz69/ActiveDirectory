@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-11T09:10:49.973Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="MPIXHy-8Y5YIKIuHJ3iM" version="24.6.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-07-11T09:10:58.161Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="D0HCE2dD9L7cIAAIiP7q" version="24.6.4" type="github" pages="7">
   <diagram name="Reconnaissance" id="l6uARz4Kyqoon4gwFnSB">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -350,7 +350,7 @@
         <mxCell id="hefA_bYV9p1Cq4kSP_zY-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="hefA_bYV9p1Cq4kSP_zY-21" target="hefA_bYV9p1Cq4kSP_zY-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hefA_bYV9p1Cq4kSP_zY-21" value="&lt;div&gt;Relay to LDAP&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" parent="1" vertex="1">
+        <mxCell id="hefA_bYV9p1Cq4kSP_zY-21" value="&lt;div&gt;Relay to LDAP or LDAPs&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1169" y="1025" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="i_53WrwCQ5BU9_YikGZj-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hefA_bYV9p1Cq4kSP_zY-22" target="i_53WrwCQ5BU9_YikGZj-1" edge="1">
