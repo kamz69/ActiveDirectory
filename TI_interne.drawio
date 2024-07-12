@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-12T09:56:17.591Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="J15JqVt1kVx8Dnp_2_CN" version="24.6.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-07-12T09:57:28.905Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="quGuekjn-7z6LZWXREct" version="24.6.4" type="github" pages="7">
   <diagram name="Reconnaissance" id="l6uARz4Kyqoon4gwFnSB">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -493,9 +493,11 @@
         <mxCell id="krhd2gOpyObvxGGtO9l1-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="krhd2gOpyObvxGGtO9l1-2" target="krhd2gOpyObvxGGtO9l1-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="krhd2gOpyObvxGGtO9l1-2" value="downgrade to NTLMV1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="490" y="950" width="120" height="60" as="geometry" />
-        </mxCell>
+        <object label="downgrade to NTLMV1" cmd="Responder.py --interface &#39;enp0s31f6&#39; --lm" id="krhd2gOpyObvxGGtO9l1-2">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#e5a50a;" vertex="1" parent="1">
+            <mxGeometry x="490" y="950" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
         <mxCell id="krhd2gOpyObvxGGtO9l1-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="krhd2gOpyObvxGGtO9l1-4" target="krhd2gOpyObvxGGtO9l1-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
