@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-12T13:16:11.741Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/122.0" etag="has9pDEi7q9pz3XxOR6b" version="24.6.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-07-12T13:16:26.182Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/122.0" etag="93eodYZgroAjMgUOuIhn" version="24.6.4" type="github" pages="7">
   <diagram name="Reconnaissance" id="l6uARz4Kyqoon4gwFnSB">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -509,6 +509,9 @@
         </mxCell>
         <mxCell id="krhd2gOpyObvxGGtO9l1-6" value="dcsync" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="890" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cf8C2RKg3Lvz5WV7rh62-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="cf8C2RKg3Lvz5WV7rh62-1" target="1S_cvOo1YeR9LOM_VgR6-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <object label="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Bruteforce SID&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" cmd="cme smb 10.248.2.86 --rid-brute" id="cf8C2RKg3Lvz5WV7rh62-1">
           <mxCell style="whiteSpace=wrap;html=1;fontColor=#ffffff;rounded=1;strokeColor=#e5a50a;" vertex="1" parent="1">
