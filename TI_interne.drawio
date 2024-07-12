@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-12T13:16:26.182Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/122.0" etag="93eodYZgroAjMgUOuIhn" version="24.6.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-07-12T14:07:32.068Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/122.0" etag="felaH_5UB5CXlTtuunAJ" version="24.6.4" type="github" pages="7">
   <diagram name="Reconnaissance" id="l6uARz4Kyqoon4gwFnSB">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -52,7 +52,7 @@
         <mxCell id="l9urtuWnYjKsEM7TNLM6-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="gGPnzEUqgYNmDZAv7QP8-17" target="l9urtuWnYjKsEM7TNLM6-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Jxms96ztwGXcRVvkXAwv-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gGPnzEUqgYNmDZAv7QP8-17" target="FwoRKzMNpNqt5DJej-T4-1">
+        <mxCell id="Jxms96ztwGXcRVvkXAwv-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="gGPnzEUqgYNmDZAv7QP8-17" target="FwoRKzMNpNqt5DJej-T4-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gGPnzEUqgYNmDZAv7QP8-17" value="Enum" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#a20025;strokeColor=#6F0000;" parent="1" vertex="1">
@@ -85,7 +85,7 @@
         <mxCell id="gGPnzEUqgYNmDZAv7QP8-25" value="Enum ADCS" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="680" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Jxms96ztwGXcRVvkXAwv-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l9urtuWnYjKsEM7TNLM6-1" target="l9urtuWnYjKsEM7TNLM6-2">
+        <mxCell id="Jxms96ztwGXcRVvkXAwv-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="l9urtuWnYjKsEM7TNLM6-1" target="l9urtuWnYjKsEM7TNLM6-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="l9urtuWnYjKsEM7TNLM6-1" value="Enum windows netbios names" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -94,7 +94,7 @@
         <mxCell id="l9urtuWnYjKsEM7TNLM6-2" value="cme smb 192.168.229.0/24" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="455" y="820" width="490" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Jxms96ztwGXcRVvkXAwv-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nLXafekM-bpuhdaV1nyY-2" target="nLXafekM-bpuhdaV1nyY-3">
+        <mxCell id="Jxms96ztwGXcRVvkXAwv-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="nLXafekM-bpuhdaV1nyY-2" target="nLXafekM-bpuhdaV1nyY-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nLXafekM-bpuhdaV1nyY-2" value="extract certi ADCS for bloodhound" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
