@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-11T10:08:35.069Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="j94f6IVn8x6_9M5V_Ps6" version="24.6.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-07-12T09:56:17.591Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="J15JqVt1kVx8Dnp_2_CN" version="24.6.4" type="github" pages="7">
   <diagram name="Reconnaissance" id="l6uARz4Kyqoon4gwFnSB">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -116,7 +116,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="From no creds" id="es25xRgdZYHL0BZce3pH">
-    <mxGraphModel dx="2603" dy="1497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2856" dy="1615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -150,7 +150,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="q669wVBJVDhqwRxZ6Rot-1" value="Man in the middle" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="210" y="460" width="120" height="60" as="geometry" />
+          <mxGeometry x="140" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uoBzjgSmHts_p8Hy3lkX-3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;fontColor=#2a7bde;" parent="1" source="q669wVBJVDhqwRxZ6Rot-3" target="y5aqqQjo2jUjklV6V6uS-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -302,8 +302,11 @@
         <mxCell id="_LFIwpbgAgwoRebmZAz1-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#e51400;strokeColor=#cc0000;strokeWidth=2;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="_LFIwpbgAgwoRebmZAz1-1" target="q669wVBJVDhqwRxZ6Rot-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="krhd2gOpyObvxGGtO9l1-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_LFIwpbgAgwoRebmZAz1-1" target="krhd2gOpyObvxGGtO9l1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="_LFIwpbgAgwoRebmZAz1-1" value="&lt;div&gt;Make a coerce to force DC to authenticate to me &lt;br&gt;(authenticated if patched)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;coercer.py&lt;/font&gt;&lt;/div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;petitpotam.py (SMB coerce)&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="710" width="220" height="100" as="geometry" />
+          <mxGeometry x="50" y="805" width="220" height="100" as="geometry" />
         </mxCell>
         <mxCell id="_LFIwpbgAgwoRebmZAz1-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#e51400;strokeColor=#B20000;strokeWidth=3;" parent="1" source="_LFIwpbgAgwoRebmZAz1-4" target="_LFIwpbgAgwoRebmZAz1-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -394,12 +397,6 @@
         </mxCell>
         <mxCell id="uSAMaLs1ly5iVUIFKPd6-1" value="&lt;div&gt;TOMCAT manager bruteforce&lt;br&gt;&lt;pre class=&quot;programlisting&quot;&gt;&lt;strong&gt;use auxiliary/scanner/http/tomcat_mgr_login&lt;/strong&gt;&lt;/pre&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="500" y="-380" width="330" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="vb0LG8Mru1kXp_7aFiLo-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;strokeColor=#813d9c;strokeWidth=2;" parent="1" source="vb0LG8Mru1kXp_7aFiLo-3" target="q669wVBJVDhqwRxZ6Rot-5" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="vb0LG8Mru1kXp_7aFiLo-3" value="&lt;div&gt;Make a coerce to force machine to authenticate to me&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;coercer.py&lt;/font&gt;&lt;/div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;petitpotam.py (SMB coerce)&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="880" width="220" height="100" as="geometry" />
         </mxCell>
         <mxCell id="i_53WrwCQ5BU9_YikGZj-1" value="&lt;div align=&quot;center&quot;&gt;permet de récupérer la liste des users de l&#39;AD (auto)&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;align=center;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1890" y="1025" width="350" height="60" as="geometry" />
@@ -493,6 +490,21 @@
             <mxGeometry x="410" y="570" width="180" height="90" as="geometry" />
           </mxCell>
         </object>
+        <mxCell id="krhd2gOpyObvxGGtO9l1-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="krhd2gOpyObvxGGtO9l1-2" target="krhd2gOpyObvxGGtO9l1-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="krhd2gOpyObvxGGtO9l1-2" value="downgrade to NTLMV1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="krhd2gOpyObvxGGtO9l1-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="krhd2gOpyObvxGGtO9l1-4" target="krhd2gOpyObvxGGtO9l1-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="krhd2gOpyObvxGGtO9l1-4" value="crack hash" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="krhd2gOpyObvxGGtO9l1-6" value="dcsync" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
