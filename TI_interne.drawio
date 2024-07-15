@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-12T14:07:32.068Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/122.0" etag="felaH_5UB5CXlTtuunAJ" version="24.6.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-07-15T09:19:51.397Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/122.0" etag="UvrwlCs1TbTAOGMvLRyN" version="24.6.5" type="github" pages="7">
   <diagram name="Reconnaissance" id="l6uARz4Kyqoon4gwFnSB">
     <mxGraphModel dx="1434" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -116,7 +116,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="From no creds" id="es25xRgdZYHL0BZce3pH">
-    <mxGraphModel dx="2603" dy="1497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2856" dy="1615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -273,7 +273,7 @@
         <mxCell id="X6wlxV_FrzrZ-9Moiesy-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;fontColor=#2a7bde;" parent="1" source="X6wlxV_FrzrZ-9Moiesy-8" target="KTRm8kq6GDk7_ihK_bxa-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cf8C2RKg3Lvz5WV7rh62-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X6wlxV_FrzrZ-9Moiesy-8" target="cf8C2RKg3Lvz5WV7rh62-1">
+        <mxCell id="cf8C2RKg3Lvz5WV7rh62-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="X6wlxV_FrzrZ-9Moiesy-8" target="cf8C2RKg3Lvz5WV7rh62-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="X6wlxV_FrzrZ-9Moiesy-8" value="list users" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
@@ -340,6 +340,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gim2rbIdz-NWKrZqOkX9-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="hefA_bYV9p1Cq4kSP_zY-9" target="gim2rbIdz-NWKrZqOkX9-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g4OTAGMWRYiCXh_OqpCy-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hefA_bYV9p1Cq4kSP_zY-9" target="g4OTAGMWRYiCXh_OqpCy-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <object label="&lt;div&gt;Relay to SMB&lt;br&gt;&lt;/div&gt;&lt;br&gt;Prerequisites :SMB Signing &lt;b&gt;not REQUIRED&lt;/b&gt;" cmd="" id="hefA_bYV9p1Cq4kSP_zY-9">
@@ -477,6 +480,9 @@
             <mxGeometry x="1940" y="1216" width="150" height="50" as="geometry" />
           </mxCell>
         </object>
+        <mxCell id="g4OTAGMWRYiCXh_OqpCy-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gim2rbIdz-NWKrZqOkX9-6" target="OzdCo0pd7L-W225KIUEy-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <object label="&lt;div&gt;Proxy socks&lt;/div&gt;" cmd="ntlmrelayx -tf  smb_targets.txt -smb2support -socks" id="gim2rbIdz-NWKrZqOkX9-6">
           <mxCell style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;strokeColor=#e5a50a;" parent="1" vertex="1">
             <mxGeometry x="1534" y="660" width="220" height="80" as="geometry" />
@@ -510,14 +516,17 @@
         <mxCell id="krhd2gOpyObvxGGtO9l1-6" value="dcsync" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="890" y="950" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cf8C2RKg3Lvz5WV7rh62-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="cf8C2RKg3Lvz5WV7rh62-1" target="1S_cvOo1YeR9LOM_VgR6-3">
+        <mxCell id="cf8C2RKg3Lvz5WV7rh62-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="cf8C2RKg3Lvz5WV7rh62-1" target="1S_cvOo1YeR9LOM_VgR6-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <object label="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Bruteforce SID&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" cmd="cme smb 10.248.2.86 --rid-brute" id="cf8C2RKg3Lvz5WV7rh62-1">
-          <mxCell style="whiteSpace=wrap;html=1;fontColor=#ffffff;rounded=1;strokeColor=#e5a50a;" vertex="1" parent="1">
+          <mxCell style="whiteSpace=wrap;html=1;fontColor=#ffffff;rounded=1;strokeColor=#e5a50a;" parent="1" vertex="1">
             <mxGeometry x="510" y="377.5" width="210" height="57.5" as="geometry" />
           </mxCell>
         </object>
+        <mxCell id="g4OTAGMWRYiCXh_OqpCy-4" value="DC sync if DCs have not signing required" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1534" y="760" width="220" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
