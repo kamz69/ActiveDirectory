@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-17T13:52:50.546Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/122.0" etag="srh_3UDhWPJGdQtbro21" version="24.7.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-07-17T13:52:56.717Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/122.0" etag="08Ed6ulb895YP8rDyrtt" version="24.7.0" type="github" pages="7">
   <diagram name="Reconnaissance" id="l6uARz4Kyqoon4gwFnSB">
     <mxGraphModel dx="1434" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -567,7 +567,7 @@
           </mxGeometry>
         </mxCell>
         <object label="NTLM relay" id="TZx4k0LZ_Z577zQX7S4p-7">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#e5a50a;" vertex="1" parent="1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
             <mxGeometry x="733" y="1071" width="120" height="60" as="geometry" />
           </mxCell>
         </object>
