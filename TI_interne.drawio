@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-18T07:32:42.787Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/122.0" etag="2m2Hoj9HmrgT_LtZg6Uc" version="24.7.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-07-18T07:32:56.755Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/122.0" etag="9nMSB27vcukCI6arbTMY" version="24.7.0" type="github" pages="7">
   <diagram name="Reconnaissance" id="l6uARz4Kyqoon4gwFnSB">
     <mxGraphModel dx="1434" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1302,6 +1302,9 @@
         <mxCell id="TZj8oe7FIHMln2289y6j-1" value="&lt;div&gt;Set TGT in memory&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;export KRB5CCNAME=administrator.ccache&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="850" y="339" width="270" height="34" as="geometry" />
         </mxCell>
+        <mxCell id="4RrfTOFXURJHPVGyKrM7-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4FQnS6Lhucq9dQavcaFJ-1" target="4RrfTOFXURJHPVGyKrM7-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="4FQnS6Lhucq9dQavcaFJ-1" value="Local Admin creds" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="250" y="1020" width="150" height="80" as="geometry" />
         </mxCell>
@@ -1325,6 +1328,9 @@
         </mxCell>
         <mxCell id="4RrfTOFXURJHPVGyKrM7-1" value="Domain Admin creds" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="1169" y="1030" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4RrfTOFXURJHPVGyKrM7-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4RrfTOFXURJHPVGyKrM7-2" target="4RrfTOFXURJHPVGyKrM7-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4RrfTOFXURJHPVGyKrM7-2" value="Dump password lsa, sam" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="650" y="1420" width="120" height="60" as="geometry" />
