@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-18T07:34:17.281Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/122.0" etag="nBbyak2k6mf9yD9CZwo7" version="24.7.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-07-18T07:35:33.956Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/122.0" etag="NY1JJlNio1xaL7qgfvQ0" version="24.7.0" type="github" pages="7">
   <diagram name="Reconnaissance" id="l6uARz4Kyqoon4gwFnSB">
     <mxGraphModel dx="1434" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1314,9 +1314,11 @@
         <mxCell id="4FQnS6Lhucq9dQavcaFJ-3" value="Interactive shell" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="631" y="980" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4FQnS6Lhucq9dQavcaFJ-4" value="&lt;div&gt;pseudo shell&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="631" y="1060" width="120" height="60" as="geometry" />
-        </mxCell>
+        <object label="&lt;div&gt;pseudo shell&lt;/div&gt;" clear_pass="atexec.py &#39;Administrator&#39;:&#39;9Q.2Kg83J(;6PyN&#39;@USBG6DISP02.group.int cmd.exe" id="4FQnS6Lhucq9dQavcaFJ-4">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#e5a50a;" parent="1" vertex="1">
+            <mxGeometry x="631" y="1060" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
         <mxCell id="4FQnS6Lhucq9dQavcaFJ-5" value="WinRM" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="631" y="1150" width="120" height="60" as="geometry" />
         </mxCell>
