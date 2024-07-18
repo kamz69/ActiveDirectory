@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-18T07:32:20.296Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/122.0" etag="suZOK1nL2YwifTQih1-5" version="24.7.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-07-18T07:32:42.787Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/122.0" etag="2m2Hoj9HmrgT_LtZg6Uc" version="24.7.0" type="github" pages="7">
   <diagram name="Reconnaissance" id="l6uARz4Kyqoon4gwFnSB">
     <mxGraphModel dx="1434" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1325,6 +1325,9 @@
         </mxCell>
         <mxCell id="4RrfTOFXURJHPVGyKrM7-1" value="Domain Admin creds" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="1169" y="1030" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4RrfTOFXURJHPVGyKrM7-2" value="Dump password lsa, sam" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1420" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
