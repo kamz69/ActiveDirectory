@@ -309,7 +309,7 @@
         <mxCell id="eT468RpVeFGScJ7yV71r-1" value="Rogue DNS IPV6" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1199" y="1240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2ArGYso1SfPXtdhOZaz5-4" value="On est sur le réseau sans creds" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+        <mxCell id="2ArGYso1SfPXtdhOZaz5-4" value="&lt;b&gt;On est sur le réseau sans creds&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
           <mxGeometry x="-230" y="210" width="160" height="82.5" as="geometry" />
         </mxCell>
         <mxCell id="_LFIwpbgAgwoRebmZAz1-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#e51400;strokeColor=#cc0000;strokeWidth=2;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="_LFIwpbgAgwoRebmZAz1-1" target="q669wVBJVDhqwRxZ6Rot-5" edge="1">
