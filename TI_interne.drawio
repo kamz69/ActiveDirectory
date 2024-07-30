@@ -313,6 +313,9 @@
         <mxCell id="OdaqT3pz17vKf_LpFtww-24" value="" style="edgeStyle=segmentEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=1;" edge="1" parent="1" source="_LFIwpbgAgwoRebmZAz1-1" target="OdaqT3pz17vKf_LpFtww-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="OdaqT3pz17vKf_LpFtww-25" style="edgeStyle=elbowEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=1;" edge="1" parent="1" source="_LFIwpbgAgwoRebmZAz1-1" target="OdaqT3pz17vKf_LpFtww-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="_LFIwpbgAgwoRebmZAz1-1" value="&lt;div&gt;Make a coerce to force DC to authenticate to me &lt;br&gt;(authenticated if patched)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;coercer.py&lt;/font&gt;&lt;/div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;petitpotam.py (SMB coerce)&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-100" y="805" width="220" height="100" as="geometry" />
         </mxCell>
