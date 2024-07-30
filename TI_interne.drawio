@@ -240,13 +240,13 @@
         <mxCell id="3KcXfi7NhkpAm5ZNJReR-7" value="&lt;div&gt;Crack avec hashcat&lt;code&gt;&lt;pre&gt;&lt;font color=&quot;#2a7bde&quot;&gt;hashcat -m 5600&lt;/font&gt;&lt;/pre&gt;&lt;/code&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="970" y="460" width="150" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="KTRm8kq6GDk7_ihK_bxa-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=14;fontColor=#2a7bde;" parent="1" source="KTRm8kq6GDk7_ihK_bxa-1" target="1S_cvOo1YeR9LOM_VgR6-3" edge="1">
+        <mxCell id="KTRm8kq6GDk7_ihK_bxa-11" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;fontColor=#FFFFFF;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;" parent="1" source="KTRm8kq6GDk7_ihK_bxa-1" target="1S_cvOo1YeR9LOM_VgR6-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KTRm8kq6GDk7_ihK_bxa-1" value="&lt;h2 style=&quot;font-size: 14px;&quot; id=&quot;enumerate-dcs-anonymously---when-anonymous-sessions-are-not-allowed&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;null sessions (anonymous) are&amp;nbsp; allowed&lt;/span&gt;&lt;/h2&gt;&lt;div&gt;&lt;font color=&quot;#dc8add&quot;&gt;NULL sessions are&lt;span dir=&quot;ltr&quot; role=&quot;presentation&quot; style=&quot;left: 33.34%; top: 45.42%; font-size: calc(var(--scale-factor)*22.00px); font-family: sans-serif;&quot;&gt; &lt;/span&gt;&lt;span dir=&quot;ltr&quot; role=&quot;presentation&quot; style=&quot;left: 34.07%; top: 45.42%; font-size: calc(var(--scale-factor)*22.00px); font-family: sans-serif; transform: scaleX(0.918581);&quot;&gt;unauthenticated&lt;/span&gt;&lt;span dir=&quot;ltr&quot; role=&quot;presentation&quot; style=&quot;left: 55.1%; top: 45.42%; font-size: calc(var(--scale-factor)*22.00px); font-family: sans-serif;&quot;&gt; &lt;/span&gt;SMB sessions which &lt;span dir=&quot;ltr&quot; role=&quot;presentation&quot; style=&quot;left: 6.07%; top: 33.15%; font-size: calc(var(--scale-factor)*26.00px); font-family: sans-serif; transform: scaleX(0.891535);&quot;&gt;are used to call RPC operations&lt;/span&gt;&lt;br role=&quot;presentation&quot;&gt;&lt;span dir=&quot;ltr&quot; role=&quot;presentation&quot; style=&quot;left: 6.07%; top: 38.06%; font-size: calc(var(--scale-factor)*26.00px); font-family: sans-serif; transform: scaleX(0.862752);&quot;&gt;on a remote system&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;&lt;code&gt;&lt;pre&gt;&lt;code&gt;&lt;pre&gt;&lt;code&gt;&lt;pre&gt;cme smb 192.168.56.11 --users&lt;br&gt;&lt;font color=&quot;#2a7bde&quot;&gt;&lt;code&gt;&lt;pre&gt;&lt;code&gt;&lt;pre&gt;enum4linux -U 192.168.56.11&lt;/pre&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/code&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/code&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="675" y="147.5" width="290" height="127.5" as="geometry" />
         </mxCell>
-        <mxCell id="KTRm8kq6GDk7_ihK_bxa-10" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#2a7bde;" parent="1" source="KTRm8kq6GDk7_ihK_bxa-8" target="1S_cvOo1YeR9LOM_VgR6-3" edge="1">
+        <mxCell id="KTRm8kq6GDk7_ihK_bxa-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#FFFFFF;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;" parent="1" source="KTRm8kq6GDk7_ihK_bxa-8" target="1S_cvOo1YeR9LOM_VgR6-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <object label="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Bruteforce users&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;(badpwdcount will not be increased)&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font color=&quot;#2a7bde&quot;&gt;kerbrute&lt;br&gt;nmap&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" nmap="nmap -p 88 &#xa;--script=krb5-enum-users &#xa;--script-args krb5-enum-users.realm=&#39;sequel.htb&#39;&#xa;,userdb=users.txt 10.10.11.202" kerbrute="kerbrute userenum -d oscp.exam /opt/my-resources/NecessaryPayloads/wordlist/username/usernames.txt --dc 192.168.120.100" id="KTRm8kq6GDk7_ihK_bxa-8">
@@ -515,8 +515,15 @@
         <mxCell id="krhd2gOpyObvxGGtO9l1-6" value="dcsync" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="890" y="950" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cf8C2RKg3Lvz5WV7rh62-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="cf8C2RKg3Lvz5WV7rh62-1" target="1S_cvOo1YeR9LOM_VgR6-3" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="cf8C2RKg3Lvz5WV7rh62-3" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;endArrow=block;endFill=1;" parent="1" source="cf8C2RKg3Lvz5WV7rh62-1" target="1S_cvOo1YeR9LOM_VgR6-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1056" y="414" />
+              <mxPoint x="1056" y="360" />
+              <mxPoint x="1160" y="360" />
+              <mxPoint x="1160" y="320" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <object label="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Bruteforce SID&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" cmd="cme smb 10.248.2.86 --rid-brute" id="cf8C2RKg3Lvz5WV7rh62-1">
           <mxCell style="whiteSpace=wrap;html=1;fontColor=#ffffff;rounded=1;strokeColor=#e5a50a;" parent="1" vertex="1">
