@@ -122,7 +122,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="From no creds" id="es25xRgdZYHL0BZce3pH">
-    <mxGraphModel dx="2603" dy="1517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2603" dy="1620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -420,7 +420,7 @@
           </mxCell>
         </object>
         <mxCell id="RcJsrnn1SgcJtgKbqCFV-1" value="Domain Admin right" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#c64600;strokeColor=#B20000;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="3050" y="310" width="150" height="87.5" as="geometry" />
+          <mxGeometry x="3065" y="320" width="150" height="87.5" as="geometry" />
         </mxCell>
         <mxCell id="RcJsrnn1SgcJtgKbqCFV-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="RcJsrnn1SgcJtgKbqCFV-2" target="RcJsrnn1SgcJtgKbqCFV-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -436,10 +436,10 @@
         <mxCell id="RcJsrnn1SgcJtgKbqCFV-4" value="Get NT hash of domains admins" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="3080" y="786" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LUB5KluwDhGO-CHIsPKq-6" style="edgeStyle=segmentEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;" parent="1" source="LUB5KluwDhGO-CHIsPKq-1" target="RcJsrnn1SgcJtgKbqCFV-2" edge="1">
+        <mxCell id="LUB5KluwDhGO-CHIsPKq-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=default;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=classic;endFill=1;" parent="1" source="LUB5KluwDhGO-CHIsPKq-1" target="RcJsrnn1SgcJtgKbqCFV-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LUB5KluwDhGO-CHIsPKq-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="LUB5KluwDhGO-CHIsPKq-1" target="LUB5KluwDhGO-CHIsPKq-7" edge="1">
+        <mxCell id="LUB5KluwDhGO-CHIsPKq-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="LUB5KluwDhGO-CHIsPKq-1" target="LUB5KluwDhGO-CHIsPKq-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <object label="&lt;div align=&quot;justify&quot;&gt;- Get TGT with ASREP key&amp;nbsp;&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;- Send TGT to get ST&amp;nbsp;&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;- Extract NThash from ST&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;getnthash.py&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" cmd="getnthash.py -key 0749d5ec9a1bca37d57ca7e9388f00b4c31c9ac0df0c3583484672764ff4752c -dc-ip 10.240.5.1 &#39;olympiquelyonnais.com&#39;/&#39;DC01\$&#39;" id="LUB5KluwDhGO-CHIsPKq-1">
@@ -460,7 +460,7 @@
         </mxCell>
         <object label="&lt;div&gt;Forge ST (from NThash)&lt;/div&gt;" spn_WINRM="getST.py -self -impersonate MHADM -altservice HOST/DC01.olympiquelyonnais.com -k -no-pass -dc-ip 10.240.5.1 olympiquelyonnais.com/DC01$" id="LUB5KluwDhGO-CHIsPKq-7">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#e5a50a;" parent="1" vertex="1">
-            <mxGeometry x="2970" y="1000" width="120" height="60" as="geometry" />
+            <mxGeometry x="2970" y="937.5" width="120" height="60" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="LUB5KluwDhGO-CHIsPKq-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="LUB5KluwDhGO-CHIsPKq-9" target="RcJsrnn1SgcJtgKbqCFV-1" edge="1">
@@ -468,7 +468,7 @@
         </mxCell>
         <object label="add user into domain admins group" id="LUB5KluwDhGO-CHIsPKq-9">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="1" vertex="1">
-            <mxGeometry x="3120" y="1085" width="120" height="60" as="geometry" />
+            <mxGeometry x="3160" y="937.5" width="120" height="60" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="TZkWSDr6438spexavPfF-1" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.003;entryY=0.62;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;endArrow=block;endFill=1;" parent="1" source="X6wlxV_FrzrZ-9Moiesy-8" target="KTRm8kq6GDk7_ihK_bxa-8" edge="1">
