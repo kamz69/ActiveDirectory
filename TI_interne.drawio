@@ -515,7 +515,7 @@
             <mxGeometry x="680" y="385" width="210" height="57.5" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="g4OTAGMWRYiCXh_OqpCy-4" value="DC sync if DCs have not signing required" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="g4OTAGMWRYiCXh_OqpCy-4" value="Relay to DC &amp;amp;&amp;amp; DC sync if DCs have not signing required" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="1534" y="690" width="220" height="80" as="geometry" />
         </mxCell>
         <mxCell id="TZx4k0LZ_Z577zQX7S4p-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="TZx4k0LZ_Z577zQX7S4p-3" target="TZx4k0LZ_Z577zQX7S4p-5" edge="1">
