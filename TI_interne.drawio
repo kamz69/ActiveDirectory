@@ -71,13 +71,13 @@
           <mxGeometry x="450" y="585" width="330" height="70" as="geometry" />
         </mxCell>
         <mxCell id="gGPnzEUqgYNmDZAv7QP8-24" value="&lt;code&gt;&lt;pre&gt;certipy find -u khal.drogo@essos.local -p &lt;span class=&quot;s1&quot;&gt;&#39;horse&#39;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-dc-ip&lt;/span&gt; [DC IP]&lt;/pre&gt;&lt;/code&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="490" y="1065" width="500" height="70" as="geometry" />
+          <mxGeometry x="500" y="840" width="500" height="70" as="geometry" />
         </mxCell>
         <mxCell id="KOD-KBh_Biia0c4FGPg_-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="gGPnzEUqgYNmDZAv7QP8-25" target="gGPnzEUqgYNmDZAv7QP8-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gGPnzEUqgYNmDZAv7QP8-25" value="Enum ADCS" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="240" y="1070" width="120" height="60" as="geometry" />
+          <mxGeometry x="250" y="845" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Jxms96ztwGXcRVvkXAwv-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="l9urtuWnYjKsEM7TNLM6-1" target="l9urtuWnYjKsEM7TNLM6-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -92,19 +92,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nLXafekM-bpuhdaV1nyY-2" value="extract certi ADCS for bloodhound" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="240" y="1160" width="120" height="60" as="geometry" />
+          <mxGeometry x="250" y="935" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nLXafekM-bpuhdaV1nyY-3" value="certipy find -u pentest_capgemini@olympiquelyonnais.com -p &#39;pass&#39; -dc-ip 10.240.5.1 -vulnerable -old-bloodhound" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="487.5" y="1160" width="680" height="60" as="geometry" />
+          <mxGeometry x="497.5" y="935" width="680" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FwoRKzMNpNqt5DJej-T4-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="FwoRKzMNpNqt5DJej-T4-1" target="FwoRKzMNpNqt5DJej-T4-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FwoRKzMNpNqt5DJej-T4-1" value="enum EPA disbled for LDAPS" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="240" y="1241" width="120" height="60" as="geometry" />
+          <mxGeometry x="250" y="1016" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FwoRKzMNpNqt5DJej-T4-2" value="&lt;pre class=&quot;[grid-area:2/1] relative overflow-auto bg-light-2 dark:bg-dark-2 hide-scroll rounded-md straight-corners:rounded-sm&quot;&gt;&lt;code class=&quot;min-w-full inline-grid [grid-template-columns:auto_1fr] py-2 px-2 [counter-reset:line]&quot; id=&quot;d00219e81f2a400eb66bdd9b96e09f5f&quot;&gt;&lt;span class=&quot;grid [grid-template-columns:subgrid] col-span-2 relative ring-1 ring-transparent hover:ring-dark-4/5 hover:z-[1] dark:hover:ring-light-4/4 rounded [&amp;amp;.highlighted:first-child]:rounded-t-md [&amp;amp;.highlighted:first-child&gt;*]:mt-1 [&amp;amp;.highlighted:last-child]:rounded-b-md [&amp;amp;.highlighted:last-child&gt;*]:mb-1 [&amp;amp;:only-child]:hover:ring-transparent [&amp;amp;.highlighted]:rounded-none [&amp;amp;:not(.highlighted)_+_.highlighted]:rounded-t-md [&amp;amp;:not(.highlighted)_+_.highlighted&gt;*]:mt-1 [&amp;amp;.highlighted:has(+:not(.highlighted))]:rounded-b-md [&amp;amp;.highlighted:has(+:not(.highlighted))&gt;*]:mb-1 [&amp;amp;:not(.highlighted)_+_.highlighted:has(+:not(.highlighted))]:rounded-md&quot;&gt;&lt;span class=&quot;ml-3 block text-sm&quot;&gt;&lt;span style=&quot;color: var(--shiki-token-function);&quot;&gt;LdapRelayScan.py&lt;/span&gt;&lt;span style=&quot;color: var(--shiki-foreground);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: var(--shiki-token-string);&quot;&gt;-u&lt;/span&gt;&lt;span style=&quot;color: var(--shiki-foreground);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: var(--shiki-token-string-expression);&quot;&gt;&quot;user&quot;&lt;/span&gt;&lt;span style=&quot;color: var(--shiki-foreground);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: var(--shiki-token-string);&quot;&gt;-p&lt;/span&gt;&lt;span style=&quot;color: var(--shiki-foreground);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: var(--shiki-token-string-expression);&quot;&gt;&quot;password&quot;&lt;/span&gt;&lt;span style=&quot;color: var(--shiki-foreground);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: var(--shiki-token-string);&quot;&gt;-dc-ip&lt;/span&gt;&lt;span style=&quot;color: var(--shiki-foreground);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: var(--shiki-token-string-expression);&quot;&gt;&quot;DC_IP_address&quot;&lt;/span&gt;&lt;span style=&quot;color: var(--shiki-foreground);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: var(--shiki-token-string);&quot;&gt;-method&lt;/span&gt;&lt;span style=&quot;color: var(--shiki-foreground);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: var(--shiki-token-string);&quot;&gt;BOTH&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="445" y="1241" width="745" height="60" as="geometry" />
+          <mxGeometry x="455" y="1016" width="745" height="60" as="geometry" />
         </mxCell>
         <mxCell id="f_3lEekOKLUHsh_kucpp-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="f_3lEekOKLUHsh_kucpp-1" target="gGPnzEUqgYNmDZAv7QP8-25">
           <mxGeometry relative="1" as="geometry" />
@@ -116,7 +116,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="f_3lEekOKLUHsh_kucpp-1" value="Enum with auth" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#a20025;strokeColor=#6F0000;" vertex="1" parent="1">
-          <mxGeometry x="30" y="1070" width="120" height="60" as="geometry" />
+          <mxGeometry x="40" y="845" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
