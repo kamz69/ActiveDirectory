@@ -225,7 +225,7 @@
         <mxCell id="NPc3DtVnvr8TruOY4Tiv-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3KcXfi7NhkpAm5ZNJReR-3" target="3KcXfi7NhkpAm5ZNJReR-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3KcXfi7NhkpAm5ZNJReR-3" value="GET NTLM Hash" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" parent="1" vertex="1">
+        <mxCell id="3KcXfi7NhkpAm5ZNJReR-3" value="Crack Net NTLM Hash" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="760" y="465" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3KcXfi7NhkpAm5ZNJReR-7" value="&lt;div&gt;Crack avec hashcat&lt;code&gt;&lt;pre&gt;&lt;font color=&quot;#2a7bde&quot;&gt;hashcat -m 5600&lt;/font&gt;&lt;/pre&gt;&lt;/code&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" parent="1" vertex="1">
@@ -1449,6 +1449,12 @@
         </mxCell>
         <mxCell id="p_wJHP-WUxfy-bDWzwtI-3" value="&lt;pre id=&quot;codecell1&quot;&gt;&lt;span&gt;&lt;/span&gt;hashcat -a 0 -m 18200 hash.txt /usr/share/wordlists/rockyou.txt&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="313.12" width="550" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G2mHiiqQkBjTcfPHI7jF-1" value="Crack Net NTLM Hash" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="139" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G2mHiiqQkBjTcfPHI7jF-2" value="&lt;pre id=&quot;codecell1&quot;&gt;&lt;span&gt;&lt;/span&gt;hashcat -a 0 -m 18200 hash.txt /usr/share/wordlists/rockyou.txt&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="410" width="550" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
