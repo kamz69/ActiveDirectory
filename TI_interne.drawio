@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/122.0" version="24.7.6" pages="8">
   <diagram name="Reconnaissance" id="l6uARz4Kyqoon4gwFnSB">
-    <mxGraphModel dx="1434" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -55,7 +55,7 @@
         <mxCell id="Jxms96ztwGXcRVvkXAwv-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="gGPnzEUqgYNmDZAv7QP8-17" target="FwoRKzMNpNqt5DJej-T4-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gGPnzEUqgYNmDZAv7QP8-17" value="Enum" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#a20025;strokeColor=#6F0000;" parent="1" vertex="1">
+        <mxCell id="gGPnzEUqgYNmDZAv7QP8-17" value="Enum without auth" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#a20025;strokeColor=#6F0000;" parent="1" vertex="1">
           <mxGeometry x="30" y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gGPnzEUqgYNmDZAv7QP8-18" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#ffffff;" parent="1" source="gGPnzEUqgYNmDZAv7QP8-19" target="gGPnzEUqgYNmDZAv7QP8-20" edge="1">
@@ -111,6 +111,9 @@
         </mxCell>
         <mxCell id="FwoRKzMNpNqt5DJej-T4-2" value="&lt;pre class=&quot;[grid-area:2/1] relative overflow-auto bg-light-2 dark:bg-dark-2 hide-scroll rounded-md straight-corners:rounded-sm&quot;&gt;&lt;code class=&quot;min-w-full inline-grid [grid-template-columns:auto_1fr] py-2 px-2 [counter-reset:line]&quot; id=&quot;d00219e81f2a400eb66bdd9b96e09f5f&quot;&gt;&lt;span class=&quot;grid [grid-template-columns:subgrid] col-span-2 relative ring-1 ring-transparent hover:ring-dark-4/5 hover:z-[1] dark:hover:ring-light-4/4 rounded [&amp;amp;.highlighted:first-child]:rounded-t-md [&amp;amp;.highlighted:first-child&gt;*]:mt-1 [&amp;amp;.highlighted:last-child]:rounded-b-md [&amp;amp;.highlighted:last-child&gt;*]:mb-1 [&amp;amp;:only-child]:hover:ring-transparent [&amp;amp;.highlighted]:rounded-none [&amp;amp;:not(.highlighted)_+_.highlighted]:rounded-t-md [&amp;amp;:not(.highlighted)_+_.highlighted&gt;*]:mt-1 [&amp;amp;.highlighted:has(+:not(.highlighted))]:rounded-b-md [&amp;amp;.highlighted:has(+:not(.highlighted))&gt;*]:mb-1 [&amp;amp;:not(.highlighted)_+_.highlighted:has(+:not(.highlighted))]:rounded-md&quot;&gt;&lt;span class=&quot;ml-3 block text-sm&quot;&gt;&lt;span style=&quot;color: var(--shiki-token-function);&quot;&gt;LdapRelayScan.py&lt;/span&gt;&lt;span style=&quot;color: var(--shiki-foreground);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: var(--shiki-token-string);&quot;&gt;-u&lt;/span&gt;&lt;span style=&quot;color: var(--shiki-foreground);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: var(--shiki-token-string-expression);&quot;&gt;&quot;user&quot;&lt;/span&gt;&lt;span style=&quot;color: var(--shiki-foreground);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: var(--shiki-token-string);&quot;&gt;-p&lt;/span&gt;&lt;span style=&quot;color: var(--shiki-foreground);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: var(--shiki-token-string-expression);&quot;&gt;&quot;password&quot;&lt;/span&gt;&lt;span style=&quot;color: var(--shiki-foreground);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: var(--shiki-token-string);&quot;&gt;-dc-ip&lt;/span&gt;&lt;span style=&quot;color: var(--shiki-foreground);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: var(--shiki-token-string-expression);&quot;&gt;&quot;DC_IP_address&quot;&lt;/span&gt;&lt;span style=&quot;color: var(--shiki-foreground);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: var(--shiki-token-string);&quot;&gt;-method&lt;/span&gt;&lt;span style=&quot;color: var(--shiki-foreground);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: var(--shiki-token-string);&quot;&gt;BOTH&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="455" y="910" width="745" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f_3lEekOKLUHsh_kucpp-1" value="Enum with auth" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#a20025;strokeColor=#6F0000;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1070" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
