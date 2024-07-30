@@ -1434,14 +1434,16 @@
         <mxCell id="UEOjsBb1sXwvQ9755zZK-2" value="&lt;pre id=&quot;codecell1&quot;&gt;&lt;span&gt;&lt;/span&gt;hashcat -a 0 -m 2100 hash.txt /usr/share/wordlists/rockyou.txt&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="400" y="200" width="550" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="p_wJHP-WUxfy-bDWzwtI-2" value="" style="edgeStyle=segmentEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;" edge="1" parent="1" source="8CpK8tgkgzHANVFZFHcg-1" target="p_wJHP-WUxfy-bDWzwtI-1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="p_wJHP-WUxfy-bDWzwtI-2" value="" style="edgeStyle=segmentEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8CpK8tgkgzHANVFZFHcg-1" target="p_wJHP-WUxfy-bDWzwtI-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="343.125" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="8CpK8tgkgzHANVFZFHcg-1" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;Find users AsRepRoastable&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;a href=&quot;https://github.com/SecureAuthCorp/impacket/blob/master/examples/GetNPUsers.py&quot;&gt;GetNPUsers.py&lt;/a&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#dc8add&quot;&gt;Users qui ne nécéssite pas de préauthentification pour demander un TGT&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontColor=#ffa348;" vertex="1" parent="1">
           <mxGeometry x="80" y="280" width="238" height="126.25" as="geometry" />
         </mxCell>
-        <mxCell id="p_wJHP-WUxfy-bDWzwtI-1" value="&lt;div&gt;Crack avec hashcat&lt;/div&gt;&lt;div&gt;&lt;code&gt;&lt;pre&gt;&lt;font color=&quot;#2a7bde&quot;&gt;hashcat -m 18200&lt;br&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/code&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="306.88" width="168" height="72.5" as="geometry" />
+        <mxCell id="p_wJHP-WUxfy-bDWzwtI-3" value="&lt;pre id=&quot;codecell1&quot;&gt;&lt;span&gt;&lt;/span&gt;hashcat -a 0 -m 18200 hash.txt /usr/share/wordlists/rockyou.txt&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="313.12" width="550" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
