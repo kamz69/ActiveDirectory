@@ -173,10 +173,10 @@
         <mxCell id="FLfiycKaQOmbqjivF0rp-3" value="&lt;div&gt;Find open smb share&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;smbclient &lt;span class=&quot;r-crgep1 r-18y5qoh&quot; data-offset-key=&quot;cbe3eaac303e4e26a00f9dbef03ff262:1&quot; data-slate-leaf=&quot;true&quot; data-highlighting=&quot;parameter variable&quot;&gt;--list&lt;/span&gt;&lt;span data-offset-key=&quot;cbe3eaac303e4e26a00f9dbef03ff262:2&quot;&gt; //&lt;/span&gt;&lt;span data-slate-fragment=&quot;JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJjb2RlLWxpbmUlMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMnNtYmNsaWVudCUyMC0tbGlzdCUyMCUyRiUyRiUyNElQJTIyJTJDJTIybWFya3MlMjIlM0ElNUIlNUQlMkMlMjJzZWxlY3Rpb25zJTIyJTNBJTVCJTVEJTdEJTVEJTJDJTIya2V5JTIyJTNBJTIyMjRmOTNjNjU2NzkxNDI3ZjhkYzdmMmU1ZmVkYmIwNGQlMjIlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjI3ODVmYWYzMjZlMDk0N2RkOWYwMDJhMmMzNDBlOTA3ZCUyMiU3RCU1RCUyQyUyMmtleSUyMiUzQSUyMjYyMWIwNjdmYzBiYjQ1ODg5OTlkMTdkYjZmNTQxMmM2JTIyJTdE&quot; class=&quot;r-crgep1 r-18y5qoh&quot; data-offset-key=&quot;cbe3eaac303e4e26a00f9dbef03ff262:3&quot; data-slate-leaf=&quot;true&quot; data-highlighting=&quot;variable&quot;&gt;$IP&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;&lt;span data-slate-fragment=&quot;JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJjb2RlLWxpbmUlMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMnNtYmNsaWVudCUyMC0tbGlzdCUyMCUyRiUyRiUyNElQJTIyJTJDJTIybWFya3MlMjIlM0ElNUIlNUQlMkMlMjJzZWxlY3Rpb25zJTIyJTNBJTVCJTVEJTdEJTVEJTJDJTIya2V5JTIyJTNBJTIyMjRmOTNjNjU2NzkxNDI3ZjhkYzdmMmU1ZmVkYmIwNGQlMjIlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjI3ODVmYWYzMjZlMDk0N2RkOWYwMDJhMmMzNDBlOTA3ZCUyMiU3RCU1RCUyQyUyMmtleSUyMiUzQSUyMjYyMWIwNjdmYzBiYjQ1ODg5OTlkMTdkYjZmNTQxMmM2JTIyJTdE&quot; class=&quot;r-crgep1 r-18y5qoh&quot; data-offset-key=&quot;cbe3eaac303e4e26a00f9dbef03ff262:3&quot; data-slate-leaf=&quot;true&quot; data-highlighting=&quot;variable&quot;&gt;range : cme smb -u &#39;&#39; -p &#39;&#39; --shares 192.168.0.0/16&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
           <mxGeometry x="684" y="-52.75" width="350" height="77.5" as="geometry" />
         </mxCell>
-        <mxCell id="1S_cvOo1YeR9LOM_VgR6-9" value="&lt;font style=&quot;font-size: 13px;&quot; color=&quot;#ffa348&quot;&gt;Get Hash&lt;/font&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#000000;startSize=8;endSize=8;startArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="y5aqqQjo2jUjklV6V6uS-16" target="y5aqqQjo2jUjklV6V6uS-13" edge="1">
+        <mxCell id="1S_cvOo1YeR9LOM_VgR6-9" value="&lt;font style=&quot;font-size: 13px;&quot; color=&quot;#ffa348&quot;&gt;Get Hash&lt;/font&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#000000;startSize=8;endSize=8;startArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="y5aqqQjo2jUjklV6V6uS-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1252" y="597.5" as="sourcePoint" />
-            <mxPoint x="1822" y="387.5" as="targetPoint" />
+            <mxPoint x="1830" y="406.25" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="y5aqqQjo2jUjklV6V6uS-19" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#FFFFFF;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;" parent="1" source="1S_cvOo1YeR9LOM_VgR6-3" target="y5aqqQjo2jUjklV6V6uS-16" edge="1">
@@ -208,11 +208,10 @@
         <mxCell id="y5aqqQjo2jUjklV6V6uS-5" value="&lt;div&gt;Valid user found with creds found&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="1911" y="195" width="188" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="_KkYkDTvTRN3HUsftzkZ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=13;fontColor=#0000aa;" parent="1" source="y5aqqQjo2jUjklV6V6uS-13" target="y5aqqQjo2jUjklV6V6uS-5" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="y5aqqQjo2jUjklV6V6uS-13" value="&lt;div&gt;Crack avec hashcat&lt;/div&gt;&lt;div&gt;&lt;code&gt;&lt;pre&gt;&lt;font color=&quot;#2a7bde&quot;&gt;hashcat -m 18200&lt;br&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/code&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="1830" y="370" width="168" height="72.5" as="geometry" />
+        <mxCell id="_KkYkDTvTRN3HUsftzkZ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=13;fontColor=#0000aa;" parent="1" target="y5aqqQjo2jUjklV6V6uS-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1998" y="406.25" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="y5aqqQjo2jUjklV6V6uS-16" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;Find users AsRepRoastable&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;a href=&quot;https://github.com/SecureAuthCorp/impacket/blob/master/examples/GetNPUsers.py&quot;&gt;GetNPUsers.py&lt;/a&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#dc8add&quot;&gt;Users qui ne nécéssite pas de préauthentification pour demander un TGT&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontColor=#ffa348;" parent="1" vertex="1">
           <mxGeometry x="1480" y="343.75" width="238" height="126.25" as="geometry" />
@@ -1422,18 +1421,27 @@
     </mxGraphModel>
   </diagram>
   <diagram id="4XhSJpFUfKR00BV7PpT7" name="Hash crack">
-    <mxGraphModel dx="1434" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="UEOjsBb1sXwvQ9755zZK-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="UEOjsBb1sXwvQ9755zZK-1" target="UEOjsBb1sXwvQ9755zZK-2">
+        <mxCell id="UEOjsBb1sXwvQ9755zZK-3" style="edgeStyle=segmentEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;" parent="1" source="UEOjsBb1sXwvQ9755zZK-1" target="UEOjsBb1sXwvQ9755zZK-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UEOjsBb1sXwvQ9755zZK-1" value="DCC2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="UEOjsBb1sXwvQ9755zZK-1" value="DCC2" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="110" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UEOjsBb1sXwvQ9755zZK-2" value="&lt;pre id=&quot;codecell1&quot;&gt;&lt;span&gt;&lt;/span&gt;hashcat -a 0 -m 2100 hash.txt /usr/share/wordlists/rockyou.txt&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="UEOjsBb1sXwvQ9755zZK-2" value="&lt;pre id=&quot;codecell1&quot;&gt;&lt;span&gt;&lt;/span&gt;hashcat -a 0 -m 2100 hash.txt /usr/share/wordlists/rockyou.txt&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="400" y="200" width="550" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p_wJHP-WUxfy-bDWzwtI-2" value="" style="edgeStyle=segmentEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;" edge="1" parent="1" source="8CpK8tgkgzHANVFZFHcg-1" target="p_wJHP-WUxfy-bDWzwtI-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8CpK8tgkgzHANVFZFHcg-1" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;Find users AsRepRoastable&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;a href=&quot;https://github.com/SecureAuthCorp/impacket/blob/master/examples/GetNPUsers.py&quot;&gt;GetNPUsers.py&lt;/a&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#dc8add&quot;&gt;Users qui ne nécéssite pas de préauthentification pour demander un TGT&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontColor=#ffa348;" vertex="1" parent="1">
+          <mxGeometry x="80" y="280" width="238" height="126.25" as="geometry" />
+        </mxCell>
+        <mxCell id="p_wJHP-WUxfy-bDWzwtI-1" value="&lt;div&gt;Crack avec hashcat&lt;/div&gt;&lt;div&gt;&lt;code&gt;&lt;pre&gt;&lt;font color=&quot;#2a7bde&quot;&gt;hashcat -m 18200&lt;br&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/code&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="306.88" width="168" height="72.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
