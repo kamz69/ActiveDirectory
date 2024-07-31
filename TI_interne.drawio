@@ -333,7 +333,7 @@
         </mxCell>
         <object label="Get the certificate" convert_pfx_64_to_PFX="cat cert4.b64 | base64 -d &gt; crt.pfx" id="_LFIwpbgAgwoRebmZAz1-9">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#e5a50a;" parent="1" vertex="1">
-            <mxGeometry x="2300" y="791" width="120" height="60" as="geometry" />
+            <mxGeometry x="2278" y="791" width="120" height="60" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="A1-m0vl6AtPKf8VYdlRc-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;" parent="1" source="hefA_bYV9p1Cq4kSP_zY-9" target="OzdCo0pd7L-W225KIUEy-3" edge="1">
@@ -426,7 +426,7 @@
         </mxCell>
         <object label="&lt;div&gt;DCsync&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;secretdump.py&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" cmd="secretsdump -k -no-pass OLYMPIQUELYONNAIS.COM/&#39;DC01$&#39;@DC03.OLYMPIQUELYONNAIS.COM" id="RcJsrnn1SgcJtgKbqCFV-2">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#e5a50a;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
-            <mxGeometry x="2720" y="790" width="120" height="60" as="geometry" />
+            <mxGeometry x="2643" y="790" width="120" height="60" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="TZkWSDr6438spexavPfF-1" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.003;entryY=0.62;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;endArrow=block;endFill=1;" parent="1" source="X6wlxV_FrzrZ-9Moiesy-8" target="KTRm8kq6GDk7_ihK_bxa-8" edge="1">
@@ -590,8 +590,8 @@
         <mxCell id="IsSizIxUDjp_11kIo4Un-3" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;fillColor=#e1d5e7;" edge="1" parent="1" source="ETCpI3GuiIKZf-ECZUgB-3" target="RcJsrnn1SgcJtgKbqCFV-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ETCpI3GuiIKZf-ECZUgB-3" value="&lt;div&gt;Lateral Mouvement&lt;/div&gt;&lt;div&gt;Pass the certificate&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="2540" y="791" width="120" height="60" as="geometry" />
+        <mxCell id="ETCpI3GuiIKZf-ECZUgB-3" value="&lt;div&gt;Lateral Mouvement&lt;/div&gt;&lt;div&gt;Pass the certificate&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" vertex="1" parent="1">
+          <mxGeometry x="2464" y="791" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
