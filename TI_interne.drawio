@@ -945,7 +945,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Lateral mouvement" id="8egK0x-ltnkDFjprNt1K">
-    <mxGraphModel dx="3218" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2856" dy="933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1060,7 +1060,7 @@
             <mxGeometry x="1070" y="745" width="120" height="60" as="geometry" />
           </mxCell>
         </object>
-        <object label="add user into domain admins group" id="dODqLdi3JbQZ3gRgPju0-13">
+        <object label="add user into domain admins group (if DC certificate)" id="dODqLdi3JbQZ3gRgPju0-13">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
             <mxGeometry x="1260" y="745" width="120" height="60" as="geometry" />
           </mxCell>
