@@ -336,7 +336,7 @@
         </mxCell>
         <object label="&lt;div&gt;Relay to SMB&lt;br&gt;&lt;/div&gt;&lt;br&gt;Prerequisites :SMB Signing &lt;b&gt;not REQUIRED&lt;/b&gt;" cmd="" id="hefA_bYV9p1Cq4kSP_zY-9">
           <mxCell style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;strokeColor=#000000;" parent="1" vertex="1">
-            <mxGeometry x="1164" y="518" width="190" height="90" as="geometry" />
+            <mxGeometry x="1139" y="600" width="190" height="90" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="hefA_bYV9p1Cq4kSP_zY-19" style="edgeStyle=segmentEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;strokeColor=#2F5B7C;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;" parent="1" source="hefA_bYV9p1Cq4kSP_zY-10" target="hefA_bYV9p1Cq4kSP_zY-17" edge="1">
@@ -553,12 +553,13 @@
             <mxPoint x="590" y="615" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DBCFvuGmctfLPaT07l7L-3" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;fillColor=#e1d5e7;" edge="1" parent="1" source="OdaqT3pz17vKf_LpFtww-18">
+        <mxCell id="DBCFvuGmctfLPaT07l7L-3" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;fillColor=#e1d5e7;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OdaqT3pz17vKf_LpFtww-18" target="hefA_bYV9p1Cq4kSP_zY-9">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="855.0588235294122" y="620" as="targetPoint" />
             <Array as="points">
               <mxPoint x="650" y="780" />
               <mxPoint x="855" y="780" />
+              <mxPoint x="855" y="645" />
             </Array>
           </mxGeometry>
         </mxCell>
