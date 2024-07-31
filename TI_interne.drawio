@@ -436,7 +436,7 @@
             <mxGeometry x="440" y="670" width="180" height="90" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="krhd2gOpyObvxGGtO9l1-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="krhd2gOpyObvxGGtO9l1-2" target="krhd2gOpyObvxGGtO9l1-4" edge="1">
+        <mxCell id="krhd2gOpyObvxGGtO9l1-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;fillColor=#e1d5e7;" parent="1" source="krhd2gOpyObvxGGtO9l1-2" target="krhd2gOpyObvxGGtO9l1-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <object label="downgrade to NTLMV1" cmd="Responder.py --interface &#39;enp0s31f6&#39; --lm" id="krhd2gOpyObvxGGtO9l1-2">
@@ -444,14 +444,13 @@
             <mxGeometry x="750" y="1090" width="120" height="60" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="krhd2gOpyObvxGGtO9l1-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="krhd2gOpyObvxGGtO9l1-4" target="krhd2gOpyObvxGGtO9l1-6" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="krhd2gOpyObvxGGtO9l1-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;fillColor=#e1d5e7;" parent="1" source="krhd2gOpyObvxGGtO9l1-4" target="RcJsrnn1SgcJtgKbqCFV-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1091" y="1120.4999999999995" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="krhd2gOpyObvxGGtO9l1-4" value="crack hash" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" parent="1" vertex="1">
           <mxGeometry x="931" y="1090.5" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="krhd2gOpyObvxGGtO9l1-6" value="dcsync" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="1110" y="1090.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cf8C2RKg3Lvz5WV7rh62-3" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;endArrow=block;endFill=1;" parent="1" source="cf8C2RKg3Lvz5WV7rh62-1" target="1S_cvOo1YeR9LOM_VgR6-3" edge="1">
           <mxGeometry relative="1" as="geometry">
