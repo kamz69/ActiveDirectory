@@ -1369,7 +1369,7 @@
           <mxGeometry x="520" y="507.5" width="320" height="125" as="geometry" />
         </mxCell>
         <mxCell id="c2D2YZhtQaV_8EULeIIU-1" value="&lt;div align=&quot;left&quot;&gt;If clock errors:&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;-detect remote clock-skew : nmap -sV -sC 10.10.11.202&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- faketime -f &#39;+2h&#39; zsh&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="230" y="200" width="320" height="80" as="geometry" />
+          <mxGeometry x="520" y="414" width="320" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ofW6ee_2hHjbur6R9mH3-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ofW6ee_2hHjbur6R9mH3-1" target="TZj8oe7FIHMln2289y6j-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
