@@ -699,7 +699,7 @@
         <mxCell id="Iw_T4d_-wb4pz08Lo9XD-3" value="Got Another acount creds" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="270" y="562.5" width="150" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="0wkhETG9pB4gattKTZce-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=13;fontColor=#ffbe6f;" parent="1" source="0wkhETG9pB4gattKTZce-1" edge="1">
+        <mxCell id="0wkhETG9pB4gattKTZce-3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=11;fontColor=default;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;labelBackgroundColor=default;endArrow=block;endFill=1;" parent="1" source="0wkhETG9pB4gattKTZce-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="339.3076923076924" y="649.9999999999998" as="targetPoint" />
           </mxGeometry>
@@ -800,10 +800,10 @@
         <mxCell id="ezBXcHe37mE9WKMKeRkE-14" value="&lt;div&gt;Clean and crack hash&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;cat hashs.ntds | cut -d : -f 4 |sort|uniq &amp;gt; JustTheHashes.txt&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;hashcat -m 1000&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1450" y="410" width="330" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="QNvsHd57DNMUPzB0j-Tn-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="QNvsHd57DNMUPzB0j-Tn-1" target="QNvsHd57DNMUPzB0j-Tn-3" edge="1">
+        <mxCell id="QNvsHd57DNMUPzB0j-Tn-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=1;" parent="1" source="QNvsHd57DNMUPzB0j-Tn-1" target="QNvsHd57DNMUPzB0j-Tn-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QNvsHd57DNMUPzB0j-Tn-1" value="&lt;div&gt;Connect to computer&lt;/div&gt;&lt;div&gt;lateral mouv&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="QNvsHd57DNMUPzB0j-Tn-1" value="&lt;div&gt;Connect to computer&lt;/div&gt;&lt;div&gt;lateral mouv&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" parent="1" vertex="1">
           <mxGeometry x="-420" y="960" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QNvsHd57DNMUPzB0j-Tn-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="QNvsHd57DNMUPzB0j-Tn-3" target="3LOWyAd33K374xAvLqeN-3" edge="1">
