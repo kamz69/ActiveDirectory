@@ -122,7 +122,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="From no creds" id="es25xRgdZYHL0BZce3pH">
-    <mxGraphModel dx="2834" dy="1578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="3548" dy="1900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -391,16 +391,16 @@
           <mxGeometry x="210" y="-580" width="180" height="33" as="geometry" />
         </mxCell>
         <mxCell id="B9babmQNDwbTDUQ_FJxj-1" value="&lt;div&gt;Zerologon (DC attack) unsafe&lt;br&gt;&lt;/div&gt;&lt;div&gt;scan : zerologon-scan &#39;MEEREEN&#39; &#39;192.168.56.12&#39;&lt;/div&gt;&lt;div&gt;&lt;pre class=&quot;relative overflow-auto border border-tint-subtle bg-tint-subtle theme-muted:bg-tint-base p-2 [grid-area:2/1] contrast-more:border-tint contrast-more:bg-tint-base [html.theme-bold.sidebar-filled_&amp;amp;]:bg-tint-base rounded-md straight-corners:rounded-xs shadow-xs&quot;&gt;&lt;code id=&quot;:S1:&quot; class=&quot;inline-grid min-w-full grid-cols-[auto_1fr] [count-reset:line] print:whitespace-pre-wrap&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;highlight-line-content&quot;&gt;&lt;span style=&quot;color: var(--shiki-token-function);&quot;&gt;nxc&lt;/span&gt;&lt;span style=&quot;color: var(--shiki-foreground);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: var(--shiki-token-string);&quot;&gt;smb&lt;/span&gt;&lt;span style=&quot;color: var(--shiki-foreground);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: var(--shiki-token-keyword);&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: var(--shiki-token-string);&quot;&gt;i&lt;/span&gt;&lt;span style=&quot;color: var(--shiki-foreground);&quot;&gt;p&lt;/span&gt;&lt;span style=&quot;color: var(--shiki-token-keyword);&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: var(--shiki-foreground);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: var(--shiki-token-string);&quot;&gt;-u&lt;/span&gt;&lt;span style=&quot;color: var(--shiki-foreground);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: var(--shiki-token-string-expression);&quot;&gt;&#39;&#39;&lt;/span&gt;&lt;span style=&quot;color: var(--shiki-foreground);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: var(--shiki-token-string);&quot;&gt;-p&lt;/span&gt;&lt;span style=&quot;color: var(--shiki-foreground);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: var(--shiki-token-string-expression);&quot;&gt;&#39;&#39;&lt;/span&gt;&lt;span style=&quot;color: var(--shiki-foreground);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: var(--shiki-token-string);&quot;&gt;-M&lt;/span&gt;&lt;span style=&quot;color: var(--shiki-foreground);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: var(--shiki-token-string);&quot;&gt;zerologon&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="1080" y="-502" width="330" height="102" as="geometry" />
+          <mxGeometry x="700" y="-547" width="330" height="102" as="geometry" />
         </mxCell>
         <mxCell id="B9babmQNDwbTDUQ_FJxj-3" value="&lt;div&gt;Eternal blue (SMB)&lt;br&gt;&lt;/div&gt;&lt;div&gt;if SMB 445 open and win7 unpached&lt;/div&gt;&lt;div&gt;need open smb share &lt;br&gt;&lt;/div&gt;&lt;div&gt;msf : use windows/smb/ms17_010_eternalblue&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="680" y="-540" width="330" height="33" as="geometry" />
+          <mxGeometry x="671" y="-650" width="350" height="80" as="geometry" />
         </mxCell>
         <mxCell id="YuLqMhThGjyk4l6yUaQI-1" value="Bluekeep (RDP) RCE (win 7 et 2008)" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="680" y="-610" width="330" height="33" as="geometry" />
+          <mxGeometry x="671" y="-720" width="330" height="33" as="geometry" />
         </mxCell>
         <mxCell id="uSAMaLs1ly5iVUIFKPd6-1" value="&lt;div&gt;TOMCAT manager bruteforce&lt;br&gt;&lt;pre class=&quot;programlisting&quot;&gt;&lt;strong&gt;use auxiliary/scanner/http/tomcat_mgr_login&lt;/strong&gt;&lt;/pre&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="690" y="-690" width="330" height="33" as="geometry" />
+          <mxGeometry x="681" y="-800" width="330" height="33" as="geometry" />
         </mxCell>
         <mxCell id="i_53WrwCQ5BU9_YikGZj-1" value="&lt;div align=&quot;center&quot;&gt;permet de récupérer la liste des users de l&#39;AD (auto)&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;align=center;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1890" y="895" width="350" height="50" as="geometry" />
@@ -525,7 +525,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OdaqT3pz17vKf_LpFtww-4" value="Web servers" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="519" y="-683" width="120" height="33" as="geometry" />
+          <mxGeometry x="510" y="-793" width="120" height="33" as="geometry" />
         </mxCell>
         <mxCell id="OdaqT3pz17vKf_LpFtww-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;elbow=vertical;endArrow=block;endFill=1;" parent="1" source="OdaqT3pz17vKf_LpFtww-5" target="YuLqMhThGjyk4l6yUaQI-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -534,13 +534,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OdaqT3pz17vKf_LpFtww-5" value="Windows machine" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="519" y="-610" width="120" height="33" as="geometry" />
+          <mxGeometry x="510" y="-720" width="120" height="33" as="geometry" />
         </mxCell>
         <mxCell id="OdaqT3pz17vKf_LpFtww-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;elbow=vertical;endArrow=block;endFill=1;" parent="1" source="OdaqT3pz17vKf_LpFtww-6" target="B9babmQNDwbTDUQ_FJxj-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OdaqT3pz17vKf_LpFtww-6" value="DC" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="519" y="-461" width="120" height="33" as="geometry" />
+          <mxGeometry x="510" y="-571" width="120" height="33" as="geometry" />
         </mxCell>
         <mxCell id="OdaqT3pz17vKf_LpFtww-11" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=1;elbow=vertical;edgeStyle=orthogonalEdgeStyle;" parent="1" source="2ArGYso1SfPXtdhOZaz5-4" target="D0Nr5EjnPLK_zhP2Ymg5-1" edge="1">
           <mxGeometry relative="1" as="geometry">
