@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0" version="28.2.9" pages="8">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:143.0) Gecko/20100101 Firefox/143.0" version="29.0.3" pages="8">
   <diagram name="Reconnaissance" id="l6uARz4Kyqoon4gwFnSB">
-    <mxGraphModel dx="1426" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,8 +19,8 @@
         <mxCell id="gGPnzEUqgYNmDZAv7QP8-6" value="&lt;font color=&quot;#030303&quot;&gt;Enum DC&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="250" y="340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gGPnzEUqgYNmDZAv7QP8-7" value="&lt;font&gt;&lt;code&gt;&lt;pre&gt;#All DC&lt;br&gt;nslookup -type&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;srv _ldap._tcp.dc._msdcs.[DOMAIN] [DNS IP]&lt;/pre&gt;&lt;/code&gt;&lt;/font&gt;&lt;div&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;#DC principal &lt;br&gt;nslookup -type=srv _ldap._tcp.pdc._msdcs.[DOMAIN] [DNS IP]&lt;/font&gt;&lt;font&gt;&lt;code&gt;&lt;/code&gt;&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontColor=#ffffff;rounded=1;align=left;spacingLeft=10;" parent="1" vertex="1">
-          <mxGeometry x="440" y="310" width="730" height="120" as="geometry" />
+        <mxCell id="gGPnzEUqgYNmDZAv7QP8-7" value="&lt;font style=&quot;&quot;&gt;&lt;code&gt;&lt;pre&gt;#All DC&lt;br&gt;nslookup -type&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;srv _ldap._tcp.dc._msdcs.[DOMAIN] [DNS IP]&lt;/pre&gt;&lt;/code&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;#DC principal &lt;br&gt;nslookup -type=srv _ldap._tcp.pdc._msdcs.[DOMAIN] [DNS IP]&lt;/font&gt;&lt;font style=&quot;&quot;&gt;&lt;code&gt;&lt;/code&gt;&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontColor=light-dark(#FFFFFF,#FFFFFF);rounded=1;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="440" y="310" width="730" height="125" as="geometry" />
         </mxCell>
         <mxCell id="gGPnzEUqgYNmDZAv7QP8-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#ffffff;" parent="1" source="gGPnzEUqgYNmDZAv7QP8-9" target="gGPnzEUqgYNmDZAv7QP8-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -28,7 +28,7 @@
         <mxCell id="gGPnzEUqgYNmDZAv7QP8-9" value="&lt;font color=&quot;#030303&quot;&gt;Enum DNS&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="250" y="424" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gGPnzEUqgYNmDZAv7QP8-10" value="&lt;font&gt;nmap -v -sV -p 53 $SUBNET/$MASK --open&lt;/font&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontColor=#ffffff;rounded=1;" parent="1" vertex="1">
+        <mxCell id="gGPnzEUqgYNmDZAv7QP8-10" value="&lt;font&gt;nmap -v -sV -p 53 $SUBNET/$MASK --open&lt;/font&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontColor=light-dark(#FFFFFF,#FFFFFF);rounded=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="439.5" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gGPnzEUqgYNmDZAv7QP8-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#ffffff;" parent="1" source="gGPnzEUqgYNmDZAv7QP8-17" target="gGPnzEUqgYNmDZAv7QP8-3" edge="1">
