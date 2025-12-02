@@ -916,7 +916,7 @@
         <mxCell id="Yy7sR1aXQtWxQ2WAoCF2-9" edge="1" parent="1" source="Yy7sR1aXQtWxQ2WAoCF2-3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=1;" target="Yy7sR1aXQtWxQ2WAoCF2-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <object label="&lt;div&gt;search writable smb folder&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;smbmap&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" command="smbmap -u S.Moon -H &quot;10.10.11.187&quot; -p &#39;S@Ss!K@*t13&#39;" nxc="nxc smb 192.168.1.0/24 -u user -p &#39;PASSWORDHERE&#39; --shares READ,WRITE" id="Yy7sR1aXQtWxQ2WAoCF2-3">
+        <object label="&lt;div&gt;search writable smb folder&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;smbmap&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;nxc&lt;/font&gt;&lt;/div&gt;" command="smbmap -u S.Moon -H &quot;10.10.11.187&quot; -p &#39;S@Ss!K@*t13&#39;" nxc="nxc smb 192.168.1.0/24 -u user -p &#39;PASSWORDHERE&#39; --shares READ,WRITE" id="Yy7sR1aXQtWxQ2WAoCF2-3">
           <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#ffc000;" vertex="1">
             <mxGeometry height="60" width="170" x="-220" y="430" as="geometry" />
           </mxCell>
