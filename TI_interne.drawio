@@ -626,7 +626,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="from creds" id="DHAbqxUyTUS8Uim03K_V">
-    <mxGraphModel dx="2492" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2253" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -724,8 +724,14 @@
         <mxCell id="0wkhETG9pB4gattKTZce-1" parent="1" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" value="Hashcat crack" vertex="1">
           <mxGeometry height="70" width="130" x="50" y="820" as="geometry" />
         </mxCell>
-        <mxCell id="ZDy4xXztmy_Uh2uV_-2A-4" edge="1" parent="1" source="3LOWyAd33K374xAvLqeN-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="ZDy4xXztmy_Uh2uV_-2A-1">
+        <mxCell id="ZDy4xXztmy_Uh2uV_-2A-4" edge="1" parent="1" source="3LOWyAd33K374xAvLqeN-3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=1;" target="ZDy4xXztmy_Uh2uV_-2A-1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q8jHVZkL6aeL3lm6xcTA-7" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="573" y="562.5" as="sourcePoint" />
+            <mxPoint x="548" y="510" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="3LOWyAd33K374xAvLqeN-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" value="Local Admin right" vertex="1">
           <mxGeometry height="80" width="150" x="500" y="562.5" as="geometry" />
@@ -777,13 +783,13 @@
             <mxGeometry height="90" width="154" y="605" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="ZDy4xXztmy_Uh2uV_-2A-5" edge="1" parent="1" source="ZDy4xXztmy_Uh2uV_-2A-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ZDy4xXztmy_Uh2uV_-2A-3">
+        <mxCell id="ZDy4xXztmy_Uh2uV_-2A-5" edge="1" parent="1" source="ZDy4xXztmy_Uh2uV_-2A-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=1;" target="ZDy4xXztmy_Uh2uV_-2A-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZDy4xXztmy_Uh2uV_-2A-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;search machines that domain admin has logged&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;with bloodhound&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="582" y="380" as="geometry" />
+          <mxGeometry height="60" width="120" x="680" y="380" as="geometry" />
         </mxCell>
-        <mxCell id="ZDy4xXztmy_Uh2uV_-2A-6" edge="1" parent="1" source="ZDy4xXztmy_Uh2uV_-2A-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="orcKsDgMiDMdKtN4nEvD-2">
+        <mxCell id="ZDy4xXztmy_Uh2uV_-2A-6" edge="1" parent="1" source="ZDy4xXztmy_Uh2uV_-2A-3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=1;" target="orcKsDgMiDMdKtN4nEvD-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZDy4xXztmy_Uh2uV_-2A-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;dump passwords&lt;/div&gt;&lt;div&gt;of users who have logged into the machine&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;crackmapexec&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;mimikatz&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
@@ -959,9 +965,15 @@
         <mxCell id="HUgT8opHQEEQBJ-Bt90d-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;Coerce&lt;/div&gt;&lt;div&gt;see Tab from no creds&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="163" x="-413" y="1650" as="geometry" />
         </mxCell>
+        <mxCell id="q8jHVZkL6aeL3lm6xcTA-5" edge="1" parent="1" source="q8jHVZkL6aeL3lm6xcTA-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=1;" target="Iw_T4d_-wb4pz08Lo9XD-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q8jHVZkL6aeL3lm6xcTA-6" edge="1" parent="1" source="q8jHVZkL6aeL3lm6xcTA-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=1;" target="orcKsDgMiDMdKtN4nEvD-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <object label="&lt;div&gt;Impersonate logged on users&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;nxc&lt;/font&gt;&lt;/div&gt;" enum="nxc smb &lt;ip&gt; -u &lt;localAdmin&gt; -p &lt;password&gt; --loggedon-users" exec="nxc smb &lt;ip&gt; -u &lt;localAdmin&gt; -p &lt;password&gt; -M schtask_as -o USER=&lt;logged-on-user&gt; CMD=&lt;cmd-command&gt;" id="q8jHVZkL6aeL3lm6xcTA-1">
           <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1">
-            <mxGeometry height="60" width="120" x="670" y="490" as="geometry" />
+            <mxGeometry height="60" width="120" x="490" y="450" as="geometry" />
           </mxCell>
         </object>
       </root>
