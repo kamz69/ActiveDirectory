@@ -510,8 +510,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1211" y="1050" />
-              <mxPoint x="780" y="1050" />
-              <mxPoint x="780" y="677" />
+              <mxPoint x="820" y="1050" />
             </Array>
             <mxPoint x="1211" y="1210" as="sourcePoint" />
             <mxPoint x="780" y="677" as="targetPoint" />
@@ -560,16 +559,10 @@
             <mxPoint x="-100" y="855" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DBCFvuGmctfLPaT07l7L-3" edge="1" parent="1" source="OdaqT3pz17vKf_LpFtww-18" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;fillColor=#e1d5e7;">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="650" y="860" />
-              <mxPoint x="840" y="860" />
-            </Array>
-            <mxPoint x="670" y="780" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="DBCFvuGmctfLPaT07l7L-4" edge="1" parent="1" source="OdaqT3pz17vKf_LpFtww-18" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;fillColor=#e1d5e7;" target="krhd2gOpyObvxGGtO9l1-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D0ujZvl1vlKMxGZsZeKN-2" edge="1" parent="1" source="OdaqT3pz17vKf_LpFtww-18" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;fillColor=#e1d5e7;" target="TZx4k0LZ_Z577zQX7S4p-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OdaqT3pz17vKf_LpFtww-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="&lt;div&gt;Coerce SMB&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;coercer.py&lt;/font&gt;&lt;/div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;petitpotam.py&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
