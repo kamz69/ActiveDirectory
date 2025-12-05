@@ -522,7 +522,7 @@
           </mxCell>
         </object>
         <object label="NTLM relay" id="TZx4k0LZ_Z577zQX7S4p-7">
-          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=light-dark(#000000, #e5a50a);" vertex="1">
             <mxGeometry height="60" width="120" x="760" y="560" as="geometry" />
           </mxCell>
         </object>
