@@ -1416,7 +1416,7 @@
         <mxCell id="v7aNdoy48dWiaJE41c0u-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;SEImpersonate Privilege&amp;nbsp;&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="190" x="820" y="-413" as="geometry" />
         </mxCell>
-        <mxCell id="v7aNdoy48dWiaJE41c0u-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;SeBackupPrivilege&lt;/div&gt;" vertex="1">
+        <mxCell id="v7aNdoy48dWiaJE41c0u-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;SeBackupPrivilege&lt;/div&gt;&lt;div&gt;SeRestorePrivilege&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="190" x="820" y="-360" as="geometry" />
         </mxCell>
         <mxCell id="v7aNdoy48dWiaJE41c0u-9" edge="1" parent="1" source="v7aNdoy48dWiaJE41c0u-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.005;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;" target="v7aNdoy48dWiaJE41c0u-4">
