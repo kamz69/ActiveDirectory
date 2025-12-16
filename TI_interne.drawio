@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:145.0) Gecko/20100101 Firefox/145.0" version="29.2.4" pages="8">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:146.0) Gecko/20100101 Firefox/146.0" version="29.2.7" pages="8">
   <diagram name="Reconnaissance" id="l6uARz4Kyqoon4gwFnSB">
     <mxGraphModel dx="1426" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1278,7 +1278,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Privesc" id="g_WdtopXuEi5G3ynW-Q2">
-    <mxGraphModel dx="2595" dy="1522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2595" dy="1625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1344,8 +1344,10 @@
         <mxCell id="-vnwHSd8MJSs5UrJir6d-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Search for powershell logging" vertex="1">
           <mxGeometry height="50" width="177.5" x="605" y="-70" as="geometry" />
         </mxCell>
-        <mxCell id="KbV5osIUXq8xYqzZ2qIY-2" edge="1" parent="1" source="-vnwHSd8MJSs5UrJir6d-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#b20000;strokeWidth=3;" target="eydW96J8nSPCopO3k54l-2">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="KbV5osIUXq8xYqzZ2qIY-2" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#b20000;strokeWidth=3;" target="eydW96J8nSPCopO3k54l-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1160" y="35" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="-vnwHSd8MJSs5UrJir6d-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Service Binary hijacking" vertex="1">
           <mxGeometry height="50" width="177.5" x="600" y="10" as="geometry" />
@@ -1457,6 +1459,9 @@
         </object>
         <mxCell id="7o8DJ0UGml84ColHvwPg-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#A20025,#FF1108);fontColor=#ffffff;strokeColor=#6F0000;" value="Local Admin" vertex="1">
           <mxGeometry height="70" width="180" x="1720" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="tok6mgIsKrqx-7G5Pfyi-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Enumerate service binary owned by system and admin and which is writable by user&amp;nbsp;" vertex="1">
+          <mxGeometry height="50" width="177.5" x="832.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
