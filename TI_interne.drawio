@@ -1338,7 +1338,7 @@
         <mxCell id="-vnwHSd8MJSs5UrJir6d-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Search for sensitive files" vertex="1">
           <mxGeometry height="50" width="165" x="605" y="-130" as="geometry" />
         </mxCell>
-        <mxCell id="sli6TIqKNSMXCn56WrA1-2" edge="1" parent="1" source="-vnwHSd8MJSs5UrJir6d-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="KbV5osIUXq8xYqzZ2qIY-5">
+        <mxCell id="_0IQGDAWG63bgFsIsq3G-9" edge="1" parent="1" source="-vnwHSd8MJSs5UrJir6d-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="KbV5osIUXq8xYqzZ2qIY-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-vnwHSd8MJSs5UrJir6d-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Search for powershell logging" vertex="1">
@@ -1348,6 +1348,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1490" y="-100" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="_0IQGDAWG63bgFsIsq3G-10" edge="1" parent="1" source="-vnwHSd8MJSs5UrJir6d-10" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="_0IQGDAWG63bgFsIsq3G-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-vnwHSd8MJSs5UrJir6d-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Service Binary hijacking" vertex="1">
           <mxGeometry height="50" width="177.5" x="600" y="10" as="geometry" />
@@ -1469,14 +1472,14 @@
         <mxCell id="_0IQGDAWG63bgFsIsq3G-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;Enumerate service binary owned by system and admin and which is writable by user&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(102, 102, 255));&quot;&gt;powerUp.ps1&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="210" x="820" as="geometry" />
         </mxCell>
-        <mxCell id="_0IQGDAWG63bgFsIsq3G-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;Droit de restart le service&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span&gt;exploit direct avec PowerUp&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="210" x="1080" y="-40" as="geometry" />
-        </mxCell>
         <mxCell id="_0IQGDAWG63bgFsIsq3G-7" edge="1" parent="1" source="_0IQGDAWG63bgFsIsq3G-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#b20000;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="eydW96J8nSPCopO3k54l-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_0IQGDAWG63bgFsIsq3G-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;Droit de rebooter la machine + autostart du service au démarrage&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(transparent, rgb(53, 132, 228));&quot;&gt;cmd /c sc qc auditTracker&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(transparent, rgb(98, 160, 234));&quot;&gt;whiami /priv&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="210" x="1080" y="10" as="geometry" />
+          <mxGeometry height="70" width="330" x="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="_0IQGDAWG63bgFsIsq3G-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;Droit de restart le service&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span&gt;exploit direct avec PowerUp&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(transparent, rgb(98, 160, 234));&quot;&gt;. .\PowerUp.ps1&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(15, 183, 255));&quot;&gt;Get-ModifiableServiceFile&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="330" x="1080" y="-75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
