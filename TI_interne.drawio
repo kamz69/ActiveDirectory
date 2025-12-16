@@ -1460,8 +1460,8 @@
         <mxCell id="7o8DJ0UGml84ColHvwPg-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#A20025,#FF1108);fontColor=#ffffff;strokeColor=#6F0000;" value="Local Admin" vertex="1">
           <mxGeometry height="70" width="180" x="1720" y="260" as="geometry" />
         </mxCell>
-        <mxCell id="tok6mgIsKrqx-7G5Pfyi-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Enumerate service binary owned by system and admin and which is writable by user&amp;nbsp;" vertex="1">
-          <mxGeometry height="50" width="177.5" x="832.5" as="geometry" />
+        <mxCell id="_0IQGDAWG63bgFsIsq3G-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;Enumerate service binary owned by system and admin and which is writable by user&amp;nbsp;&lt;/div&gt;&lt;div&gt;powerUp.ps1&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="210" x="810" y="-10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
