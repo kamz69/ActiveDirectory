@@ -139,6 +139,9 @@
         <mxCell id="Cxp89QEnptsFn8cSijdK-5" edge="1" parent="1" source="Cxp89QEnptsFn8cSijdK-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Cxp89QEnptsFn8cSijdK-4" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Cxp89QEnptsFn8cSijdK-16" edge="1" parent="1" source="Cxp89QEnptsFn8cSijdK-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Cxp89QEnptsFn8cSijdK-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Cxp89QEnptsFn8cSijdK-2" parent="1" style="whiteSpace=wrap;html=1;fontColor=#2a7bde;rounded=1;" value="transformer les range en ip avec prips" vertex="1">
           <mxGeometry height="60" width="120" x="840" y="100" as="geometry" />
         </mxCell>
@@ -173,6 +176,9 @@
         </mxCell>
         <mxCell id="Cxp89QEnptsFn8cSijdK-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="scan infra avec Nessus" vertex="1">
           <mxGeometry height="60" width="120" x="1240" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="Cxp89QEnptsFn8cSijdK-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Transformer les IPs en dns name avec hackrevdns" vertex="1">
+          <mxGeometry height="60" width="120" x="1040" y="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
