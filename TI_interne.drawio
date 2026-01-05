@@ -136,10 +136,7 @@
         <mxCell id="SxZXmz22mohuRu_Dutfb-11" parent="1" style="whiteSpace=wrap;html=1;fontColor=#2a7bde;rounded=1;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Reporter les réseaux accessibles dans scope.txt&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="640" y="100" as="geometry" />
         </mxCell>
-        <mxCell id="Cxp89QEnptsFn8cSijdK-5" edge="1" parent="1" source="Cxp89QEnptsFn8cSijdK-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Cxp89QEnptsFn8cSijdK-4" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Cxp89QEnptsFn8cSijdK-16" edge="1" parent="1" source="Cxp89QEnptsFn8cSijdK-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Cxp89QEnptsFn8cSijdK-15">
+        <mxCell id="Cxp89QEnptsFn8cSijdK-18" edge="1" parent="1" source="Cxp89QEnptsFn8cSijdK-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="Cxp89QEnptsFn8cSijdK-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Cxp89QEnptsFn8cSijdK-2" parent="1" style="whiteSpace=wrap;html=1;fontColor=#2a7bde;rounded=1;" value="transformer les range en ip avec prips" vertex="1">
@@ -153,32 +150,41 @@
         </mxCell>
         <mxCell id="Cxp89QEnptsFn8cSijdK-11" edge="1" parent="1" source="Cxp89QEnptsFn8cSijdK-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Cxp89QEnptsFn8cSijdK-12">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1200" y="270" as="targetPoint" />
+            <mxPoint x="1370" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Cxp89QEnptsFn8cSijdK-14" edge="1" parent="1" source="Cxp89QEnptsFn8cSijdK-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Cxp89QEnptsFn8cSijdK-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Cxp89QEnptsFn8cSijdK-4" parent="1" style="whiteSpace=wrap;html=1;fontColor=#2a7bde;rounded=1;" value="Scan de port avec naabu" vertex="1">
-          <mxGeometry height="60" width="120" x="1040" y="100" as="geometry" />
+          <mxGeometry height="60" width="120" x="1210" y="110" as="geometry" />
         </mxCell>
         <mxCell id="Cxp89QEnptsFn8cSijdK-9" edge="1" parent="1" source="Cxp89QEnptsFn8cSijdK-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Cxp89QEnptsFn8cSijdK-8" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Cxp89QEnptsFn8cSijdK-6" parent="1" style="whiteSpace=wrap;html=1;fontColor=#2a7bde;rounded=1;" value="Identification des webservers avec httpx" vertex="1">
-          <mxGeometry height="60" width="120" x="1240" y="100" as="geometry" />
+          <mxGeometry height="60" width="120" x="1410" y="110" as="geometry" />
         </mxCell>
         <mxCell id="Cxp89QEnptsFn8cSijdK-8" parent="1" style="whiteSpace=wrap;html=1;fontColor=#2a7bde;rounded=1;" value="Scan web avec nuclei" vertex="1">
-          <mxGeometry height="60" width="120" x="1440" y="100" as="geometry" />
+          <mxGeometry height="60" width="120" x="1610" y="110" as="geometry" />
         </mxCell>
         <mxCell id="Cxp89QEnptsFn8cSijdK-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Scan infra avec nuclei" vertex="1">
-          <mxGeometry height="60" width="140" x="1240" y="180" as="geometry" />
+          <mxGeometry height="60" width="140" x="1410" y="190" as="geometry" />
         </mxCell>
         <mxCell id="Cxp89QEnptsFn8cSijdK-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="scan infra avec Nessus" vertex="1">
-          <mxGeometry height="60" width="120" x="1240" y="270" as="geometry" />
+          <mxGeometry height="60" width="120" x="1410" y="280" as="geometry" />
         </mxCell>
         <mxCell id="Cxp89QEnptsFn8cSijdK-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Transformer les IPs en dns name avec hackrevdns" vertex="1">
-          <mxGeometry height="60" width="120" x="1040" y="190" as="geometry" />
+          <mxGeometry height="60" width="120" x="1210" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Cxp89QEnptsFn8cSijdK-19" edge="1" parent="1" source="Cxp89QEnptsFn8cSijdK-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="Cxp89QEnptsFn8cSijdK-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cxp89QEnptsFn8cSijdK-20" edge="1" parent="1" source="Cxp89QEnptsFn8cSijdK-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Cxp89QEnptsFn8cSijdK-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cxp89QEnptsFn8cSijdK-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="filtrer les ips up uniquement" vertex="1">
+          <mxGeometry height="60" width="120" x="1030" y="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
