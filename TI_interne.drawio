@@ -139,7 +139,7 @@
         <mxCell id="Cxp89QEnptsFn8cSijdK-18" edge="1" parent="1" source="Cxp89QEnptsFn8cSijdK-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="Cxp89QEnptsFn8cSijdK-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Cxp89QEnptsFn8cSijdK-2" parent="1" style="whiteSpace=wrap;html=1;fontColor=#2a7bde;rounded=1;" value="transformer les range en ip avec prips" vertex="1">
+        <mxCell id="Cxp89QEnptsFn8cSijdK-2" parent="1" style="whiteSpace=wrap;html=1;fontColor=#2a7bde;rounded=1;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;transformer les range en ip avec prips&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="840" y="100" as="geometry" />
         </mxCell>
         <mxCell id="Cxp89QEnptsFn8cSijdK-7" edge="1" parent="1" source="Cxp89QEnptsFn8cSijdK-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Cxp89QEnptsFn8cSijdK-6" value="">
@@ -156,16 +156,16 @@
         <mxCell id="Cxp89QEnptsFn8cSijdK-14" edge="1" parent="1" source="Cxp89QEnptsFn8cSijdK-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Cxp89QEnptsFn8cSijdK-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Cxp89QEnptsFn8cSijdK-4" parent="1" style="whiteSpace=wrap;html=1;fontColor=#2a7bde;rounded=1;" value="Scan de port avec naabu" vertex="1">
+        <mxCell id="Cxp89QEnptsFn8cSijdK-4" parent="1" style="whiteSpace=wrap;html=1;fontColor=#2a7bde;rounded=1;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Scan de port avec naabu&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="1210" y="100" as="geometry" />
         </mxCell>
         <mxCell id="Cxp89QEnptsFn8cSijdK-9" edge="1" parent="1" source="Cxp89QEnptsFn8cSijdK-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Cxp89QEnptsFn8cSijdK-8" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Cxp89QEnptsFn8cSijdK-6" parent="1" style="whiteSpace=wrap;html=1;fontColor=#2a7bde;rounded=1;" value="Identification des webservers avec httpx" vertex="1">
+        <mxCell id="Cxp89QEnptsFn8cSijdK-6" parent="1" style="whiteSpace=wrap;html=1;fontColor=#2a7bde;rounded=1;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Identification des webservers avec httpx&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="1410" y="100" as="geometry" />
         </mxCell>
-        <mxCell id="Cxp89QEnptsFn8cSijdK-8" parent="1" style="whiteSpace=wrap;html=1;fontColor=#2a7bde;rounded=1;" value="Scan web avec nuclei" vertex="1">
+        <mxCell id="Cxp89QEnptsFn8cSijdK-8" parent="1" style="whiteSpace=wrap;html=1;fontColor=#2a7bde;rounded=1;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Scan web avec nuclei&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="1610" y="110" as="geometry" />
         </mxCell>
         <mxCell id="Cxp89QEnptsFn8cSijdK-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Scan infra avec nuclei" vertex="1">
