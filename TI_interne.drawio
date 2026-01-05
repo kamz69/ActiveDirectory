@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:146.0) Gecko/20100101 Firefox/146.0" version="29.2.7" pages="8">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0" version="29.2.9" pages="8">
   <diagram name="Reconnaissance" id="l6uARz4Kyqoon4gwFnSB">
     <mxGraphModel dx="1426" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -122,7 +122,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="From no creds" id="es25xRgdZYHL0BZce3pH">
-    <mxGraphModel dx="2595" dy="1522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2595" dy="1578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -407,7 +407,7 @@
           <mxGeometry height="33" width="330" x="671" y="-720" as="geometry" />
         </mxCell>
         <mxCell id="uSAMaLs1ly5iVUIFKPd6-1" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="&lt;div&gt;TOMCAT manager bruteforce&lt;br&gt;&lt;pre class=&quot;programlisting&quot;&gt;&lt;strong&gt;use auxiliary/scanner/http/tomcat_mgr_login&lt;/strong&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="33" width="330" x="681" y="-800" as="geometry" />
+          <mxGeometry height="43" width="330" x="681" y="-810" as="geometry" />
         </mxCell>
         <mxCell id="i_53WrwCQ5BU9_YikGZj-1" parent="1" style="whiteSpace=wrap;html=1;fontSize=14;align=center;rounded=1;" value="&lt;div align=&quot;center&quot;&gt;permet de récupérer la liste des users de l&#39;AD (auto)&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="350" x="1890" y="895" as="geometry" />
@@ -1160,49 +1160,49 @@
     </mxGraphModel>
   </diagram>
   <diagram id="4XhSJpFUfKR00BV7PpT7" name="Hash crack">
-    <mxGraphModel dx="1434" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="UEOjsBb1sXwvQ9755zZK-3" style="edgeStyle=segmentEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;" parent="1" source="UEOjsBb1sXwvQ9755zZK-1" target="UEOjsBb1sXwvQ9755zZK-2" edge="1">
+        <mxCell id="UEOjsBb1sXwvQ9755zZK-3" edge="1" parent="1" source="UEOjsBb1sXwvQ9755zZK-1" style="edgeStyle=segmentEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;" target="UEOjsBb1sXwvQ9755zZK-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UEOjsBb1sXwvQ9755zZK-1" value="DCC2" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="110" y="200" width="120" height="60" as="geometry" />
+        <mxCell id="UEOjsBb1sXwvQ9755zZK-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="DCC2" vertex="1">
+          <mxGeometry height="60" width="120" x="110" y="200" as="geometry" />
         </mxCell>
-        <mxCell id="UEOjsBb1sXwvQ9755zZK-2" value="&lt;pre id=&quot;codecell1&quot;&gt;&lt;span&gt;&lt;/span&gt;hashcat -a 0 -m 2100 hash.txt /usr/share/wordlists/rockyou.txt&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="400" y="200" width="550" height="60" as="geometry" />
+        <mxCell id="UEOjsBb1sXwvQ9755zZK-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;pre id=&quot;codecell1&quot;&gt;&lt;span&gt;&lt;/span&gt;hashcat -a 0 -m 2100 hash.txt /usr/share/wordlists/rockyou.txt&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="60" width="550" x="400" y="200" as="geometry" />
         </mxCell>
-        <mxCell id="p_wJHP-WUxfy-bDWzwtI-2" value="" style="edgeStyle=segmentEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="8CpK8tgkgzHANVFZFHcg-1" target="p_wJHP-WUxfy-bDWzwtI-3" edge="1">
+        <mxCell id="p_wJHP-WUxfy-bDWzwtI-2" edge="1" parent="1" source="8CpK8tgkgzHANVFZFHcg-1" style="edgeStyle=segmentEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="p_wJHP-WUxfy-bDWzwtI-3" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="400" y="343.125" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8CpK8tgkgzHANVFZFHcg-1" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;Find users AsRepRoastable&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;a href=&quot;https://github.com/SecureAuthCorp/impacket/blob/master/examples/GetNPUsers.py&quot;&gt;GetNPUsers.py&lt;/a&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#dc8add&quot;&gt;Users qui ne nécéssite pas de préauthentification pour demander un TGT&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontColor=#ffa348;" parent="1" vertex="1">
-          <mxGeometry x="80" y="280" width="238" height="126.25" as="geometry" />
+        <mxCell id="8CpK8tgkgzHANVFZFHcg-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fontColor=#ffa348;" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;Find users AsRepRoastable&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;a href=&quot;https://github.com/SecureAuthCorp/impacket/blob/master/examples/GetNPUsers.py&quot;&gt;GetNPUsers.py&lt;/a&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#dc8add&quot;&gt;Users qui ne nécéssite pas de préauthentification pour demander un TGT&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="126.25" width="238" x="80" y="280" as="geometry" />
         </mxCell>
-        <mxCell id="p_wJHP-WUxfy-bDWzwtI-3" value="&lt;pre id=&quot;codecell1&quot;&gt;&lt;span&gt;&lt;/span&gt;hashcat -a 0 -m 18200 hash.txt /usr/share/wordlists/rockyou.txt&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="400" y="313.12" width="550" height="60" as="geometry" />
+        <mxCell id="p_wJHP-WUxfy-bDWzwtI-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;pre id=&quot;codecell1&quot;&gt;&lt;span&gt;&lt;/span&gt;hashcat -a 0 -m 18200 hash.txt /usr/share/wordlists/rockyou.txt&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="60" width="550" x="400" y="313.12" as="geometry" />
         </mxCell>
-        <mxCell id="tMXJSBi6jW3Ec-AX4XgG-2" style="edgeStyle=segmentEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;" parent="1" source="G2mHiiqQkBjTcfPHI7jF-1" target="G2mHiiqQkBjTcfPHI7jF-2" edge="1">
+        <mxCell id="tMXJSBi6jW3Ec-AX4XgG-2" edge="1" parent="1" source="G2mHiiqQkBjTcfPHI7jF-1" style="edgeStyle=segmentEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;" target="G2mHiiqQkBjTcfPHI7jF-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="G2mHiiqQkBjTcfPHI7jF-1" value="Crack Net NTLM Hash" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="139" y="430" width="120" height="60" as="geometry" />
+        <mxCell id="G2mHiiqQkBjTcfPHI7jF-1" parent="1" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" value="Crack Net NTLM Hash" vertex="1">
+          <mxGeometry height="60" width="120" x="139" y="430" as="geometry" />
         </mxCell>
-        <mxCell id="G2mHiiqQkBjTcfPHI7jF-2" value="&lt;pre id=&quot;codecell1&quot;&gt;&lt;span&gt;&lt;/span&gt;hashcat -a 0 -m 5600 hash.txt /usr/share/wordlists/rockyou.txt&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="400" y="430" width="550" height="60" as="geometry" />
+        <mxCell id="G2mHiiqQkBjTcfPHI7jF-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;pre id=&quot;codecell1&quot;&gt;&lt;span&gt;&lt;/span&gt;hashcat -a 0 -m 5600 hash.txt /usr/share/wordlists/rockyou.txt&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="60" width="550" x="400" y="430" as="geometry" />
         </mxCell>
-        <mxCell id="eWu1UuCkKJvDEHbjB9NO-3" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;fillColor=#e1d5e7;" edge="1" parent="1" source="eWu1UuCkKJvDEHbjB9NO-1" target="eWu1UuCkKJvDEHbjB9NO-2">
+        <mxCell id="eWu1UuCkKJvDEHbjB9NO-3" edge="1" parent="1" source="eWu1UuCkKJvDEHbjB9NO-1" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;fillColor=#e1d5e7;" target="eWu1UuCkKJvDEHbjB9NO-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <object label="&lt;div&gt;Kerberoasting&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;GetUserSPNs.py&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;&lt;font color=&quot;#dc8add&quot;&gt;Get hash of all services accounts&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" cmd="proxychains GetUserSPNs.py -request -dc-ip 172.16.248.10 medtech.com/joe:Flowers1 -outputfile kerberoasting.hashes" id="eWu1UuCkKJvDEHbjB9NO-1">
-          <mxCell style="whiteSpace=wrap;html=1;rounded=1;fontSize=13;strokeColor=#e5a50a;" vertex="1" parent="1">
-            <mxGeometry x="110" y="520" width="170" height="100" as="geometry" />
+          <mxCell parent="1" style="whiteSpace=wrap;html=1;rounded=1;fontSize=13;strokeColor=#e5a50a;" vertex="1">
+            <mxGeometry height="100" width="170" x="110" y="520" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="eWu1UuCkKJvDEHbjB9NO-2" value="&lt;pre id=&quot;codecell1&quot;&gt;&lt;span&gt;&lt;/span&gt;hashcat -a 0 -m 13100 hash.txt /usr/share/wordlists/rockyou.txt&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="540" width="550" height="60" as="geometry" />
+        <mxCell id="eWu1UuCkKJvDEHbjB9NO-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;pre id=&quot;codecell1&quot;&gt;&lt;span&gt;&lt;/span&gt;hashcat -a 0 -m 13100 hash.txt /usr/share/wordlists/rockyou.txt&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="60" width="550" x="400" y="540" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
