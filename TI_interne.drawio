@@ -168,8 +168,8 @@
         <mxCell id="Cxp89QEnptsFn8cSijdK-8" parent="1" style="whiteSpace=wrap;html=1;fontColor=#2a7bde;rounded=1;" value="Scan web avec nuclei" vertex="1">
           <mxGeometry height="60" width="120" x="1440" y="100" as="geometry" />
         </mxCell>
-        <mxCell id="Cxp89QEnptsFn8cSijdK-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="scan infra avec nuclei" vertex="1">
-          <mxGeometry height="60" width="120" x="1240" y="180" as="geometry" />
+        <mxCell id="Cxp89QEnptsFn8cSijdK-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Scan infra avec nuclei" vertex="1">
+          <mxGeometry height="60" width="140" x="1240" y="180" as="geometry" />
         </mxCell>
         <mxCell id="Cxp89QEnptsFn8cSijdK-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="scan infra avec Nessus" vertex="1">
           <mxGeometry height="60" width="120" x="1240" y="270" as="geometry" />
