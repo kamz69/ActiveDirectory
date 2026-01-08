@@ -709,8 +709,8 @@
         <mxCell id="usY_44B4tAuMONluzPLx-4" edge="1" parent="1" source="usY_44B4tAuMONluzPLx-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;fillColor=#e1d5e7;" target="RcJsrnn1SgcJtgKbqCFV-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="usY_44B4tAuMONluzPLx-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="Relay to another DC to abuse&amp;nbsp;&lt;code&gt;delegate-access&lt;/code&gt;" vertex="1">
-          <mxGeometry height="80" width="130" x="950" y="1180" as="geometry" />
+        <mxCell id="usY_44B4tAuMONluzPLx-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="&lt;div&gt;Relay to another DC to abuse&amp;nbsp;&lt;code&gt;delegate-access&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code&gt;&lt;br&gt;&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code&gt;Prérequis : NTLMV1 sur les DC&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code&gt;MAQ &amp;gt; 0&lt;/code&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="220" x="950" y="1180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
