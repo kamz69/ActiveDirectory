@@ -724,7 +724,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="from creds" id="DHAbqxUyTUS8Uim03K_V">
-    <mxGraphModel dx="2253" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2253" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -870,7 +870,7 @@
         <mxCell id="46VSiSrXyTr81zkC9bUa-1" edge="1" parent="1" source="Mgc068LGqz-ZIUhQZxpC-4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=1;" target="Iw_T4d_-wb4pz08Lo9XD-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <object label="password spray" cmd="cme smb 172.16.248.10 -u users_parsed.txt -p users_parsed.txt -d medtech.com --no-bruteforce --continue-on-success" cmd2="cme smb 192.168.50.75 -u users.txt -p &#39;Nexus123!&#39; -d corp.com --continue-on-success" id="Mgc068LGqz-ZIUhQZxpC-4">
+        <object label="password spray" cmd="cme smb 172.16.248.10 -u users_parsed.txt -p users_parsed.txt -d medtech.com --no-bruteforce --continue-on-success" cmd2="cme smb 192.168.50.75 -u users.txt -p &#39;Nexus123!&#39; -d corp.com --continue-on-success" cmd3="user=password+69" id="Mgc068LGqz-ZIUhQZxpC-4">
           <mxCell parent="1" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;strokeColor=#e5a50a;" vertex="1">
             <mxGeometry height="70" width="140" y="505" as="geometry" />
           </mxCell>
