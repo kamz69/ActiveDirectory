@@ -224,7 +224,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="From no creds" id="es25xRgdZYHL0BZce3pH">
-    <mxGraphModel dx="2595" dy="2405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2152" dy="2172" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -739,7 +739,7 @@
           <mxGeometry height="32" width="330" x="706" y="-450" as="geometry" />
         </mxCell>
         <mxCell id="CGhblA7CVLeTdQngl_E0-1" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;i&gt;&lt;font color=&quot;#000000&quot; style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;By default, required only on DC on Windows server 2025&amp;nbsp;&lt;/font&gt;&lt;/i&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="200" x="1158" y="965" as="geometry" />
+          <mxGeometry height="40" width="330" x="1400" y="980" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
