@@ -422,7 +422,7 @@
         </mxCell>
         <object label="&lt;div&gt;Relay to SMB&lt;br&gt;&lt;/div&gt;" cmd="" id="hefA_bYV9p1Cq4kSP_zY-9">
           <mxCell parent="1" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;strokeColor=#000000;" vertex="1">
-            <mxGeometry height="60" width="141" x="1438" y="615" as="geometry" />
+            <mxGeometry height="60" width="141" x="1443.5" y="575" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="hefA_bYV9p1Cq4kSP_zY-19" edge="1" parent="1" source="hefA_bYV9p1Cq4kSP_zY-10" style="edgeStyle=segmentEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;strokeColor=#2F5B7C;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;" target="_LFIwpbgAgwoRebmZAz1-4">
@@ -616,11 +616,8 @@
         <mxCell id="ETCpI3GuiIKZf-ECZUgB-3" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" value="&lt;div&gt;Lateral Mouvement&lt;/div&gt;&lt;div&gt;Pass the certificate&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="2500" y="805" as="geometry" />
         </mxCell>
-        <mxCell id="XEjIRK6-DxWVUZQpVNKg-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;strokeColor=none;" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;Prerequisites :SMB Signing &lt;b&gt;not REQUIRED&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;&lt;font color=&quot;#000000&quot;&gt;By default, required only on DC&lt;/font&gt;&lt;/i&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="205" x="1410" y="685" as="geometry" />
-        </mxCell>
-        <mxCell id="XEjIRK6-DxWVUZQpVNKg-8" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;strokeColor=none;align=left;" value="&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(89, 249, 6), rgb(83, 246, 9));&quot;&gt;HTTP :&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(89, 249, 6), rgb(83, 246, 9));&quot;&gt;No Prerequisites&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(89, 249, 6), rgb(83, 246, 9));&quot;&gt;HTTPS: EPA disabled (from SMB NTLM auth)&lt;/span&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(89, 249, 6), rgb(83, 246, 9));&quot;&gt;EPA enabled (from HTTP NLTM auth)&lt;/span&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0);&quot;&gt;EAP enabled for HTTPS&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="302" x="970" y="770" as="geometry" />
+        <mxCell id="XEjIRK6-DxWVUZQpVNKg-8" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;strokeColor=none;align=left;" value="&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(89, 249, 6), rgb(83, 246, 9));&quot;&gt;Prérequis:&lt;/span&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(89, 249, 6), rgb(83, 246, 9));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(89, 249, 6), rgb(83, 246, 9));&quot;&gt;HTTP :&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(89, 249, 6), rgb(83, 246, 9));&quot;&gt;No Prerequisites&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(89, 249, 6), rgb(83, 246, 9));&quot;&gt;HTTPS: EPA not Required&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="115" width="302" x="980" y="740" as="geometry" />
         </mxCell>
         <mxCell id="WNUIlei8VlNFuhWwirbG-5" edge="1" parent="1" source="WNUIlei8VlNFuhWwirbG-1" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=1;" target="WNUIlei8VlNFuhWwirbG-4">
           <mxGeometry relative="1" as="geometry" />
@@ -648,6 +645,12 @@
             <mxGeometry height="140" width="340" x="670" y="480" as="geometry" />
           </mxCell>
         </object>
+        <mxCell id="zyx8Yc6mV3sa2UB_Pi_W-4" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;strokeColor=none;align=left;" value="&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(89, 249, 6), rgb(83, 246, 9));&quot;&gt;Prérequis:&lt;/span&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(89, 249, 6), rgb(83, 246, 9));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 236, 64), rgb(0, 231, 60));&quot;&gt;SMB Signing &lt;b&gt;not REQUIRED&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;i&gt;&lt;font color=&quot;#000000&quot;&gt;By default, required only on DC&lt;/font&gt;&lt;/i&gt;&lt;/div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="302" x="1282.5" y="645" as="geometry" />
+        </mxCell>
+        <mxCell id="zyx8Yc6mV3sa2UB_Pi_W-5" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;strokeColor=none;align=left;" value="&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(89, 249, 6), rgb(83, 246, 9));&quot;&gt;Prérequis:&lt;/span&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(89, 249, 6), rgb(83, 246, 9));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(89, 249, 6), rgb(83, 246, 9));&quot;&gt;LDAP:&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(89, 249, 6), rgb(83, 246, 9));&quot;&gt;No Prerequisites&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(89, 249, 6), rgb(83, 246, 9));&quot;&gt;LDAPS:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(89, 249, 6), rgb(83, 246, 9));&quot;&gt;EPA not Required&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="115" width="302" x="990" y="950" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
