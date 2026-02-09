@@ -224,7 +224,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="From no creds" id="es25xRgdZYHL0BZce3pH">
-    <mxGraphModel dx="3363" dy="2723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2595" dy="2405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -713,7 +713,7 @@
           <mxGeometry height="60" width="120" x="2220" y="790" as="geometry" />
         </mxCell>
         <mxCell id="XEjIRK6-DxWVUZQpVNKg-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;strokeColor=none;" value="&lt;font color=&quot;#000000&quot;&gt;Prerequisites :SMB Signing &lt;b&gt;not REQUIRED&lt;/b&gt;&lt;/font&gt;" vertex="1">
-          <mxGeometry height="40" width="205" x="1051" y="670" as="geometry" />
+          <mxGeometry height="40" width="205" x="1130" y="670" as="geometry" />
         </mxCell>
         <mxCell id="XEjIRK6-DxWVUZQpVNKg-8" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;strokeColor=none;" value="&lt;div&gt;&amp;nbsp;&amp;nbsp; No Prerequisites for HTTP&lt;/div&gt;&lt;div&gt;EAP enabled for HTTPS&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="182" x="942.5" y="770" as="geometry" />
