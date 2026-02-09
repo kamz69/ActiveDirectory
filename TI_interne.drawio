@@ -719,7 +719,7 @@
           <mxGeometry height="40" width="182" x="942.5" y="770" as="geometry" />
         </mxCell>
         <mxCell id="XEjIRK6-DxWVUZQpVNKg-9" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;align=left;strokeColor=none;" value="&lt;div&gt;Prerequisites :&lt;/div&gt;&lt;div&gt;- Signing not required or EPA disabled for LDAPS&lt;br&gt;&lt;/div&gt;&lt;div&gt;- incoming NTLM auth over HTTP or vulnerable CVE 2019-1040, ...&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="69" width="314" x="850" y="931" as="geometry" />
+          <mxGeometry height="69" width="314" x="1000" y="960" as="geometry" />
         </mxCell>
         <mxCell id="WNUIlei8VlNFuhWwirbG-5" edge="1" parent="1" source="WNUIlei8VlNFuhWwirbG-1" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=1;" target="WNUIlei8VlNFuhWwirbG-4">
           <mxGeometry relative="1" as="geometry" />
