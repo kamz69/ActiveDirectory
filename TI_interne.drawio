@@ -224,7 +224,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="From no creds" id="es25xRgdZYHL0BZce3pH">
-    <mxGraphModel dx="2152" dy="2172" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2847" dy="2538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -562,7 +562,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="krhd2gOpyObvxGGtO9l1-4" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" value="crack hash" vertex="1">
-          <mxGeometry height="60" width="120" x="931" y="1090.5" as="geometry" />
+          <mxGeometry height="60" width="120" x="990" y="1090.5" as="geometry" />
         </mxCell>
         <mxCell id="cf8C2RKg3Lvz5WV7rh62-3" edge="1" parent="1" source="cf8C2RKg3Lvz5WV7rh62-1" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;endArrow=block;endFill=1;" target="1S_cvOo1YeR9LOM_VgR6-3">
           <mxGeometry relative="1" as="geometry">
@@ -732,7 +732,7 @@
         </mxCell>
         <object label="&lt;div&gt;Relay to another DC to abuse&amp;nbsp;&lt;code&gt;delegate-access&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code&gt;&lt;br&gt;&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code&gt;Prérequis : NTLMV1 sur les DC&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code&gt;MAQ &amp;gt; 0&lt;/code&gt;&lt;/div&gt;" ressource="https://www.login-securite.com/blog/attaques-sur-le-protocole-ntlmv1" id="usY_44B4tAuMONluzPLx-2">
           <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1">
-            <mxGeometry height="80" width="220" x="950" y="1180" as="geometry" />
+            <mxGeometry height="80" width="220" x="990" y="1180" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="usY_44B4tAuMONluzPLx-5" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="&lt;h1 id=&quot;certifried&quot; tabindex=&quot;-1&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Certifried&lt;/span&gt;&lt;/font&gt;&lt;/h1&gt;" vertex="1">
