@@ -738,6 +738,9 @@
         <mxCell id="usY_44B4tAuMONluzPLx-5" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="&lt;h1 id=&quot;certifried&quot; tabindex=&quot;-1&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Certifried&lt;/span&gt;&lt;/font&gt;&lt;/h1&gt;" vertex="1">
           <mxGeometry height="32" width="330" x="706" y="-450" as="geometry" />
         </mxCell>
+        <mxCell id="CGhblA7CVLeTdQngl_E0-1" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;i&gt;&lt;font color=&quot;#000000&quot; style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;By default, required only on 2025 DC&amp;nbsp;&lt;/font&gt;&lt;/i&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="200" x="1158" y="965" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
