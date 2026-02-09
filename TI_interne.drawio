@@ -551,9 +551,9 @@
         <mxCell id="krhd2gOpyObvxGGtO9l1-5" edge="1" parent="1" source="krhd2gOpyObvxGGtO9l1-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;fillColor=#e1d5e7;" target="krhd2gOpyObvxGGtO9l1-4" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <object label="downgrade to NTLMV1" cmd="Responder.py --interface &#39;enp0s31f6&#39; --lm" id="krhd2gOpyObvxGGtO9l1-2">
+        <object label="&lt;div&gt;downgrade to NTLMV1&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Pas de MIC (Message Integrity Code) sur NTLMV1 donc pas de signature&lt;/div&gt;" cmd="Responder.py --interface &#39;enp0s31f6&#39; --lm" id="krhd2gOpyObvxGGtO9l1-2">
           <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#e5a50a;" vertex="1">
-            <mxGeometry height="60" width="120" x="750" y="1090" as="geometry" />
+            <mxGeometry height="90" width="200" x="739" y="1074" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="krhd2gOpyObvxGGtO9l1-7" edge="1" parent="1" source="krhd2gOpyObvxGGtO9l1-4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;fillColor=#e1d5e7;" target="RcJsrnn1SgcJtgKbqCFV-2" value="">
