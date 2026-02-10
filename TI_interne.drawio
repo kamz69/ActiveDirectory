@@ -1575,6 +1575,9 @@
             <mxPoint x="2260" y="2834" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="WsL8tCglkD1LQW0FKmIu-2" parent="1" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" value="Crack Net NTLM Hash" vertex="1">
+          <mxGeometry height="60" width="120" x="971" y="2555" as="geometry" />
+        </mxCell>
         <mxCell id="WsL8tCglkD1LQW0FKmIu-4" edge="1" parent="1" source="WsL8tCglkD1LQW0FKmIu-6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1641" y="2680" as="targetPoint" />
@@ -1635,6 +1638,9 @@
             <mxGeometry height="60" width="120" x="971" y="2650" as="geometry" />
           </mxCell>
         </object>
+        <mxCell id="WsL8tCglkD1LQW0FKmIu-22" edge="1" parent="1" source="WsL8tCglkD1LQW0FKmIu-24" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;" target="WsL8tCglkD1LQW0FKmIu-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WsL8tCglkD1LQW0FKmIu-23" edge="1" parent="1" source="WsL8tCglkD1LQW0FKmIu-24" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;" target="WsL8tCglkD1LQW0FKmIu-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
