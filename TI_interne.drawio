@@ -1499,7 +1499,7 @@
             <mxGeometry height="60" width="120" x="2206" y="2080" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="azW450O-uP_TH8X8SckY-1" edge="1" parent="1" source="ki_T6ywqn6y8RI7Xkelr-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="orcKsDgMiDMdKtN4nEvD-2">
+        <mxCell id="azW450O-uP_TH8X8SckY-1" edge="1" parent="1" source="ki_T6ywqn6y8RI7Xkelr-39" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;startSize=8;endArrow=block;endFill=1;endSize=8;" target="orcKsDgMiDMdKtN4nEvD-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <object label="&lt;div&gt;DCsync&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;secretdump.py&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" cmd="secretsdump -k -no-pass OLYMPIQUELYONNAIS.COM/&#39;DC01$&#39;@DC03.OLYMPIQUELYONNAIS.COM" id="ki_T6ywqn6y8RI7Xkelr-39">
@@ -1650,7 +1650,7 @@
             <mxGeometry height="87" width="290" x="1590" y="1970" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="8szzmwPq74Yr9oRKbWty-1" edge="1" parent="1" source="vugq5dWt0Ihu7lGKpSBT-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="orcKsDgMiDMdKtN4nEvD-2">
+        <mxCell id="8szzmwPq74Yr9oRKbWty-1" edge="1" parent="1" source="vugq5dWt0Ihu7lGKpSBT-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;startSize=8;endArrow=block;endFill=1;endSize=8;" target="orcKsDgMiDMdKtN4nEvD-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <object label="&lt;div&gt;DCsync&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;secretdump.py&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" id="vugq5dWt0Ihu7lGKpSBT-2">
