@@ -505,9 +505,6 @@
         <mxCell id="OdaqT3pz17vKf_LpFtww-8" edge="1" parent="1" source="OdaqT3pz17vKf_LpFtww-6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;elbow=vertical;endArrow=block;endFill=1;" target="B9babmQNDwbTDUQ_FJxj-1" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="usY_44B4tAuMONluzPLx-7" edge="1" parent="1" source="OdaqT3pz17vKf_LpFtww-6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;elbow=vertical;endArrow=block;endFill=1;" target="usY_44B4tAuMONluzPLx-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="OdaqT3pz17vKf_LpFtww-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="DC" vertex="1">
           <mxGeometry height="33" width="120" x="510" y="-571" as="geometry" />
         </mxCell>
@@ -554,9 +551,6 @@
         </mxCell>
         <mxCell id="WNUIlei8VlNFuhWwirbG-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#dc8add&quot;&gt;&lt;span dir=&quot;ltr&quot; role=&quot;presentation&quot; style=&quot;left: 6.07%; top: 38.06%; font-family: sans-serif; transform: scaleX(0.862752);&quot;&gt;Anonymous credentials&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span data-teams=&quot;true&quot;&gt;nmap -n -sV --script &quot;ldap* and not brute&quot; &amp;lt;IP&amp;gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="281" x="519" y="210" as="geometry" />
-        </mxCell>
-        <mxCell id="usY_44B4tAuMONluzPLx-5" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="&lt;h1 id=&quot;certifried&quot; tabindex=&quot;-1&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Certifried&lt;/span&gt;&lt;/font&gt;&lt;/h1&gt;" vertex="1">
-          <mxGeometry height="32" width="330" x="706" y="-450" as="geometry" />
         </mxCell>
         <mxCell id="zyx8Yc6mV3sa2UB_Pi_W-2" edge="1" parent="1" source="zyx8Yc6mV3sa2UB_Pi_W-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;" target="3KcXfi7NhkpAm5ZNJReR-3">
           <mxGeometry relative="1" as="geometry" />
