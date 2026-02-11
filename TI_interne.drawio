@@ -427,8 +427,8 @@
         <mxCell id="YuLqMhThGjyk4l6yUaQI-1" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Bluekeep (RDP) RCE (win 7 et 2008)" vertex="1">
           <mxGeometry height="33" width="330" x="671" y="-720" as="geometry" />
         </mxCell>
-        <mxCell id="uSAMaLs1ly5iVUIFKPd6-1" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="&lt;div&gt;TOMCAT manager bruteforce&lt;br&gt;&lt;pre class=&quot;programlisting&quot;&gt;&lt;strong&gt;use auxiliary/scanner/http/tomcat_mgr_login&lt;/strong&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="63" width="330" x="681" y="-830" as="geometry" />
+        <mxCell id="uSAMaLs1ly5iVUIFKPd6-1" parent="1" style="whiteSpace=wrap;html=1;rounded=1;align=left;spacingLeft=5;" value="#TOMCAT manager bruteforce&lt;br&gt;use auxiliary/scanner/http/tomcat_mgr_login&lt;br&gt;&lt;br&gt;#JAVA RMI&lt;br&gt;msf&amp;gt; use exploit/multi/misc/java_rmi_serve" vertex="1">
+          <mxGeometry height="100" width="349" x="681" y="-830" as="geometry" />
         </mxCell>
         <mxCell id="i_53WrwCQ5BU9_YikGZj-1" parent="1" style="whiteSpace=wrap;html=1;fontSize=14;align=center;rounded=1;" value="&lt;div align=&quot;center&quot;&gt;permet de récupérer la liste des users de l&#39;AD (auto)&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="349" x="1796" y="900" as="geometry" />
