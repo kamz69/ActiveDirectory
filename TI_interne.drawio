@@ -224,7 +224,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="From no creds" id="es25xRgdZYHL0BZce3pH">
-    <mxGraphModel dx="2292" dy="2327" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2527" dy="2316" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -311,7 +311,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <object label="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Bruteforce users&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;(badpwdcount will not be increased)&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font color=&quot;#2a7bde&quot;&gt;kerbrute&lt;br&gt;nmap&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" nmap="nmap -p 88 &#xa;--script=krb5-enum-users &#xa;--script-args krb5-enum-users.realm=&#39;sequel.htb&#39;&#xa;,userdb=users.txt 10.10.11.202" kerbrute="kerbrute userenum -d oscp.exam /opt/my-resources/NecessaryPayloads/wordlist/username/usernames.txt --dc 192.168.120.100" id="KTRm8kq6GDk7_ihK_bxa-8">
-          <mxCell parent="1" style="whiteSpace=wrap;html=1;fontColor=#ffffff;rounded=1;" vertex="1">
+          <mxCell parent="1" style="whiteSpace=wrap;html=1;fontColor=#ffffff;rounded=1;strokeColor=light-dark(#000000,#FFCD08);" vertex="1">
             <mxGeometry height="93.25" width="290" x="675" y="-23.25" as="geometry" />
           </mxCell>
         </object>
