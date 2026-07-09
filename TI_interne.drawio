@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0" version="29.5.5" pages="8">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0" pages="8">
   <diagram name="Reconnaissance" id="l6uARz4Kyqoon4gwFnSB">
     <mxGraphModel dx="1678" dy="1711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -577,7 +577,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="from creds" id="DHAbqxUyTUS8Uim03K_V">
-    <mxGraphModel dx="2864" dy="946" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2847" dy="1073" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1113,9 +1113,9 @@
         <mxCell id="WsL8tCglkD1LQW0FKmIu-20" edge="1" parent="1" source="WsL8tCglkD1LQW0FKmIu-21" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;startSize=8;endArrow=block;endFill=1;endSize=8;" target="WsL8tCglkD1LQW0FKmIu-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <object label="NTLM relay" Relay_SMB_SOCKS="ntlmrelayx -tf smb_targets.txt -of captured_smb_hashes.txt -smb2support -socks" id="WsL8tCglkD1LQW0FKmIu-21">
+        <object label="NTLM relay (from SMB)" Relay_SMB_SOCKS="ntlmrelayx -tf smb_targets.txt -of captured_smb_hashes.txt -smb2support -socks" id="WsL8tCglkD1LQW0FKmIu-21">
           <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=light-dark(#000000, #e5a50a);" vertex="1">
-            <mxGeometry height="60" width="120" x="911" y="1925" as="geometry" />
+            <mxGeometry height="60" width="159" x="911" y="1925" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="WsL8tCglkD1LQW0FKmIu-22" edge="1" parent="1" source="WsL8tCglkD1LQW0FKmIu-24" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#2F5B7C;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;" target="WsL8tCglkD1LQW0FKmIu-2">
