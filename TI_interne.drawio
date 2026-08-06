@@ -975,7 +975,7 @@
             <mxPoint x="2674" y="2110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <object label="&lt;div&gt;Get the certificate of DC machine account that is allowed to DCsync&lt;/div&gt;" convert_pfx_64_to_PFX="cat cert4.b64 | base64 -d &gt; crt.pfx" id="ki_T6ywqn6y8RI7Xkelr-22">
+        <object label="&lt;div&gt;Get the certificate of DC machine account (that is allowed to DCsync)&lt;/div&gt;" convert_pfx_64_to_PFX="cat cert4.b64 | base64 -d &gt; crt.pfx" id="ki_T6ywqn6y8RI7Xkelr-22">
           <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#e5a50a;" vertex="1">
             <mxGeometry height="60" width="120" x="2206" y="2080" as="geometry" />
           </mxCell>
