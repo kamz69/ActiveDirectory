@@ -1200,6 +1200,9 @@
             <mxPoint x="-140" y="1649.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="sFeMWva0eSFH1-ZyHJcZ-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=light-dark(#000000,#FFD966);" value="&lt;div&gt;Impersonate Domain admins&amp;nbsp; logged at the same time on the machine&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="180" x="690" y="630" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
