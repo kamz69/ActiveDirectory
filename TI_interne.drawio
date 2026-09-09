@@ -577,7 +577,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="from creds" id="DHAbqxUyTUS8Uim03K_V">
-    <mxGraphModel dx="2241" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2847" dy="2242" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1203,6 +1203,11 @@
         <object label="&lt;div&gt;Impersonate Domain admins&amp;nbsp; logged at the same time on the machine&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" mimikatz="token::elevate /id:2345363087" schedules_task="nxc [...] -M schtask_as" id="sFeMWva0eSFH1-ZyHJcZ-1">
           <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=light-dark(#000000,#FFD966);" vertex="1">
             <mxGeometry height="80" width="180" x="690" y="630" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;font style=&quot;font-size: 16px;&quot;&gt;DC sync vers un autre DC&lt;/font&gt;" id="Ev5NaADbkxsOAJJztOTx-1">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;arcSize=23;" vertex="1">
+            <mxGeometry height="87" width="249" x="1540" y="2810" as="geometry" />
           </mxCell>
         </object>
       </root>
